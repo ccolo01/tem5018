@@ -1,6 +1,6 @@
 site_name: "TEM5018: Robots, Programmable Toys and Physical Computing"
 site_description: "A course reader for primary school teachers exploring computational thinking through physical computing"
-site_author: "Christian Colombo & Diane Vassallo"
+site_author: "Christian Colombo"
 site_url: ""
 
 theme:
