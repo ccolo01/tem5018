@@ -991,31 +991,31 @@ Write your thoughts in your reflective diary. Return to them at the end of the c
 
 ### Cited in This Section
 
-Berland, M., & Wilensky, U. (2015). Comparing virtual and physical robotics environments for supporting complex systems and computational thinking. *Journal of Science Education and Technology*, 24(5), 628-647. [https://doi.org/10.1007/s10956-015-9552-x](https://doi.org/10.1007/s10956-015-9552-x)
+Berland, M., & Wilensky, U. (2015). Comparing virtual and physical robotics environments for supporting complex systems and computational thinking. *Journal of Science Education and Technology*, 24(5), 628-647. <a href="https://doi.org/10.1007/s10956-015-9552-x" target="_blank">https://doi.org/10.1007/s10956-015-9552-x</a>
 
-Bers, M. U. (2018). *Coding as a Playground: Programming and Computational Thinking in the Early Childhood Classroom*. Routledge. [https://www.routledge.com/Coding-as-a-Playground/Bers/p/book/9781138225626](https://www.routledge.com/Coding-as-a-Playground/Bers/p/book/9781138225626)
+Bers, M. U. (2018). *Coding as a Playground: Programming and Computational Thinking in the Early Childhood Classroom*. Routledge. <a href="https://www.taylorfrancis.com/books/mono/10.4324/9781003022602/coding-playground-marina-umaschi-bers" target="_blank">Taylor & Francis</a>
 
-Bruner, J. S. (1966). *Toward a Theory of Instruction*. Harvard University Press.
+Bruner, J. S. (1966). *Toward a Theory of Instruction*. Harvard University Press. <a href="https://www.hup.harvard.edu/books/9780674897014" target="_blank">Harvard University Press</a>
 
-IDEO (2012). *Design Thinking for Educators Toolkit* (2nd ed.). IDEO. Available free at: [https://www.ideo.com/post/design-thinking-for-educators](https://www.ideo.com/post/design-thinking-for-educators)
+IDEO (2012). *Design Thinking for Educators Toolkit* (2nd ed.). IDEO. <a href="https://designthinkingforeducators.com/" target="_blank">https://designthinkingforeducators.com/</a>
 
-Kazakoff, E. R., & Bers, M. U. (2014). Put your robot in, put your robot out: Sequencing through programming robots in early childhood. *Journal of Educational Computing Research*, 50(4), 553-573. [https://doi.org/10.2190/EC.50.4.f](https://doi.org/10.2190/EC.50.4.f)
+Kazakoff, E. R., & Bers, M. U. (2014). Put your robot in, put your robot out: Sequencing through programming robots in early childhood. *Journal of Educational Computing Research*, 50(4), 553-573. <a href="https://doi.org/10.2190/EC.50.4.f" target="_blank">https://doi.org/10.2190/EC.50.4.f</a>
 
-Kazakoff, E. R., Sullivan, A., & Bers, M. U. (2013). The effect of a classroom-based intensive robotics and programming workshop on sequencing ability in early childhood. *Early Childhood Education Journal*, 41(4), 245-255. [https://doi.org/10.1007/s10643-012-0554-5](https://doi.org/10.1007/s10643-012-0554-5)
+Kazakoff, E. R., Sullivan, A., & Bers, M. U. (2013). The effect of a classroom-based intensive robotics and programming workshop on sequencing ability in early childhood. *Early Childhood Education Journal*, 41(4), 245-255. <a href="https://doi.org/10.1007/s10643-012-0554-5" target="_blank">https://doi.org/10.1007/s10643-012-0554-5</a>
 
-Papert, S. (1980). *Mindstorms: Children, Computers, and Powerful Ideas*. Basic Books. Available free at: [http://worrydream.com/refs/Papert%20-%20Mindstorms%201st%20ed.pdf](http://worrydream.com/refs/Papert%20-%20Mindstorms%201st%20ed.pdf)
+Papert, S. (1980). *Mindstorms: Children, Computers, and Powerful Ideas*. Basic Books. <a href="https://www.arvindguptatoys.com/arvindgupta/mindstorms.pdf" target="_blank">PDF</a> &#124; <a href="https://archive.org/details/mindstormschildr0000pape" target="_blank">Internet Archive</a>
 
-Resnick, M. (2017). *Lifelong Kindergarten: Cultivating Creativity through Projects, Passion, Peers, and Play*. MIT Press. [https://mitpress.mit.edu/books/lifelong-kindergarten](https://mitpress.mit.edu/books/lifelong-kindergarten)
+Resnick, M. (2017). *Lifelong Kindergarten: Cultivating Creativity through Projects, Passion, Peers, and Play*. MIT Press. <a href="https://mitpress.mit.edu/9780262536134/lifelong-kindergarten/" target="_blank">MIT Press</a>
 
-Resnick, M., Maloney, J., Monroy-Hernández, A., Rusk, N., Eastmond, E., Brennan, K., Millner, A., Rosenbaum, E., Silver, J., Silverman, B., & Kafai, Y. (2009). Scratch: Programming for all. *Communications of the ACM*, 52(11), 60-67. [https://doi.org/10.1145/1592761.1592779](https://doi.org/10.1145/1592761.1592779)
+Resnick, M., Maloney, J., Monroy-Hernández, A., Rusk, N., Eastmond, E., Brennan, K., Millner, A., Rosenbaum, E., Silver, J., Silverman, B., & Kafai, Y. (2009). Scratch: Programming for all. *Communications of the ACM*, 52(11), 60-67. <a href="https://doi.org/10.1145/1592761.1592779" target="_blank">https://doi.org/10.1145/1592761.1592779</a>
 
-Resnick, M., & Rosenbaum, E. (2013). Designing for tinkerability. In M. Honey & D. Kanter (Eds.), *Design, Make, Play: Growing the Next Generation of STEM Innovators* (pp. 163-181). Routledge. Available at: [https://web.media.mit.edu/~mres/papers/designing-for-tinkerability.pdf](https://web.media.mit.edu/~mres/papers/designing-for-tinkerability.pdf)
+Resnick, M., & Rosenbaum, E. (2013). Designing for tinkerability. In M. Honey & D. Kanter (Eds.), *Design, Make, Play: Growing the Next Generation of STEM Innovators* (pp. 163-181). Routledge. <a href="https://web.media.mit.edu/~mres/papers/designing-for-tinkerability.pdf" target="_blank">PDF</a>
 
-Sullivan, A., & Bers, M. U. (2016). Robotics in the early childhood classroom: Learning outcomes from an 8-week robotics curriculum in pre-kindergarten through second grade. *International Journal of Technology and Design Education*, 26(1), 3-20. [https://doi.org/10.1007/s10798-015-9304-5](https://doi.org/10.1007/s10798-015-9304-5)
+Sullivan, A., & Bers, M. U. (2016). Robotics in the early childhood classroom: Learning outcomes from an 8-week robotics curriculum in pre-kindergarten through second grade. *International Journal of Technology and Design Education*, 26(1), 3-20. <a href="https://doi.org/10.1007/s10798-015-9304-5" target="_blank">https://doi.org/10.1007/s10798-015-9304-5</a>
 
-Wilson, M. (2002). Six views of embodied cognition. *Psychonomic Bulletin & Review*, 9(4), 625-636. [https://doi.org/10.3758/BF03196322](https://doi.org/10.3758/BF03196322)
+Wilson, M. (2002). Six views of embodied cognition. *Psychonomic Bulletin & Review*, 9(4), 625-636. <a href="https://doi.org/10.3758/BF03196322" target="_blank">https://doi.org/10.3758/BF03196322</a>
 
-Wing, J. M. (2006). Computational thinking. *Communications of the ACM*, 49(3), 33-35. [https://doi.org/10.1145/1118178.1118215](https://doi.org/10.1145/1118178.1118215)
+Wing, J. M. (2006). Computational thinking. *Communications of the ACM*, 49(3), 33-35. <a href="https://doi.org/10.1145/1118178.1118215" target="_blank">https://doi.org/10.1145/1118178.1118215</a>
 
 ---
 
@@ -1023,38 +1023,38 @@ Wing, J. M. (2006). Computational thinking. *Communications of the ACM*, 49(3), 
 
 #### On Computational Thinking
 
-Grover, S., & Pea, R. (2013). Computational thinking in K-12: A review of the state of the field. *Educational Researcher*, 42(1), 38-43. [https://doi.org/10.3102/0013189X12463051](https://doi.org/10.3102/0013189X12463051)
+Grover, S., & Pea, R. (2013). Computational thinking in K-12: A review of the state of the field. *Educational Researcher*, 42(1), 38-43. <a href="https://doi.org/10.3102/0013189X12463051" target="_blank">https://doi.org/10.3102/0013189X12463051</a>
 
-Brennan, K., & Resnick, M. (2012). New frameworks for studying and assessing the development of computational thinking. *Proceedings of the 2012 Annual Meeting of the American Educational Research Association*. Available at: [https://web.media.mit.edu/~kbrennan/files/Brennan_Resnick_AERA2012_CT.pdf](https://web.media.mit.edu/~kbrennan/files/Brennan_Resnick_AERA2012_CT.pdf)
+Brennan, K., & Resnick, M. (2012). New frameworks for studying and assessing the development of computational thinking. *Proceedings of the 2012 Annual Meeting of the American Educational Research Association*. <a href="https://scratched.gse.harvard.edu/ct/files/AERA2012.pdf" target="_blank">PDF</a>
 
 #### On Physical Computing in Education
 
-Blikstein, P. (2013). Digital fabrication and 'making' in education: The democratization of invention. In J. Walter-Herrmann & C. Büching (Eds.), *FabLabs: Of Machines, Makers and Inventors* (pp. 203-222). Transcript Publishers.
+Blikstein, P. (2013). Digital fabrication and 'making' in education: The democratization of invention. In J. Walter-Herrmann & C. Büching (Eds.), *FabLabs: Of Machines, Makers and Inventors* (pp. 203-222). Transcript Publishers. <a href="https://www.transcript-publishing.com/978-3-8376-2382-6/fablab/" target="_blank">Transcript Publishers</a>
 
-Sentance, S., & Csizmadia, A. (2017). Computing in the curriculum: Challenges and strategies from a teacher's perspective. *Education and Information Technologies*, 22(2), 469-495. [https://doi.org/10.1007/s10639-016-9482-0](https://doi.org/10.1007/s10639-016-9482-0)
+Sentance, S., & Csizmadia, A. (2017). Computing in the curriculum: Challenges and strategies from a teacher's perspective. *Education and Information Technologies*, 22(2), 469-495. <a href="https://doi.org/10.1007/s10639-016-9482-0" target="_blank">https://doi.org/10.1007/s10639-016-9482-0</a>
 
 #### On Mechanical Computing
 
-Anil, P. (2019). *Turing Tumble Educator Guide*. Upper Story LLC. Available at: [https://www.turingtumble.com/edu](https://www.turingtumble.com/edu)
+Turing Tumble. (n.d.). *Educator Resources*. Upper Story LLC. <a href="https://www.turingtumble.com/edu" target="_blank">https://www.turingtumble.com/edu</a>
 
-CS Unplugged. (n.d.). *Computer Science Unplugged*. [https://csunplugged.org](https://csunplugged.org) — Free activities for teaching computing concepts without computers.
+CS Unplugged. (n.d.). *Computer Science Unplugged*. <a href="https://csunplugged.org" target="_blank">https://csunplugged.org</a> — Free activities for teaching computing concepts without computers.
 
 #### On Constructionism and Learning
 
-Kafai, Y. B., & Burke, Q. (2014). *Connected Code: Why Children Need to Learn Programming*. MIT Press.
+Kafai, Y. B., & Burke, Q. (2014). *Connected Code: Why Children Need to Learn Programming*. MIT Press. <a href="https://mitpress.mit.edu/9780262027755/connected-code/" target="_blank">MIT Press</a>
 
-Harel, I., & Papert, S. (Eds.). (1991). *Constructionism*. Ablex Publishing.
+Harel, I., & Papert, S. (Eds.). (1991). *Constructionism*. Ablex Publishing. <a href="https://www.amazon.com/Constructionism-Idit-Harel/dp/0893917869" target="_blank">Amazon</a>
 
 ---
 
 ### Useful Websites
 
-- **BBC micro:bit**: [https://microbit.org](https://microbit.org) — Official resources, tutorials, and MakeCode editor
-- **Scratch**: [https://scratch.mit.edu](https://scratch.mit.edu) — Free block-based programming environment
-- **CS Unplugged**: [https://csunplugged.org](https://csunplugged.org) — Unplugged activities for computing education
-- **Turing Tumble**: [https://www.turingtumble.com](https://www.turingtumble.com) — Mechanical marble computer
-- **Barefoot Computing**: [https://www.barefootcomputing.org](https://www.barefootcomputing.org) — Free resources for primary computing (UK-based, but widely applicable)
-- **Code.org**: [https://code.org](https://code.org) — Free coding courses and resources for K-12
+- **BBC micro:bit**: <a href="https://microbit.org" target="_blank">https://microbit.org</a> — Official resources, tutorials, and MakeCode editor
+- **Scratch**: <a href="https://scratch.mit.edu" target="_blank">https://scratch.mit.edu</a> — Free block-based programming environment
+- **CS Unplugged**: <a href="https://csunplugged.org" target="_blank">https://csunplugged.org</a> — Unplugged activities for computing education
+- **Turing Tumble**: <a href="https://www.turingtumble.com" target="_blank">https://www.turingtumble.com</a> — Mechanical marble computer
+- **Barefoot Computing**: <a href="https://www.barefootcomputing.org" target="_blank">https://www.barefootcomputing.org</a> — Free resources for primary computing (UK-based, but widely applicable)
+- **Code.org**: <a href="https://code.org" target="_blank">https://code.org</a> — Free coding courses and resources for K-12
 
 ---
 
