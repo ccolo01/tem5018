@@ -997,7 +997,7 @@ Bers, M. U. (2018). *Coding as a Playground: Programming and Computational Think
 
 Bruner, J. S. (1966). *Toward a Theory of Instruction*. Harvard University Press. <a href="https://www.hup.harvard.edu/books/9780674897014" target="_blank">Harvard University Press</a>
 
-IDEO (2012). *Design Thinking for Educators Toolkit* (2nd ed.). IDEO. <a href="https://designthinkingforeducators.com/" target="_blank">https://designthinkingforeducators.com/</a>
+IDEO (2012). *Design Thinking for Educators Toolkit* (2nd ed.). IDEO. <a href="https://page.ideo.com/design-thinking-edu-toolkit" target="_blank">https://page.ideo.com/design-thinking-edu-toolkit</a>
 
 Kazakoff, E. R., & Bers, M. U. (2014). Put your robot in, put your robot out: Sequencing through programming robots in early childhood. *Journal of Educational Computing Research*, 50(4), 553-573. <a href="https://doi.org/10.2190/EC.50.4.f" target="_blank">https://doi.org/10.2190/EC.50.4.f</a>
 
