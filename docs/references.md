@@ -34,7 +34,15 @@ Yadav, A., & Berthelsen, U. (Eds.). (2021). *Computational Thinking in Education
 
 Brackmann, C. P., Román-González, M., Robles, G., Moreno-León, J., Casali, A., & Barone, D. (2017). Development of computational thinking skills through unplugged activities in primary school. In *Proceedings of the 12th Workshop on Primary and Secondary Computing Education* (pp. 65-72). ACM.
 
+Highfield, K., & Mulligan, J. (2008). Young children's embodied action in problem-solving tasks using robotic toys. In *Navigating Currents and Charting Directions*, Proceedings of the 31st Annual MERGA Conference (pp. 259–266).
+
 Kazakoff, E. R., & Bers, M. U. (2014). Put your robot in, put your robot out: Sequencing through programming robots in early childhood. *Journal of Educational Computing Research*, 50(4), 553-573.
+
+Papadakis, S., & Kalogiannakis, M. (2022). Learning Computational Thinking Development in Young Children With Bee-Bot Educational Robotics. In *Research Anthology on Computational Thinking, Programming, and Robotics in the Classroom* (pp. 926–947). IGI Global.
+
+Schina, D., Esteve-González, V., & Usart, M. (2021). Teachers' Perceptions of Bee-Bot Robotic Toy and Their Ability to Integrate It in Their Teaching. In *Advances in Intelligent Systems and Computing*. Springer.
+
+Seckel, M. J., Salinas, C., Font, V., & Sala-Sebastià, G. (2023). Guidelines to develop computational thinking using the Bee-bot robot from the literature. *Education and Information Technologies*, 28, 16127–16150.
 
 Sullivan, A., & Bers, M. U. (2016). Robotics in the early childhood classroom: Learning outcomes from an 8-week robotics curriculum in pre-kindergarten through second grade. *International Journal of Technology and Design Education*, 26(1), 3-20.
 
