@@ -48,6 +48,16 @@ Sullivan, A., & Bers, M. U. (2016). Robotics in the early childhood classroom: L
 
 ---
 
+## Research on Physical Computing with Microcontrollers
+
+Hodges, S., Sentance, S., Finney, J., & Ball, T. (2020). Physical computing: A key element of modern computer science education. *Computer*, 53(4), 20–30.
+
+Przybylla, M., & Romeike, R. (2014). Physical computing and its scope—towards a constructionist computer science curriculum with physical computing. *Informatics in Education*, 13(2), 241–254.
+
+Sentance, S., Waite, J., Yeomans, L., & MacLeod, E. (2017). Teaching with physical computing devices: The BBC micro:bit initiative. *Proceedings of the 12th Workshop on Primary and Secondary Computing Education*, 87–96.
+
+---
+
 ## Research on Tangible Interfaces
 
 Horn, M. S., Solovey, E. T., Crouser, R. J., & Jacob, R. J. K. (2009). Comparing the use of tangible and graphical programming languages for informal science education. *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems*, 975–984.
@@ -64,14 +74,16 @@ Shaer, O., & Hornecker, E. (2010). Tangible user interfaces: Past, present, and 
 
 ### Official Tool Resources
 
-- **BBC micro:bit**: [microbit.org](https://microbit.org)
 - **Scratch**: [scratch.mit.edu](https://scratch.mit.edu)
 - **CS Unplugged**: [csunplugged.org](https://csunplugged.org)
 - **Code.org**: [code.org](https://code.org)
 - **Bebras Challenge**: [bebras.org](https://bebras.org)
 
-### Educational Robotics
+### Educational Robotics and Microcontrollers
 
+- **BBC micro:bit**: [microbit.org](https://microbit.org)
+- **Microsoft MakeCode for micro:bit**: [makecode.microbit.org](https://makecode.microbit.org)
+- **Crumble Controller**: [redfernelectronics.co.uk](https://redfernelectronics.co.uk/crumble/)
 - **Bee-Bot / Blue-Bot**: [tts-group.co.uk](https://www.tts-group.co.uk)
 - **Blue-Bot TacTile Reader**: [tts-international.com](https://www.tts-international.com/tts-blue-bot-tactile-reader/1010494.html)
 - **Botley 2.0**: [learningresources.com](https://www.learningresources.com/botley-the-coding-robot)
