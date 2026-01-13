@@ -920,3 +920,7 @@ Write your thoughts in your reflective diary. Return to them at the end of the c
 ---
 
 **Ready to continue?** Head to [Section 2: Robots in the Classroom](section-2.md) to explore floor robots and how to use them in your teaching.
+
+---
+
+[Home](index.md) | [References](references.md) | [Section 2 →](section-2.md)

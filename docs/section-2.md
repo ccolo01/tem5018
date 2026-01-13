@@ -871,4 +871,4 @@ Track which challenges children can complete independently:
 
 ---
 
-[← Back to Section 1](section-1.md) | [Home](index.md) | [Section 3 →](section-3.md)
+[← Back to Section 1](section-1.md) | [Home](index.md) | [References](references.md) | [Section 3 →](section-3.md)

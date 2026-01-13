@@ -440,4 +440,4 @@ As you explore tangible interfaces with your class, remember that the goal is no
 
 ---
 
-[← Back to Section 2](section-2.md) | [Home](index.md) | [Section 4 →](section-4.md)
+[← Back to Section 2](section-2.md) | [Home](index.md) | [References](references.md) | [Section 4 →](section-4.md)
