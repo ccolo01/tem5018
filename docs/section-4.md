@@ -535,4 +535,4 @@ As you introduce microcontrollers to your class, remember that the goal is not m
 
 ---
 
-[← Back to Section 3](section-3.md) | [Home](index.md) | [Section 5 →](section-5.md)
+[← Back to Section 3](section-3.md) | [Home](index.md) | [References](references.md) | [Section 5 →](section-5.md)
