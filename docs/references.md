@@ -42,6 +42,16 @@ Sentance, S., Waite, J., Yeomans, L., & MacLeod, E. (2017). Teaching with physic
 
 ---
 
+## Research on Unplugged Approaches
+
+Bell, T., & Vahrenhold, J. (2018). CS Unplugged—How is it used, and does it work? In *Adventures Between Lower Bounds and Higher Altitudes* (pp. 497–521). Springer. [DOI: 10.1007/978-3-319-98355-4_29](https://doi.org/10.1007/978-3-319-98355-4_29)
+
+Huang, W., & Looi, C. K. (2023). Fostering computational thinking through unplugged activities: A systematic literature review and meta-analysis. *International Journal of STEM Education*, 10, Article 47. [DOI: 10.1186/s40594-023-00434-7](https://doi.org/10.1186/s40594-023-00434-7)
+
+del Olmo-Muñoz, J., Cózar-Gutiérrez, R., & González-Calero, J. A. (2020). Computational thinking through unplugged activities in early years of Primary Education. *Computers & Education*, 150, 103832. [DOI: 10.1016/j.compedu.2020.103832](https://doi.org/10.1016/j.compedu.2020.103832)
+
+---
+
 ## Research on Educational Robotics
 
 Brackmann, C. P., Román-González, M., Robles, G., Moreno-León, J., Casali, A., & Barone, D. (2017). Development of computational thinking skills through unplugged activities in primary school. *Proceedings of the 12th Workshop on Primary and Secondary Computing Education*, 65–72. [DOI: 10.1145/3137065.3137069](https://doi.org/10.1145/3137065.3137069)
@@ -72,6 +82,18 @@ Shaer, O., & Hornecker, E. (2010). Tangible user interfaces: Past, present, and 
 
 ---
 
+## Research on Assessment and Pedagogy
+
+Lee, I., Martin, F., Denner, J., Coulter, B., Allan, W., Erickson, J., Malyn-Smith, J., & Werner, L. (2011). Computational thinking for youth in practice. *ACM Inroads*, 2(1), 32–37. [DOI: 10.1145/1929887.1929902](https://doi.org/10.1145/1929887.1929902)
+
+Sentance, S., Waite, J., & Kallia, M. (2019). Teaching computer programming with PRIMM: A sociocultural perspective. *Computer Science Education*, 29(2-3), 136–176. [DOI: 10.1080/08993408.2019.1608781](https://doi.org/10.1080/08993408.2019.1608781)
+
+Tang, X., Yin, Y., Lin, Q., Hadad, R., & Zhai, X. (2020). Assessing computational thinking: A systematic review of empirical studies. *Computers & Education*, 148, 103798. [DOI: 10.1016/j.compedu.2019.103798](https://doi.org/10.1016/j.compedu.2019.103798)
+
+Rich, P. J., Mason, S. L., & O'Leary, J. (2021). Measuring the effect of continuous professional development on elementary teachers' self-efficacy to teach coding and computational thinking. *Computers & Education*, 168, 104196. [DOI: 10.1016/j.compedu.2021.104196](https://doi.org/10.1016/j.compedu.2021.104196)
+
+---
+
 ## Useful Websites and Resources
 
 ### Official Tool Resources
@@ -95,9 +117,11 @@ Shaer, O., & Hornecker, E. (2010). Tangible user interfaces: Past, present, and 
 - **Osmo Coding**: [playosmo.com](https://www.playosmo.com)
 - **Scottie Go!**: [scottiego.com](https://scottiego.com/en/)
 - **Turing Tumble**: [turingtumble.com](https://www.turingtumble.com)
+- **ThinkFun (Gravity Maze, Rush Hour)**: [thinkfun.com](https://www.thinkfun.com)
 
 ### Teacher Communities
 
+- **Barefoot Computing**: [barefootcomputing.org](https://www.barefootcomputing.org)
 - **Computing at School (CAS)**: [computingatschool.org.uk](https://www.computingatschool.org.uk)
 - **CSTA (Computer Science Teachers Association)**: [csteachers.org](https://csteachers.org)
 - **Teach Computing (NCCE)**: [teachcomputing.org](https://teachcomputing.org)
