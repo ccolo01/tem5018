@@ -41,7 +41,7 @@ This open educational resource supports the study-unit TEM5018 at the University
 
 ### Online
 
-Visit the published site: **[coming soon]**
+Visit the published site: **[https://ccolo01.github.io/tem5018/]**
 
 ### Local Preview
 
