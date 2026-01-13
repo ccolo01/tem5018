@@ -4,6 +4,12 @@
 
 Bers, M. U. (2018). *Coding as a Playground: Programming and Computational Thinking in the Early Childhood Classroom*. Routledge.
 
+Bruner, J. S. (1966). *Toward a Theory of Instruction*. Harvard University Press.
+
+Papert, S. (1980). *Mindstorms: Children, Computers, and Powerful Ideas*. Basic Books.
+
+Piaget, J., & Inhelder, B. (1969). *The Psychology of the Child*. Basic Books.
+
 Resnick, M. (2017). *Lifelong Kindergarten: Cultivating Creativity through Projects, Passion, Peers, and Play*. MIT Press.
 
 Wing, J. M. (2006). Computational Thinking. *Communications of the ACM*, 49(3), 33-35.
@@ -19,8 +25,6 @@ Brennan, K., & Resnick, M. (2012). New frameworks for studying and assessing the
 Grover, S., & Pea, R. (2013). Computational thinking in K-12: A review of the state of the field. *Educational Researcher*, 42(1), 38-43.
 
 Kong, S. C., & Abelson, H. (Eds.). (2022). *Computational Thinking Education in K-12: Artificial Intelligence Literacy and Physical Computing*. MIT Press.
-
-Papert, S. (1980). *Mindstorms: Children, Computers, and Powerful Ideas*. Basic Books.
 
 Yadav, A., & Berthelsen, U. (Eds.). (2021). *Computational Thinking in Education: A Pedagogical Perspective*. Routledge.
 
