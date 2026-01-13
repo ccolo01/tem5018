@@ -48,6 +48,18 @@ Sullivan, A., & Bers, M. U. (2016). Robotics in the early childhood classroom: L
 
 ---
 
+## Research on Tangible Interfaces
+
+Horn, M. S., Solovey, E. T., Crouser, R. J., & Jacob, R. J. K. (2009). Comparing the use of tangible and graphical programming languages for informal science education. *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems*, 975–984.
+
+Liang, M., Li, Y., Weber, T., & Hussmann, H. (2021). Tangible interaction for children's creative learning: A review. *Proceedings of the 13th Conference on Creativity & Cognition*, 1–14.
+
+Sapounidis, T., & Demetriadis, S. (2013). Tangible versus graphical user interfaces for robot programming: Exploring cross-age children's preferences. *Personal and Ubiquitous Computing*, 17(8), 1775–1786.
+
+Shaer, O., & Hornecker, E. (2010). Tangible user interfaces: Past, present, and future directions. *Foundations and Trends in Human–Computer Interaction*, 3(1–2), 1–137.
+
+---
+
 ## Useful Websites and Resources
 
 ### Official Tool Resources
@@ -61,8 +73,13 @@ Sullivan, A., & Bers, M. U. (2016). Robotics in the early childhood classroom: L
 ### Educational Robotics
 
 - **Bee-Bot / Blue-Bot**: [tts-group.co.uk](https://www.tts-group.co.uk)
-- **Cubetto**: [primotoys.com](https://www.primotoys.com)
+- **Blue-Bot TacTile Reader**: [tts-international.com](https://www.tts-international.com/tts-blue-bot-tactile-reader/1010494.html)
+- **Botley 2.0**: [learningresources.com](https://www.learningresources.com/botley-the-coding-robot)
+- **Cubetto**: [primotoys.com](https://primotoys.com)
+- **KUBO Robotics**: [kubo-robot.com](https://kubo-robot.com)
 - **Makey Makey**: [makeymakey.com](https://makeymakey.com)
+- **Osmo Coding**: [playosmo.com](https://www.playosmo.com)
+- **Scottie Go!**: [scottiego.com](https://scottiego.com/en/)
 - **Turing Tumble**: [turingtumble.com](https://www.turingtumble.com)
 
 ### Teacher Communities
