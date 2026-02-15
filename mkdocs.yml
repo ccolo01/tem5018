@@ -51,11 +51,11 @@ plugins:
 nav:
   - Home: index.md
   - "Section 1: From Unplugged to Plugged": section-1.md
-  - "Section 2: Robots in the Classroom": section-2.md
-  - "Section 3: Tangible Interfaces": section-3.md
-  - "Section 4: Programmable Microcontrollers": section-4.md
-  - "Section 5: Mechanical Logic Toys": section-5.md
-  - "Section 6: Designing and Assessing Lessons": section-6.md
+  - "Section 2: Designing and Assessing Lessons": section-2.md
+  - "Section 3: Robots in the Classroom": section-3.md
+  - "Section 4: Tangible Interfaces": section-4.md
+  - "Section 5: Programmable Microcontrollers": section-5.md
+  - "Section 6: Mechanical Logic Toys": section-6.md
   - "Section 7: Bringing It All Together": section-7.md
   - References: references.md
 
