@@ -119,19 +119,33 @@ Rich, P. J., Mason, S. L., & O'Leary, J. (2021). Measuring the effect of continu
 - **Turing Tumble**: [turingtumble.com](https://www.turingtumble.com)
 - **ThinkFun (Gravity Maze, Rush Hour)**: [thinkfun.com](https://www.thinkfun.com)
 
-### Teacher Communities
+### Teacher Communities and Professional Development
 
-- **Barefoot Computing**: [barefootcomputing.org](https://www.barefootcomputing.org)
-- **Computing at School (CAS)**: [computingatschool.org.uk](https://www.computingatschool.org.uk)
+- **Bebras Malta**: [bebras.computationalthinking.mt](https://bebras.computationalthinking.mt/)
+- **Computing at School (CAS)**: [computingatschool.org.uk](https://www.computingatschool.org.uk/)
 - **CSTA (Computer Science Teachers Association)**: [csteachers.org](https://csteachers.org)
-- **Teach Computing (NCCE)**: [teachcomputing.org](https://teachcomputing.org)
+- **Teach Computing (UK-based, internationally accessible)**: [teachcomputing.org](https://teachcomputing.org)
 - **Raspberry Pi Foundation**: [raspberrypi.org](https://www.raspberrypi.org)
+- **Faculty of ICT, University of Malta**: [um.edu.mt/ict](https://www.um.edu.mt/ict/)
 
 ---
 
 ## Maltese Context
 
 Busuttil, L., & Formosa, M. (2020). Teaching Computing without Computers: Unplugged Computing as a Pedagogical Strategy. *Informatics in Education*, 19(4), 569–587. [DOI: 10.15388/infedu.2020.25](https://doi.org/10.15388/infedu.2020.25)
+
+### Malta Digital Education Resources
+
+- **Bebras Malta**: [bebras.computationalthinking.mt](https://bebras.computationalthinking.mt/) — Annual computational thinking challenge aligned with international Bebras movement
+- **Digital Literacy Curriculum Framework (Malta)**: Part of the Learning Outcomes Framework
+- **Faculty of ICT, University of Malta**: [um.edu.mt/ict](https://www.um.edu.mt/ict/)
+- **Directorate for Digital Literacy and Transversal Skills**: Resources for Maltese educators
+
+### Relevant Malta Policy Documents
+
+- Learning Outcomes Framework (LOF) — Digital Literacy
+- Malta Digital Education Strategy
+- National Literacy Strategy (includes digital literacy components)
 
 ---
 

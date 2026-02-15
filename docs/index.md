@@ -20,11 +20,11 @@ Each section corresponds to a pair of sessions (one asynchronous, one synchronou
 | Section | Topic | Preparation Time |
 |---------|-------|------------------|
 | 1 | [From Unplugged to Plugged: Why Physical Computing Matters](section-1.md) | ~2 hours |
-| 2 | [Robots in the Classroom](section-2.md) | ~1.5 hours |
-| 3 | [Tangible Interfaces](section-3.md) | ~1.5 hours |
-| 4 | [Programmable Microcontrollers](section-4.md) | ~1.5 hours |
-| 5 | [Mechanical Logic Toys](section-5.md) | ~1.5 hours |
-| 6 | [Designing and Assessing Lessons](section-6.md) | ~1.5 hours |
+| 2 | [Designing and Assessing Lessons](section-2.md) | ~1.5 hours |
+| 3 | [Robots in the Classroom](section-3.md) | ~1.5 hours |
+| 4 | [Tangible Interfaces](section-4.md) | ~1.5 hours |
+| 5 | [Programmable Microcontrollers](section-5.md) | ~1.5 hours |
+| 6 | [Mechanical Logic Toys](section-6.md) | ~1.5 hours |
 | 7 | [Bringing It All Together](section-7.md) | ~1 hour |
 
 ---

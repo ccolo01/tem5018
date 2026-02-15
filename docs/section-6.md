@@ -1,589 +1,505 @@
-# Section 6: Designing and Assessing Physical Computing Lessons
+# Section 6: Mechanical Logic Toys — Computational Thinking Without Electricity
 
 !!! abstract "Learning Objectives"
     By the end of this section, you will be able to:
     
-    - Apply the "low floor, high ceiling, wide walls" principle to lesson design
-    - Create lesson plans that integrate computational thinking with curriculum subjects
-    - Use formative assessment strategies appropriate for physical computing
-    - Observe and document evidence of computational thinking in young learners
-    - Manage practical sessions effectively, including setup, routines, and troubleshooting
-    - Develop assessment approaches that capture learning without over-testing
+    - Explain the value of "unplugged" approaches to teaching computational thinking
+    - Describe how mechanical toys can teach computational concepts including binary, logic gates, and conditionals
+    - Select appropriate logic puzzles for different age groups and learning objectives
+    - Design activities that use mechanical toys to develop problem-solving skills
+    - Connect unplugged activities to screen-based programming for deeper learning
 
 ---
 
-## 6.1 Introduction: From Tools to Teaching
+## 6.1 Introduction: The Power of the Unplugged
 
-Throughout this reader, we have explored a rich landscape of physical computing tools: programmable robots, tangible interfaces, microcontrollers, and mechanical logic toys. But having access to exciting tools is only the beginning. The real challenge—and opportunity—lies in designing lessons that use these tools effectively to develop children's computational thinking.
+Throughout this reader, we have explored programmable robots, tangible interfaces, and microcontrollers—tools that bridge the gap between physical and digital worlds. In this section, we take a different approach: **mechanical logic toys** that teach computational thinking without any electronics at all.
 
-This section bridges the gap between knowing about tools and teaching with them. We will examine principles of effective lesson design, explore practical strategies for managing hands-on sessions, and develop approaches to assessment that capture the richness of computational thinking without reducing it to tick-box exercises.
+Why step away from screens and circuits? Consider these scenarios:
 
-!!! quote "A Teacher's Perspective"
-    "Computing is one of the most exciting subjects to lead. It promotes collaborative learning, independence, exploration, and logic. But more importantly—there is no future that I can think of that will not require good digital literacy and IT skills for humans to thrive and survive."
+- A rural school with limited internet connectivity and outdated computers
+- A classroom where device-sharing means some children wait while others work
+- A home environment where parents prefer screen-free learning activities
+- A lesson where you want children to focus purely on thinking, without the distraction of debugging software issues
+
+In all these cases, mechanical logic toys offer a powerful alternative. They strip away the layers of technology that can obscure the fundamental ideas of computing, allowing children to see—quite literally—how logical systems work.
+
+!!! quote "From the Research"
+    "Unplugged activities as a low-cost solution to foster computational thinking skills seem to be a trend in recent years... CT education has several benefits and offers superior features, such as low cost, independence of the use of computers, no need for teacher's ICT skills, and ease of implementation."
     
-    — Allen, Computing Subject Specialist, Willow Brook Primary School Academy
+    — Huang & Looi (2023)
+
+Research consistently supports the value of unplugged approaches. A meta-analysis of 49 studies found that unplugged activities have a large overall effect on computational thinking skills (Hedges's g = 1.028), with particularly strong benefits for primary school students (Huang & Looi, 2023). Crucially, studies show that combining unplugged activities with later computer-based work leads to better outcomes than screen-only approaches (Bell & Vahrenhold, 2018).
 
 ---
 
-## 6.2 The Low Floor, High Ceiling, Wide Walls Principle
+## 6.2 The Pedagogical Case for Unplugged Learning
 
-### Origins of the Metaphor
+### Why Not Just Use Computers?
 
-In the 1970s, Seymour Papert—creator of Logo and pioneer of educational computing—articulated a design principle that remains central to good educational technology: tools should have **low floors** and **high ceilings**.
+When children program on a computer, several things happen simultaneously: they must navigate the interface, manage syntax and commands, deal with error messages, and think about the underlying logic. For beginners, this cognitive load can be overwhelming. The computer itself becomes an obstacle to understanding.
 
-- **Low floor**: Easy to get started; novices can achieve meaningful results quickly
-- **High ceiling**: Supports increasingly sophisticated work as learners develop expertise
+Mechanical logic toys remove these barriers. When a child builds a marble run that sorts colours, or arranges puzzle pieces to guide a ball to a target, the logic is visible and tangible. There are no error messages—just immediate, physical feedback. Either the marble goes where intended, or it doesn't.
 
-Mitchel Resnick, Papert's colleague at MIT and creator of Scratch, extended this metaphor by adding **wide walls**:
+### Benefits of Unplugged Approaches
 
-- **Wide walls**: Supports diverse interests, learning styles, and creative directions
+**Accessibility**: No computers, internet, or electricity required. Every child can participate equally regardless of their home technology access.
 
-As Resnick (2017) explains: "It's not enough to provide a single path from low floor to high ceiling; we need to provide wide walls so that kids can explore multiple pathways from floor to ceiling."
+**Focus on thinking**: Without software to wrestle with, children concentrate on the problem-solving itself—decomposition, pattern recognition, abstraction, and algorithm design.
 
-### Why Wide Walls Matter
+**Immediate feedback**: Physical systems provide instant, unambiguous results. Children see immediately whether their solution works.
 
-Wide walls ensure that physical computing appeals to all children, not just those who fit a particular profile. When walls are wide:
+**Collaboration**: Unlike screen-based activities where one person typically controls the device, physical puzzles naturally invite discussion, joint problem-solving, and turn-taking.
 
-- A child interested in music can create a sound-responsive installation
-- A child who loves animals can build a pet-feeding reminder
-- A child fascinated by space can design a Mars rover simulation
-- A child passionate about sport can create a reaction-time tester
+**Reduced anxiety**: Some children (and teachers) feel intimidated by computers. Mechanical toys feel familiar, playful, and non-threatening.
 
-Without wide walls, computing becomes a narrow corridor that excludes children whose interests don't align with stereotypical "tech" activities.
+**Durability**: No batteries to charge, no software updates, no compatibility issues. These tools work reliably, year after year.
 
-### Applying the Principle to Lesson Design
+### The Unplugged-Plugged Connection
 
-| Principle | In Practice |
-|-----------|-------------|
-| **Low floor** | Start with pre-built examples children can explore and modify; use block-based programming; provide clear, achievable first tasks |
-| **High ceiling** | Offer extension challenges; allow open-ended project work; don't cap what ambitious learners can achieve |
-| **Wide walls** | Connect to multiple curriculum areas; offer choice in project themes; value diverse outcomes |
+Research suggests that unplugged activities work best when combined with screen-based programming, not as a replacement for it. The ideal sequence is:
 
-**Example**: A micro:bit emotion badge lesson
+1. **Introduce concepts unplugged**: Children explore ideas like sequencing, conditionals, or binary through hands-on activities
+2. **Transfer to digital**: Children recognise the same concepts when they appear in programming environments
+3. **Deepen understanding**: Moving between unplugged and plugged activities reinforces learning through multiple representations
 
-- **Low floor**: Children start by displaying a pre-programmed heart icon
-- **High ceiling**: Advanced learners add button controls, animations, or sensor responses
-- **Wide walls**: Children choose their own emotion theme—happy/sad, calm/excited, or something personal to them
+This approach aligns with pedagogical models like PRIMM (Predict-Run-Investigate-Modify-Make) and Use-Modify-Create, where understanding precedes creation (Sentance et al., 2019; Lee et al., 2011).
 
 ---
 
-## 6.3 Designing Effective Lessons
+## 6.3 Turing Tumble: The Marble-Powered Computer
 
-### Starting with Learning Outcomes
+### What Is Turing Tumble?
 
-Effective physical computing lessons begin with clear learning outcomes that specify what children will understand or be able to do. These outcomes should address both:
+**[Turing Tumble](https://www.turingtumble.com/)** is a game where players build mechanical computers powered by marbles to solve logic puzzles. Created by Paul and Alyssa Boswell (a former professor and high school teacher), it was funded through a remarkably successful Kickstarter campaign and has since won multiple awards including the Parents' Choice Gold Award.
 
-1. **Computational thinking skills**: The CT concepts and practices being developed
-2. **Curriculum connections**: The subject knowledge being reinforced or explored
+Named after computing pioneer Alan Turing, the game makes an extraordinary claim: the logic system it uses is **Turing complete**, meaning that given a large enough board, it could theoretically perform any computation a regular computer can do.
 
-**Weak outcome**: "Children will use the micro:bit."  
-**Strong outcome**: "Children will use selection (if/then) to create a program that responds differently to different inputs, while exploring how living things respond to environmental stimuli."
+### How It Works
 
-### The Explore-Create-Share Structure
+The Turing Tumble consists of:
 
-Many successful physical computing lessons follow a three-phase structure:
+- A white board with pins for attaching pieces
+- Two marble reservoirs (blue and red marbles)
+- Six types of components:
+  - **Ramps** (green): Direct marbles left or right
+  - **Crossovers** (orange): Allow marbles to pass through from either direction
+  - **Bits** (blue and red): Flip-flop switches that alternate direction
+  - **Interceptors**: Stop marbles at specific points
+  - **Gear bits**: Bits connected by gears so they interact
+  - **Gears**: Connect multiple gear bits
 
-**Phase 1: Explore (10-15 minutes)**
+When a marble drops from the top, it follows the path determined by the arrangement of pieces. Each piece it passes may change state (bits flip) or trigger other actions. By arranging pieces cleverly, players can create systems that count in binary, add numbers, generate patterns, and much more.
 
-- Teacher introduces the tool/concept with a brief demonstration
-- Children explore a working example: "What does this do? How does it work?"
-- Discussion of what they notice and wonder
-- Key vocabulary introduced in context
+### Computational Concepts Taught
 
-**Phase 2: Create (20-30 minutes)**
+| Concept | How Turing Tumble Demonstrates It |
+|---------|-----------------------------------|
+| **Binary numbers** | Bits represent 1s and 0s; counting in binary becomes visible |
+| **Logic gates** | Gear bits create AND, OR, and other logical operations |
+| **Conditionals** | "If the bit is pointing left, then the marble goes left" |
+| **Loops** | Marble release triggers next marble, creating repetition |
+| **State** | The position of bits represents stored information |
+| **Algorithms** | Each puzzle requires designing a sequence of operations |
 
-- Children work on structured or open-ended tasks
-- Teacher circulates, observing, questioning, and supporting
-- Opportunities for differentiation through challenge levels
-- Collaboration encouraged (pairs or small groups)
+### Using Turing Tumble in the Classroom
 
-**Phase 3: Share (5-10 minutes)**
+**Age range**: 8 to adult (officially), though younger children can engage with simpler challenges with support.
 
-- Children demonstrate their creations to peers
-- Discussion of different approaches and solutions
-- Reflection on what worked, what was challenging, what they learned
-- Connection to broader concepts and future learning
+**Setting**: Works well for individual puzzle-solving, pairs, or small groups discussing strategies together.
 
-### Differentiation Strategies
+**Curriculum links**:
 
-Physical computing naturally supports differentiation because the same tools can be used at multiple levels:
+- **Computing**: Binary numbers, logic, algorithms, how computers work
+- **Mathematics**: Place value, counting systems, addition/subtraction operations
+- **Science**: Cause and effect, systems thinking
+- **D&T**: Mechanism design, problem-solving
 
-| Strategy | Implementation |
-|----------|----------------|
-| **Graduated challenges** | Provide bronze/silver/gold tasks with increasing complexity |
-| **Scaffolded resources** | Offer starter code, worked examples, or step-by-step guides for those who need them |
-| **Open-ended projects** | Allow children to set their own level of ambition |
-| **Mixed-ability pairs** | Partner learners strategically so they can support each other |
-| **Extension prompts** | "Now try..." challenges for those who finish quickly |
-| **Alternative tools** | Some children might use visual programming while others use text-based code |
+**Practical tips**:
 
-### Common Pitfalls to Avoid
-
-**Pitfall 1: Technology without purpose**  
-"Move the robot 10cm" teaches nothing meaningful. Instead: "Program the robot to deliver a message across the classroom without bumping into obstacles."
-
-**Pitfall 2: Demonstration overload**  
-Long teacher demonstrations while children sit passively are counterproductive. Keep demonstrations brief, then let children explore.
-
-**Pitfall 3: One-size-fits-all pacing**  
-In physical computing, children progress at very different rates. Build in flexibility rather than requiring everyone to move at the same pace.
-
-**Pitfall 4: Focusing on the tool, not the thinking**  
-The micro:bit is not the learning outcome—computational thinking is. Keep the focus on the ideas, using the tool as a means to explore them.
+- Start with the included comic book story, which introduces components gradually through a narrative
+- The first 20 puzzles focus on basic mechanics; binary concepts begin around puzzle 21
+- Allow plenty of time—some puzzles take significant experimentation
+- Encourage children to verbalise their thinking: "I think if I put a bit here, then..."
+- Consider having multiple boards so children can work at their own pace
 
 ---
 
-## 6.4 Cross-Curricular Integration
+## 6.4 Gravity Maze and Spatial Reasoning Puzzles
 
-### Why Integration Matters
+### ThinkFun Gravity Maze
 
-Physical computing is most powerful when it serves learning across the curriculum, not as an isolated "computing lesson." Integration:
+**[Gravity Maze](https://www.thinkfun.com/)** (by ThinkFun/Ravensburger) is a marble run logic game that develops spatial reasoning and planning skills. Unlike Turing Tumble, it doesn't simulate computation directly, but it teaches fundamental problem-solving skills that underpin computational thinking.
 
-- Makes computational thinking meaningful and contextual
-- Addresses curriculum time pressures by combining objectives
-- Helps children see connections between subjects
-- Provides authentic purposes for programming tasks
+**How it works**:
 
-### Integration Models
+- Players receive challenge cards showing a starting tower configuration and a target position
+- Using the available tower pieces, they must build a path for the marble to travel from start to target
+- The towers are transparent, allowing players to visualise the internal path
+- 60 challenges progress from beginner to expert difficulty
 
-**Model 1: Computing-led with subject links**  
-Primary focus is on CT skills; subject content provides context.  
-*Example*: Learning about selection (if/then) using a temperature-sensing program, with science content about thermal insulators providing the scenario.
+**Skills developed**:
 
-**Model 2: Subject-led with CT embedded**  
-Primary focus is on subject learning; CT skills are developed along the way.  
-*Example*: A geography lesson on microclimates where children use micro:bits to collect temperature data at different locations around the school grounds.
+- Spatial reasoning and visualisation
+- Planning and sequencing
+- Trial and error / debugging
+- Persistence and resilience
 
-**Model 3: Fully integrated project**  
-Both CT and subject outcomes are equally emphasised.  
-*Example*: A D&T project where children design, build, and program a moving model that demonstrates understanding of mechanisms (D&T) and control systems (computing).
+### Other ThinkFun Logic Puzzles
 
-### Subject-Specific Ideas
+ThinkFun (now part of Ravensburger) produces a range of single-player logic puzzles suitable for primary classrooms:
 
-**English**
+| Puzzle | Age | Key Skills |
+|--------|-----|------------|
+| **Rush Hour** | 8+ | Sequential planning, working backwards |
+| **Laser Maze** | 8+ | Angles, reflection, path planning |
+| **Circuit Maze** | 8+ | Electrical circuits, logical connections |
+| **Robot Turtles** (board game) | 4+ | Sequencing, early programming concepts |
+| **Code Master** | 8+ | Programming logic without a computer |
 
-- Program a Bee-Bot to retell a story, moving between key scenes
-- Create an interactive story using Scratch or micro:bit
-- Write instructions for peers to follow when programming robots
+### Why Spatial Reasoning Matters
 
-**Mathematics**
-
-- Use robots to explore angles, distance, and coordinates
-- Collect and analyse sensor data (temperature over time, light levels)
-- Program multiplication or division quiz games
-
-**Science**
-
-- Model animal behaviours using programmable robots
-- Investigate light, sound, or temperature with sensors
-- Explore cause and effect through input-process-output systems
-
-**Geography**
-
-- Create weather stations using micro:bit sensors
-- Program robots to navigate maps or follow routes
-- Collect environmental data during fieldwork
-
-**Design & Technology**
-
-- Add programmable elements to models and mechanisms
-- Design products that respond to user input
-- Explore control systems in everyday objects
-
-**Music**
-
-- Create digital instruments using Makey Makey
-- Program micro:bits to play melodies
-- Explore rhythm and pattern through sequencing
+Spatial reasoning—the ability to visualise and manipulate objects mentally—is strongly correlated with success in STEM fields. It's also a skill that can be improved through practice. Logic puzzles like Gravity Maze provide deliberate practice in spatial thinking, building foundations that support later work with coordinates, geometry, and programming.
 
 ---
 
-## 6.5 Formative Assessment Strategies
+## 6.5 Other Mechanical Logic Toys
 
-### The Challenge of Assessing CT
+### Marble Runs and Construction Sets
 
-Computational thinking presents particular assessment challenges:
+Traditional marble runs (such as those by Hubelino, Quadrilla, or GraviTrax) aren't specifically designed for computing education, but they teach valuable related skills:
 
-- It's a **process**, not just a product—how children think matters as much as what they create
-- It involves **multiple dimensions**: concepts, practices, and perspectives
-- It may be demonstrated in **diverse ways** across different tasks and contexts
-- Traditional tests capture only a narrow slice of CT capability
+- Cause and effect relationships
+- Sequential thinking ("first the marble goes here, then...")
+- Trial and error debugging
+- Engineering and construction
 
-Research confirms these challenges. Studies show that teachers associate CT assessment primarily with informal, formative approaches rather than formal tests (Sherwood et al., 2024). Experienced teachers rely heavily on observation to assess CT (Kalelioglu & Sentance, 2019).
+**GraviTrax** is particularly notable for its expansion sets that introduce specific physics concepts (magnetism, catapults, etc.) and its app integration for additional challenges.
 
-### Brennan and Resnick's Framework
+### Logic Board Games
 
-A useful framework for thinking about CT assessment comes from Brennan and Resnick (2012), who identify three dimensions:
+Several board games explicitly teach computational thinking concepts:
 
-| Dimension | What It Includes | How to Assess |
-|-----------|------------------|---------------|
-| **Computational concepts** | Sequences, loops, conditionals, variables, events, parallelism, operators | Analyse what concepts appear in children's programs |
-| **Computational practices** | Experimenting, debugging, reusing, abstracting, modularising | Observe how children work, not just what they produce |
-| **Computational perspectives** | Expressing, connecting, questioning | Listen to how children talk about their work and computing |
+**CODE (from ThinkFun)**: A series of games including "On the Brink," "Rover Control," and "Robot Repair" that teach programming logic through card-based gameplay.
 
-### Practical Assessment Strategies
+**Cody's Rules**: A card game where players create and follow algorithms using rule cards.
 
-**Strategy 1: Observation with prompts**
+**Hello Ruby**: Based on Linda Liukas's book series, includes activity sets for unplugged coding adventures.
 
-Circulate during activities with specific things to look for:
+### Puzzle Books and Card Games
 
-- Does the child break problems into smaller parts? (decomposition)
-- Do they notice and use patterns? (pattern recognition)
-- Do they test and refine their solutions? (debugging)
-- Can they explain their thinking? (abstraction)
+Don't overlook low-tech options:
 
-Use a simple observation checklist or sticky notes to capture evidence.
-
-**Strategy 2: Think-aloud protocols**
-
-Ask children to verbalise their thinking as they work:
-
-- "Tell me what you're trying to do."
-- "What do you think will happen when you run this?"
-- "Something went wrong—how will you figure out what?"
-- "Why did you choose to do it that way?"
-
-**Strategy 3: Predict-Run-Investigate**
-
-Before running a program, ask children to predict what will happen. This reveals their mental model of the system:
-
-- Accurate prediction suggests solid understanding
-- Inaccurate prediction reveals misconceptions to address
-- The gap between prediction and reality drives learning
-
-**Strategy 4: Peer explanation**
-
-Children explain their work to a partner:
-
-- "Show your partner what your program does and explain how it works."
-- The partner asks one question about something they don't understand.
-
-Ability to explain demonstrates deeper understanding than ability to do.
-
-**Strategy 5: Documentation and portfolios**
-
-Children document their work through:
-
-- Photographs of physical constructions
-- Screenshots or exports of programs
-- Written or recorded reflections
-- Design journals showing planning and iteration
-
-Portfolios capture growth over time and provide evidence for reporting.
-
-### What to Look For: Observable Indicators
-
-| CT Skill | Observable Indicators |
-|----------|----------------------|
-| **Decomposition** | Breaks task into steps; works on one part at a time; identifies sub-problems |
-| **Pattern recognition** | Notices similarities to previous problems; reuses successful strategies; spots repeated elements |
-| **Abstraction** | Ignores irrelevant details; identifies what's essential; explains concepts in own words |
-| **Algorithmic thinking** | Creates ordered sequences; uses precise instructions; considers all cases |
-| **Debugging** | Tests systematically; isolates problems; persists when things go wrong |
-| **Evaluation** | Reflects on solutions; considers improvements; compares approaches |
+- **Logic puzzle books**: Grid puzzles, sudoku (simplified for younger children), and deduction games
+- **CS Unplugged cards**: Downloadable activities using standard playing cards or printed materials
+- **Bebras Challenge**: Annual computational thinking challenge with many unplugged-style problems
 
 ---
 
-## 6.6 Rubrics for Physical Computing
+## 6.6 Computational Concepts Through Unplugged Activities
 
-### Designing Effective Rubrics
+### Binary Numbers
 
-Rubrics make expectations clear and support consistent assessment. For physical computing, effective rubrics:
+Binary—the base-2 number system using only 0s and 1s—underlies all digital computing. Unplugged activities make this abstract concept tangible:
 
-- Focus on **process** as well as product
-- Include **computational thinking** dimensions
-- Allow for **diverse outcomes** (wide walls)
-- Use **child-friendly language** where appropriate
+**Binary cards activity** (CS Unplugged):
 
-### Example Rubric: Programming Task
+- Five cards show 1, 2, 4, 8, and 16 dots
+- Children flip cards face-up or face-down to represent numbers
+- Making the number 19? That's 16 + 2 + 1, so cards showing 16, 2, and 1 are face-up
+- Turing Tumble extends this with physical bits that flip to represent binary states
 
-| Criterion | Beginning | Developing | Secure | Exceeding |
-|-----------|-----------|------------|--------|-----------|
-| **Sequence** | Program runs but not in intended order | Program mostly runs in correct sequence | Program runs in correct sequence with clear logic | Program uses efficient sequencing with organisation |
-| **Selection** | No use of conditionals | Attempts selection but with errors | Uses if/then correctly to respond to input | Uses complex conditions (if/else, multiple conditions) |
-| **Testing** | Does not test before declaring finished | Tests once, makes no changes | Tests and debugs iteratively | Tests systematically, anticipates problems |
-| **Explanation** | Cannot explain what program does | Describes what happens but not why | Explains how program works | Explains design choices and alternatives |
+**Why it matters**: Understanding binary helps children grasp how computers store all information—text, images, sounds—as patterns of 1s and 0s.
 
-### Example Rubric: Design Project
+### Logic Gates
 
-| Criterion | Beginning | Developing | Secure | Exceeding |
-|-----------|-----------|------------|--------|-----------|
-| **Planning** | No evidence of planning | Basic plan, not followed | Clear plan, mostly followed | Detailed plan with revisions |
-| **Problem-solving** | Gives up when stuck | Asks for help immediately | Tries strategies before seeking help | Helps others when they are stuck |
-| **Creativity** | Copies example exactly | Makes minor modifications | Adapts significantly to own ideas | Creates original design |
-| **Collaboration** | Works alone or off-task | Participates when prompted | Contributes actively to team | Supports others' contributions |
+Logic gates are the building blocks of digital circuits. They take inputs and produce outputs based on simple rules:
 
-### Self-Assessment and Peer Assessment
+| Gate | Rule | Example |
+|------|------|---------|
+| AND | Output is 1 only if ALL inputs are 1 | Both switches must be on to light the bulb |
+| OR | Output is 1 if ANY input is 1 | Either switch can light the bulb |
+| NOT | Output is the opposite of input | Switch off turns light on, and vice versa |
 
-Children can use simplified rubrics for self and peer assessment:
+**Unplugged activities**:
 
-**Traffic light self-assessment**:
+- "Human logic gates": Children act as gates, responding to raised/lowered hands
+- Turing Tumble gear bits demonstrate AND/OR behaviour physically
+- Simple circuit diagrams with switches children can trace
 
-- 🔴 I found this very difficult and need more help
-- 🟡 I could do this with some support
-- 🟢 I can do this confidently
+### Conditionals (Selection)
 
-**Two stars and a wish**:
+Conditionals—"if this, then that"—are fundamental to programming. Mechanical toys demonstrate this naturally:
 
-- ⭐ One thing I did well
-- ⭐ Another thing I did well
-- 💫 One thing I want to improve
+- **Turing Tumble bit**: "If the bit points left, the marble goes left; otherwise, it goes right"
+- **Gravity Maze towers**: "If I place this tower here, then the marble will exit at this level"
+- **Rush Hour**: "If I move this car first, then I can move the truck"
 
----
+Children using these toys constantly apply conditional reasoning, even without formal instruction.
 
-## 6.7 Managing Practical Sessions
+### Algorithms and Debugging
 
-### Before the Lesson
+Every puzzle solution is essentially an algorithm—a sequence of steps to achieve a goal. When the solution doesn't work:
 
-**Equipment preparation**:
+1. Observe the actual behaviour
+2. Compare to expected behaviour
+3. Identify where they diverge
+4. Hypothesise about the cause
+5. Modify and test again
 
-- Check all devices are charged/have batteries
-- Test that software loads correctly on all machines
-- Have spare batteries, cables, and components ready
-- Pre-load any starter files children will need
-
-**Room setup**:
-
-- Arrange tables to support collaboration (pairs or small groups)
-- Ensure all children can see demonstration screen
-- Clear floor space for robot activities
-- Identify storage location for ongoing projects
-
-**Routines to establish**:
-
-- How to collect and return equipment
-- What to do when stuck (see below)
-- How to save and organise work
-- Tidying and packing away procedures
-
-### During the Lesson
-
-**The "stuck" routine**
-
-Establish a clear protocol for when children are stuck. A popular approach is **"Three Before Me"**:
-
-1. Try something yourself (re-read instructions, check connections)
-2. Ask a partner
-3. Ask another pair
-4. Then ask the teacher
-
-This develops resilience and reduces teacher bottlenecks.
-
-**Avoiding "helpless hands"**
-
-In paired work, ensure both children engage:
-
-- Assign roles (driver/navigator) and swap partway through
-- Both children must be able to explain what the pair has done
-- Use talking prompts: "Discuss with your partner before you try..."
-
-**Managing different paces**
-
-Physical computing sessions often see wide variation in progress:
-
-- Have extension challenges ready for fast finishers
-- Allow children to help peers once they've completed their task
-- Don't hold everyone back for the slowest—provide catch-up support
-- Consider "checkpoint" moments where you briefly gather attention
-
-### Troubleshooting Common Issues
-
-| Problem | Likely Cause | Solution |
-|---------|--------------|----------|
-| Device not connecting | Cable issue or port selection | Try different cable; check correct port selected |
-| Program won't download | Browser cache or driver issue | Refresh page; try different browser; restart device |
-| Robot not responding | Batteries or pairing | Replace batteries; re-pair device |
-| Unexpected behaviour | Logic error in program | Use predict-run-investigate to identify issue |
-| "It's not working!" | Unspecified | Ask child to describe expected vs actual behaviour |
-
-### End of Lesson
-
-**Saving work**:
-
-- For screen-based: save to designated folder with clear naming
-- For physical: photograph builds before dismantling
-- For ongoing projects: store securely with name labels
-
-**Packing away**:
-
-- Build in adequate time (5+ minutes for complex equipment)
-- Assign roles: "Table monitors" responsible for complete return
-- Check all pieces returned before dismissal
-
-**Reflection**:
-
-- Brief whole-class reflection on learning, not just activity
-- Connect to next lesson: "Next time we'll build on this by..."
+This debugging process is identical whether children are fixing a Turing Tumble configuration or debugging Python code.
 
 ---
 
-## 6.8 Planning Your Fieldwork
+## 6.7 Age-Appropriate Progression
 
-As part of TEM5018, you will conduct fieldwork using physical computing tools with primary-age learners. This section provides guidance for planning effective fieldwork activities.
+### Early Years and Year 1 (Ages 4-6)
 
-### Selecting Your Tools
+**Focus**: Sequencing, cause and effect, simple patterns
 
-You will use **three different tools** across your fieldwork. Consider:
+**Suitable activities**:
 
-| Factor | Questions to Ask |
-|--------|------------------|
-| **Age appropriateness** | Is this tool suitable for the age group you're working with? |
-| **Curriculum fit** | How does the tool connect to what children are learning? |
-| **Practical constraints** | Do you have enough devices? Is the technology reliable? |
-| **Your familiarity** | Are you confident enough with the tool to support learners? |
-| **Diversity** | Do your three tools offer different experiences (e.g., robot, microcontroller, unplugged)? |
+- Simple marble runs with limited pieces
+- Sequencing games (story cards, daily routines)
+- Robot Turtles board game
+- Pattern block puzzles
+- Following and creating simple instructions
 
-### Planning Considerations
+**Key vocabulary**: First, then, next, before, after, pattern, same, different
 
-**Context**:
+### Years 2-3 (Ages 6-8)
 
-- What year group(s) will you work with?
-- What is their prior experience with computing/programming?
-- What curriculum topics could your activities connect to?
-- What time do you have available?
+**Focus**: Algorithms, simple conditionals, debugging
 
-**Logistics**:
+**Suitable activities**:
 
-- What equipment do you have access to?
-- What space will you use? (Classroom, hall, outdoor?)
-- Will you work with whole class, groups, or individuals?
-- What support will be available? (Classroom teacher, teaching assistant?)
+- Gravity Maze (beginner levels)
+- Rush Hour Junior
+- CS Unplugged binary cards (introduction)
+- Creating written instructions for peers to follow
+- "Spot the mistake" algorithm activities
 
-**Learning focus**:
+**Key vocabulary**: Algorithm, instruction, sequence, debug, if-then
 
-- Which CT skills will you prioritise?
-- What curriculum connections will you make?
-- How will you differentiate for different learners?
-- How will you assess children's learning?
+### Years 4-6 (Ages 8-11)
 
-### Documentation for Your Reflective Diary
+**Focus**: Binary, logic gates, complex problem-solving
 
-Throughout your fieldwork, maintain a reflective diary that captures:
+**Suitable activities**:
 
-- **What you planned** and why
-- **What actually happened** during sessions
-- **Evidence of children's learning** (observations, quotes, work samples)
-- **What worked well** and why you think so
-- **What you would change** next time
-- **Your own professional learning** from the experience
+- Turing Tumble (full progression)
+- Gravity Maze (intermediate to expert)
+- Circuit Maze
+- Code Master
+- Binary number challenges
+- Logic gate explorations
 
-Useful documentation methods:
-
-- Photographs (with appropriate permissions)
-- Voice recordings of your reflections
-- Children's work samples
-- Field notes written during or immediately after sessions
-- Video clips (if permitted by your setting)
+**Key vocabulary**: Binary, bit, logic gate, AND, OR, NOT, conditional, state
 
 ---
 
-## 6.9 Reflective Practice
+## 6.8 Cross-Curricular Connections
 
-### What Makes a Successful Physical Computing Lesson?
+### Mathematics
 
-Successful lessons are characterised by:
+**Number systems**: Binary provides a concrete example of place value in a different base. Compare with decimal: just as 234 means (2 × 100) + (3 × 10) + (4 × 1), the binary number 1011 means (1 × 8) + (0 × 4) + (1 × 2) + (1 × 1) = 11.
 
-**High engagement**: Children are focused, motivated, and reluctant to stop. They talk enthusiastically about what they're doing.
+**Logic and reasoning**: Puzzle-solving develops logical deduction—skills directly applicable to mathematical proof and problem-solving.
 
-**Visible thinking**: You can see and hear computational thinking in action—children decomposing problems, testing hypotheses, debugging solutions.
+**Addition and subtraction**: Turing Tumble's binary counter literally adds and subtracts, making arithmetic operations visible as physical processes.
 
-**Meaningful learning**: Children can articulate what they've learned, not just what they've done. The activity connects to bigger ideas.
+### Science
 
-**Appropriate challenge**: Most children experience productive struggle—the task is hard enough to be interesting but achievable with effort.
+**Systems and processes**: Marble runs demonstrate input-process-output systems. Change one component, observe the effect on the whole.
 
-**Inclusive participation**: All children are engaged, not just the most confident or interested. Different routes to success are available.
+**Forces and motion**: Gravity powers these toys—connect to lessons on forces, motion, and energy transfer.
 
-### Questions for Reflection
+**Cause and effect**: Every puzzle reinforces scientific thinking about causation.
 
-After teaching a physical computing lesson, consider:
+### Design & Technology
 
-**About the children**:
+**Mechanisms**: Gears, levers, ramps—mechanical logic toys involve the same mechanisms studied in D&T.
 
-- What evidence did I see of computational thinking?
-- Which children thrived? Which struggled? Why?
-- What misconceptions emerged?
-- What questions did children ask?
+**Iterative design**: The puzzle-solving process models engineering design: try, test, evaluate, improve.
 
-**About the lesson design**:
+**Problem specification**: Each puzzle presents a clear design brief with constraints and success criteria.
 
-- Was the task pitched at the right level?
-- Was there enough time for meaningful exploration?
-- Did the differentiation work?
-- What would I change for next time?
+### English
 
-**About my teaching**:
+**Instructional writing**: After solving a puzzle, children write instructions for others to follow.
 
-- How effectively did I explain concepts?
-- When did I intervene? When did I step back?
-- What questions did I ask?
-- How did I respond to children who were stuck?
+**Explanation texts**: Describe how a mechanism works, using appropriate technical vocabulary.
 
-**About the tools**:
-
-- Did the technology work reliably?
-- Was the tool appropriate for this learning?
-- What would I do differently with this tool next time?
-
-### The Improvement Cycle
-
-Effective practitioners engage in continuous improvement:
-
-1. **Plan** with clear learning intentions
-2. **Teach** with attention to what's happening
-3. **Reflect** on what worked and what didn't
-4. **Adjust** based on reflection
-5. **Re-teach** with improvements
-
-This cycle applies to individual lessons, to your use of particular tools, and to your overall approach to teaching physical computing.
+**Reasoning and justification**: Explain why a solution works, defending design choices.
 
 ---
 
-## 6.10 Resources
+## 6.9 Example Activities
 
-### Lesson Planning
+### Activity 1: Binary Birthday Numbers (Years 3-4)
 
-- **Teach Computing Curriculum**: [teachcomputing.org](https://teachcomputing.org/) — Free lesson plans and resources for primary computing
-- **Raspberry Pi Foundation**: [raspberrypi.org/teach](https://www.raspberrypi.org/teach/) — Resources for physical computing
-- **Barefoot Computing**: [barefootcomputing.org](https://www.barefootcomputing.org/) — CT resources for primary teachers
+**Learning objective**: Represent numbers in binary using physical objects.
 
-### Assessment
+**Resources**: Five large cards showing 16, 8, 4, 2, 1 dots (or use CS Unplugged printables); number cards 0-31.
 
-- **Computing at School**: [computingatschool.org.uk](https://www.computingatschool.org.uk/) — Community resources including assessment guidance
-- **NCCE Assessment Course**: [teachcomputing.org/courses](https://teachcomputing.org/courses) — Free CPD on assessing CT in primary
+**Activity**:
+
+1. Introduce the five binary cards. Explain that computers only use two digits: 0 and 1.
+2. Demonstrate: "Face-up means 1, face-down means 0. To make a number, add the values of face-up cards."
+3. Challenge: "What's your age? Can you make it with these cards?"
+4. Children work in pairs to represent different numbers.
+5. Extension: "What's the largest number you can make? The smallest? How many different numbers are possible?"
+
+**Assessment**: Can children reliably convert between decimal and 5-bit binary?
+
+### Activity 2: Gravity Maze Challenge Stations (Years 4-6)
+
+**Learning objective**: Develop spatial reasoning and systematic problem-solving strategies.
+
+**Resources**: Multiple Gravity Maze sets (or rotate through one); challenge cards sorted by difficulty.
+
+**Activity**:
+
+1. Set up 4-5 stations around the room, each with a Gravity Maze at different difficulty levels.
+2. Children rotate through stations in pairs, attempting one challenge at each.
+3. Provide "strategy cards" prompting useful questions:
+   - "Where does the marble need to go?"
+   - "What's the most direct path?"
+   - "Which tower piece would help here?"
+4. Pairs record their strategies and any "stuck points" in learning journals.
+5. Conclude with whole-class discussion: "What strategies helped you solve puzzles?"
+
+**Assessment**: Observe problem-solving approaches; review learning journal reflections.
+
+### Activity 3: Turing Tumble Computer Building (Years 5-6)
+
+**Learning objective**: Understand how simple switches can perform computation.
+
+**Resources**: Turing Tumble set; puzzle book; optional: video introduction.
+
+**Activity**:
+
+1. Show a completed Turing Tumble setup. Release marbles and observe.
+2. Ask: "What do you notice? What do you wonder?"
+3. Introduce components one at a time (ramps, crossovers, bits) with mini-challenges.
+4. Pairs work through early puzzles (1-10), recording solutions.
+5. When ready, introduce the binary counter concept (puzzles 21+).
+6. Challenge: "Can you build a counter that counts to 8?"
+
+**Assessment**: Successfully complete progressively difficult puzzles; articulate how bits store information.
+
+### Activity 4: Logic Gate Detectives (Years 5-6)
+
+**Learning objective**: Understand AND, OR, and NOT logic gates.
+
+**Resources**: Printed logic gate symbols and truth tables; simple circuit diagrams; optional: Turing Tumble with gear bits.
+
+**Activity**:
+
+1. Present a mystery: "The security system only unlocks when conditions are right. Can you figure out the rules?"
+2. Show a simple AND gate scenario (two buttons, both must be pressed).
+3. Children test different input combinations and complete truth tables.
+4. Repeat with OR gate (either button works) and NOT gate (press to turn off).
+5. Challenge: Combine gates to create more complex rules.
+6. Connection: Show how gear bits in Turing Tumble create similar logic.
+
+**Assessment**: Complete truth tables accurately; explain gate behaviour in own words.
+
+---
+
+## 6.10 Practical Considerations
+
+### Building a Collection
+
+Start small and expand based on what works:
+
+| Priority | Item | Approximate Cost | Use |
+|----------|------|------------------|-----|
+| Essential | CS Unplugged materials | Free (printable) | Whole-class activities |
+| High | Turing Tumble (1-2 sets) | €60-70 each | Small group rotation |
+| High | Gravity Maze (2-3 sets) | €30-35 each | Logic puzzle stations |
+| Medium | Rush Hour | €25-30 | Independent challenge |
+| Medium | Code Master | €25-30 | Programming logic |
+| Optional | GraviTrax starter set | €50-60 | Open-ended construction |
+
+### Storage and Organisation
+
+- Store Turing Tumble pieces in compartmented boxes—losing pieces significantly impacts usability
+- Keep challenge cards with each puzzle set
+- Create a "puzzle library" where children can self-select activities during choosing time
+- Photograph solved puzzles before tidying away (children love seeing their achievements)
+
+### Managing Multiple Activities
+
+Consider a "puzzle rotation" model:
+
+- Multiple puzzle types available simultaneously
+- Children work in pairs or small groups
+- Rotate after fixed time (15-20 minutes)
+- Teacher circulates, asking probing questions rather than giving answers
+
+### Assessment Without Screens
+
+- **Observation**: Watch problem-solving processes, not just outcomes
+- **Verbalisation**: Ask children to explain their thinking
+- **Learning journals**: Children sketch solutions and reflect on strategies
+- **Challenge progression**: Track which puzzle levels each child completes
+- **Transfer tasks**: Can children apply strategies to new, unfamiliar puzzles?
+
+---
+
+## 6.11 Resources
+
+### Products
+
+- **Turing Tumble**: [turingtumble.com](https://www.turingtumble.com/) | [upperstory.com](https://upperstory.com/)
+- **ThinkFun (Gravity Maze, Rush Hour, etc.)**: [thinkfun.com](https://www.thinkfun.com/)
+- **GraviTrax**: [ravensburger.com](https://www.ravensburger.com/gravitrax/)
+
+### Free Resources
+
+- **CS Unplugged**: [csunplugged.org](https://csunplugged.org/) — extensive free activities and printables
+- **Bebras Challenge**: [bebras.org](https://bebras.org/) — computational thinking problems, many unplugged-suitable
+- **Turing Tumble Educator Resources**: [upperstory.com/turingtumble/edu](https://upperstory.com/turingtumble/edu/)
 
 ### Research
 
-- Brennan, K., & Resnick, M. (2012). New frameworks for studying and assessing the development of computational thinking. *Proceedings of AERA 2012*. [Free PDF](https://scratched.gse.harvard.edu/ct/files/AERA2012.pdf)
+- Bell, T., & Vahrenhold, J. (2018). CS Unplugged—How is it used, and does it work? In *Adventures Between Lower Bounds and Higher Altitudes* (pp. 497–521). Springer. [DOI: 10.1007/978-3-319-98355-4_29](https://doi.org/10.1007/978-3-319-98355-4_29)
 
-- Resnick, M. (2017). *Lifelong Kindergarten: Cultivating Creativity through Projects, Passion, Peers, and Play*. MIT Press.
+- Brackmann, C. P., Román-González, M., Robles, G., Moreno-León, J., Casali, A., & Barone, D. (2017). Development of computational thinking skills through unplugged activities in primary school. *Proceedings of the 12th Workshop on Primary and Secondary Computing Education*, 65–72. [DOI: 10.1145/3137065.3137069](https://doi.org/10.1145/3137065.3137069)
 
-- Kalelioglu, F., & Sentance, S. (2020). Teaching with physical computing in school: The case of the micro:bit. *Education and Information Technologies*, 25, 2577–2603. [DOI: 10.1007/s10639-019-10080-8](https://doi.org/10.1007/s10639-019-10080-8)
-
----
-
-## 6.11 Summary
-
-Designing and assessing physical computing lessons requires attention to principles, planning, and practice. The key ideas from this section:
-
-1. **Low floor, high ceiling, wide walls**: Design activities that are accessible to beginners, allow for sophisticated development, and support diverse interests and approaches.
-
-2. **Start with learning outcomes**: Be clear about what CT skills and subject knowledge you want children to develop, then choose tools and activities to serve those outcomes.
-
-3. **Integrate with curriculum**: Physical computing is most powerful when it connects meaningfully to other areas of learning, not as an isolated "computing" activity.
-
-4. **Emphasise formative assessment**: Observation, questioning, and discussion reveal more about children's computational thinking than formal tests. Look for evidence in process as well as product.
-
-5. **Use rubrics thoughtfully**: Well-designed rubrics clarify expectations and support consistent assessment, but should allow for diverse outcomes and focus on thinking, not just technical skills.
-
-6. **Manage practical sessions carefully**: Preparation, clear routines, and troubleshooting strategies make hands-on sessions more effective and less stressful.
-
-7. **Reflect and improve**: Each lesson teaches you something. Capture that learning through reflection and use it to improve future practice.
-
-As you move into your fieldwork, remember that becoming an effective teacher of physical computing is itself a learning journey. Your first attempts won't be perfect—but each experience, reflected upon thoughtfully, builds your expertise.
+- Huang, W., & Looi, C. K. (2023). Fostering computational thinking through unplugged activities: A systematic literature review and meta-analysis. *International Journal of STEM Education*, 10, Article 47. [DOI: 10.1186/s40594-023-00434-7](https://doi.org/10.1186/s40594-023-00434-7)
 
 ---
 
-**Preparation for Session 7**: Begin planning your fieldwork activities. Identify the three tools you will use, the age group(s) you will work with, and the curriculum connections you will make. Bring a draft outline to the final session for discussion.
+## 6.12 Summary
+
+Mechanical logic toys offer a unique and powerful approach to teaching computational thinking. By stripping away screens, software, and syntax, they allow children to engage directly with the fundamental ideas that underpin computing.
+
+**Key takeaways from this section**:
+
+1. **Unplugged doesn't mean inferior**: Research shows that unplugged activities can be highly effective for developing computational thinking, particularly for primary-age children.
+
+2. **The best approach combines both**: Use unplugged activities to introduce concepts, then transfer to screen-based programming. Each reinforces the other.
+
+3. **Turing Tumble is genuinely computational**: Unlike general puzzle toys, Turing Tumble demonstrates actual computational principles—binary, logic gates, state—in a tangible form.
+
+4. **Spatial reasoning supports CT**: Puzzles like Gravity Maze develop the visualisation and planning skills that underpin programming ability.
+
+5. **Accessibility is a genuine advantage**: These tools work regardless of school technology infrastructure, home digital access, or teacher ICT confidence.
+
+6. **The thinking is the learning**: Without troubleshooting software, children focus entirely on problem-solving—decomposition, pattern recognition, abstraction, and algorithm design.
+
+As you introduce mechanical logic toys in your classroom, watch how children engage with them. The focused concentration, the collaborative discussion, the satisfaction when a solution works—these are signs of deep computational thinking in action. And when those same children later encounter variables, conditionals, and loops in Scratch or Python, they'll have concrete mental models to draw upon.
+
+---
+
+!!! tip "Fieldwork Task"
+    Choose one mechanical logic toy or unplugged activity from this section to try with your learners. Use the lesson planning frameworks from Section 2 to design your session, and document your experience in your reflective diary.
+
+---
+
+**Ready to continue?** Head to [Section 7: Bringing It All Together](section-7.md) to synthesise your learning and prepare for your final assessment.
 
 ---
 

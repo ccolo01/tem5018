@@ -1,500 +1,542 @@
-# Section 5: Mechanical Logic Toys — Computational Thinking Without Electricity
+# Section 5: Programmable Microcontrollers — Real-World Problem Solving
 
 !!! abstract "Learning Objectives"
     By the end of this section, you will be able to:
     
-    - Explain the value of "unplugged" approaches to teaching computational thinking
-    - Describe how mechanical toys can teach computational concepts including binary, logic gates, and conditionals
-    - Select appropriate logic puzzles for different age groups and learning objectives
-    - Design activities that use mechanical toys to develop problem-solving skills
-    - Connect unplugged activities to screen-based programming for deeper learning
+    - Explain what microcontrollers are and why they matter for primary computing education
+    - Describe the input-process-output model and apply it to physical computing projects
+    - Use block-based programming environments to program microcontrollers
+    - Design age-appropriate activities using sensors and outputs
+    - Connect physical computing to cross-curricular learning objectives
 
 ---
 
-## 5.1 Introduction: The Power of the Unplugged
+## 5.1 Introduction: Making the Invisible Visible
 
-Throughout this reader, we have explored programmable robots, tangible interfaces, and microcontrollers—tools that bridge the gap between physical and digital worlds. In this section, we take a different approach: **mechanical logic toys** that teach computational thinking without any electronics at all.
+In the previous sections, we explored floor robots and tangible programming interfaces—tools that execute pre-defined movements based on children's instructions. Now we take a significant step forward: **programmable microcontrollers** that can sense the real world, process information, and respond with meaningful outputs.
 
-Why step away from screens and circuits? Consider these scenarios:
+What makes this leap so important? Consider the world around us. Traffic lights respond to pedestrian button presses. Automatic doors sense approaching people. Smartphones adjust screen brightness based on ambient light. Fitness trackers count steps by detecting motion. All of these everyday technologies rely on embedded computers—microcontrollers—that bridge the gap between the physical and digital worlds.
 
-- A rural school with limited internet connectivity and outdated computers
-- A classroom where device-sharing means some children wait while others work
-- A home environment where parents prefer screen-free learning activities
-- A lesson where you want children to focus purely on thinking, without the distraction of debugging software issues
-
-In all these cases, mechanical logic toys offer a powerful alternative. They strip away the layers of technology that can obscure the fundamental ideas of computing, allowing children to see—quite literally—how logical systems work.
+When children program a microcontroller, they gain insight into how these ubiquitous systems work. They move from being passive consumers of technology to active creators who understand the principles behind the devices they use daily. This is the essence of **physical computing**: combining software and hardware to build interactive systems that sense and respond to the real world.
 
 !!! quote "From the Research"
-    "Unplugged activities as a low-cost solution to foster computational thinking skills seem to be a trend in recent years... CT education has several benefits and offers superior features, such as low cost, independence of the use of computers, no need for teacher's ICT skills, and ease of implementation."
+    "Physical computing—combining software and hardware to build interactive physical systems that sense and respond to the real world—has been shown to result in broad engagement across a spectrum of users."
     
-    — Huang & Looi (2023)
+    — Hodges et al. (2020)
 
-Research consistently supports the value of unplugged approaches. A meta-analysis of 49 studies found that unplugged activities have a large overall effect on computational thinking skills (Hedges's g = 1.028), with particularly strong benefits for primary school students (Huang & Looi, 2023). Crucially, studies show that combining unplugged activities with later computer-based work leads to better outcomes than screen-only approaches (Bell & Vahrenhold, 2018).
-
----
-
-## 5.2 The Pedagogical Case for Unplugged Learning
-
-### Why Not Just Use Computers?
-
-When children program on a computer, several things happen simultaneously: they must navigate the interface, manage syntax and commands, deal with error messages, and think about the underlying logic. For beginners, this cognitive load can be overwhelming. The computer itself becomes an obstacle to understanding.
-
-Mechanical logic toys remove these barriers. When a child builds a marble run that sorts colours, or arranges puzzle pieces to guide a ball to a target, the logic is visible and tangible. There are no error messages—just immediate, physical feedback. Either the marble goes where intended, or it doesn't.
-
-### Benefits of Unplugged Approaches
-
-**Accessibility**: No computers, internet, or electricity required. Every child can participate equally regardless of their home technology access.
-
-**Focus on thinking**: Without software to wrestle with, children concentrate on the problem-solving itself—decomposition, pattern recognition, abstraction, and algorithm design.
-
-**Immediate feedback**: Physical systems provide instant, unambiguous results. Children see immediately whether their solution works.
-
-**Collaboration**: Unlike screen-based activities where one person typically controls the device, physical puzzles naturally invite discussion, joint problem-solving, and turn-taking.
-
-**Reduced anxiety**: Some children (and teachers) feel intimidated by computers. Mechanical toys feel familiar, playful, and non-threatening.
-
-**Durability**: No batteries to charge, no software updates, no compatibility issues. These tools work reliably, year after year.
-
-### The Unplugged-Plugged Connection
-
-Research suggests that unplugged activities work best when combined with screen-based programming, not as a replacement for it. The ideal sequence is:
-
-1. **Introduce concepts unplugged**: Children explore ideas like sequencing, conditionals, or binary through hands-on activities
-2. **Transfer to digital**: Children recognise the same concepts when they appear in programming environments
-3. **Deepen understanding**: Moving between unplugged and plugged activities reinforces learning through multiple representations
-
-This approach aligns with pedagogical models like PRIMM (Predict-Run-Investigate-Modify-Make) and Use-Modify-Create, where understanding precedes creation (Sentance et al., 2019; Lee et al., 2011).
+For primary teachers, microcontrollers offer remarkable pedagogical opportunities. Research has consistently found that physical computing increases student engagement, creativity, and motivation compared to purely screen-based programming (Sentance et al., 2017). When children can see their code controlling a physical LED, hear a buzzer respond to their touch, or watch a motor spin based on sensor input, abstract programming concepts become concrete and meaningful.
 
 ---
 
-## 5.3 Turing Tumble: The Marble-Powered Computer
+## 5.2 Understanding Microcontrollers
 
-### What Is Turing Tumble?
+### What Is a Microcontroller?
 
-**[Turing Tumble](https://www.turingtumble.com/)** is a game where players build mechanical computers powered by marbles to solve logic puzzles. Created by Paul and Alyssa Boswell (a former professor and high school teacher), it was funded through a remarkably successful Kickstarter campaign and has since won multiple awards including the Parents' Choice Gold Award.
+A **microcontroller** is a small, self-contained computer on a single integrated circuit. Unlike a full computer (like a laptop or tablet), a microcontroller is designed for specific tasks: reading inputs from sensors, processing that information according to programmed instructions, and controlling outputs like lights, sounds, or motors.
 
-Named after computing pioneer Alan Turing, the game makes an extraordinary claim: the logic system it uses is **Turing complete**, meaning that given a large enough board, it could theoretically perform any computation a regular computer can do.
+Think of a microcontroller as the "brain" of a simple electronic system. It doesn't have a screen, keyboard, or operating system of its own—instead, it's programmed from another computer and then runs independently, often powered by batteries.
 
-### How It Works
+### The Input-Process-Output Model
 
-The Turing Tumble consists of:
+The fundamental concept underlying all microcontroller projects is the **input-process-output (IPO) model**:
 
-- A white board with pins for attaching pieces
-- Two marble reservoirs (blue and red marbles)
-- Six types of components:
-  - **Ramps** (green): Direct marbles left or right
-  - **Crossovers** (orange): Allow marbles to pass through from either direction
-  - **Bits** (blue and red): Flip-flop switches that alternate direction
-  - **Interceptors**: Stop marbles at specific points
-  - **Gear bits**: Bits connected by gears so they interact
-  - **Gears**: Connect multiple gear bits
+```
+INPUT → PROCESS → OUTPUT
+(Sensors)   (Program)   (Actuators)
+```
 
-When a marble drops from the top, it follows the path determined by the arrangement of pieces. Each piece it passes may change state (bits flip) or trigger other actions. By arranging pieces cleverly, players can create systems that count in binary, add numbers, generate patterns, and much more.
+**Inputs** are ways the microcontroller gathers information from the world:
 
-### Computational Concepts Taught
+- Buttons (pressed or not pressed)
+- Light sensors (bright or dark)
+- Temperature sensors (hot or cold)
+- Accelerometers (movement and orientation)
+- Sound sensors (loud or quiet)
 
-| Concept | How Turing Tumble Demonstrates It |
-|---------|-----------------------------------|
-| **Binary numbers** | Bits represent 1s and 0s; counting in binary becomes visible |
-| **Logic gates** | Gear bits create AND, OR, and other logical operations |
-| **Conditionals** | "If the bit is pointing left, then the marble goes left" |
-| **Loops** | Marble release triggers next marble, creating repetition |
-| **State** | The position of bits represents stored information |
-| **Algorithms** | Each puzzle requires designing a sequence of operations |
+**Processing** is what the program does with that information:
 
-### Using Turing Tumble in the Classroom
+- Makes decisions (if the button is pressed, then...)
+- Performs calculations (count how many times...)
+- Compares values (if brightness is less than 50, then...)
 
-**Age range**: 8 to adult (officially), though younger children can engage with simpler challenges with support.
+**Outputs** are ways the microcontroller affects the world:
 
-**Setting**: Works well for individual puzzle-solving, pairs, or small groups discussing strategies together.
+- LEDs (turn on, off, or change colour)
+- Buzzers and speakers (make sounds)
+- Motors (create movement)
+- Displays (show numbers, letters, or images)
 
-**Curriculum links**:
-
-- **Computing**: Binary numbers, logic, algorithms, how computers work
-- **Mathematics**: Place value, counting systems, addition/subtraction operations
-- **Science**: Cause and effect, systems thinking
-- **D&T**: Mechanism design, problem-solving
-
-**Practical tips**:
-
-- Start with the included comic book story, which introduces components gradually through a narrative
-- The first 20 puzzles focus on basic mechanics; binary concepts begin around puzzle 21
-- Allow plenty of time—some puzzles take significant experimentation
-- Encourage children to verbalise their thinking: "I think if I put a bit here, then..."
-- Consider having multiple boards so children can work at their own pace
+This IPO model provides a powerful framework for children to understand how interactive systems work—and it applies far beyond computing, connecting naturally to science topics like senses and responses in living things.
 
 ---
 
-## 5.4 Gravity Maze and Spatial Reasoning Puzzles
+## 5.3 Microcontrollers for Primary Education
 
-### ThinkFun Gravity Maze
+Several microcontroller platforms have been designed specifically for educational use. Here we focus on those most suitable for primary schools.
 
-**[Gravity Maze](https://www.thinkfun.com/)** (by ThinkFun/Ravensburger) is a marble run logic game that develops spatial reasoning and planning skills. Unlike Turing Tumble, it doesn't simulate computation directly, but it teaches fundamental problem-solving skills that underpin computational thinking.
+### 5.3.1 BBC micro:bit
 
-**How it works**:
+The **[BBC micro:bit](https://microbit.org/)** is one of the most widely used microcontrollers in primary and secondary education internationally. Originally developed by the BBC and partners (including Microsoft, ARM, and Lancaster University) and first distributed in 2016, the micro:bit is now managed by the Micro:bit Educational Foundation and used in over 60 countries worldwide, including Malta.
 
-- Players receive challenge cards showing a starting tower configuration and a target position
-- Using the available tower pieces, they must build a path for the marble to travel from start to target
-- The towers are transparent, allowing players to visualise the internal path
-- 60 challenges progress from beginner to expert difficulty
+**Key features**:
 
-**Skills developed**:
+- 25-LED display (5×5 grid) for showing images, animations, and scrolling text
+- Two programmable buttons (A and B)
+- Accelerometer (detects movement, tilt, and shaking)
+- Compass (magnetometer)
+- Temperature sensor
+- Light sensor (using the LEDs)
+- Microphone and speaker (V2 model)
+- Radio communication (micro:bits can "talk" to each other)
+- Bluetooth connectivity
+- Edge connector for attaching external components
 
-- Spatial reasoning and visualisation
-- Planning and sequencing
-- Trial and error / debugging
-- Persistence and resilience
+**Programming environments**:
 
-### Other ThinkFun Logic Puzzles
+- **[Microsoft MakeCode](https://makecode.microbit.org/)**: Block-based editor similar to Scratch, with option to view JavaScript code. Includes simulator for testing without hardware.
+- **Python Editor**: Text-based programming for more advanced learners.
+- **Scratch**: The micro:bit extension allows Scratch projects to interact with micro:bit hardware.
 
-ThinkFun (now part of Ravensburger) produces a range of single-player logic puzzles suitable for primary classrooms:
+**Why it works for primary**:
 
-| Puzzle | Age | Key Skills |
-|--------|-----|------------|
-| **Rush Hour** | 8+ | Sequential planning, working backwards |
-| **Laser Maze** | 8+ | Angles, reflection, path planning |
-| **Circuit Maze** | 8+ | Electrical circuits, logical connections |
-| **Robot Turtles** (board game) | 4+ | Sequencing, early programming concepts |
-| **Code Master** | 8+ | Programming logic without a computer |
+- No additional components needed for basic projects—sensors and outputs are built in
+- Free, high-quality lesson resources available
+- Extensive teacher support and training
+- Robust and designed for young learners
+- Low cost (approximately €18-25 per unit)
 
-### Why Spatial Reasoning Matters
+### 5.3.2 Crumble Controller
 
-Spatial reasoning—the ability to visualise and manipulate objects mentally—is strongly correlated with success in STEM fields. It's also a skill that can be improved through practice. Logic puzzles like Gravity Maze provide deliberate practice in spatial thinking, building foundations that support later work with coordinates, geometry, and programming.
+The **[Crumble](https://redfernelectronics.co.uk/crumble/)** (from Redfern Electronics) is a UK-designed microcontroller specifically created for primary education, particularly for Design & Technology projects.
 
----
+**Key features**:
 
-## 5.5 Other Mechanical Logic Toys
+- Four input/output terminals for connecting external components
+- Can drive two motors directly (unlike micro:bit, which needs additional hardware)
+- Supports "Sparkle" RGB LEDs that can be chained together
+- Crocodile clip connections—no soldering or complex wiring
+- Compact and robust
 
-### Marble Runs and Construction Sets
+**Programming environment**:
 
-Traditional marble runs (such as those by Hubelino, Quadrilla, or GraviTrax) aren't specifically designed for computing education, but they teach valuable related skills:
+- Free Crumble software (Windows, Mac, Linux, Chromebook)
+- Block-based interface inspired by Scratch
+- Programs transfer almost instantly, enabling rapid experimentation
 
-- Cause and effect relationships
-- Sequential thinking ("first the marble goes here, then...")
-- Trial and error debugging
-- Engineering and construction
+**Why it works for primary**:
 
-**GraviTrax** is particularly notable for its expansion sets that introduce specific physics concepts (magnetism, catapults, etc.) and its app integration for additional challenges.
+- Ideal for D&T projects involving motors (buggies, fairground rides, moving models)
+- Very affordable (approximately €14 for controller only)
+- Simple crocodile clip connections are accessible for young children
+- Excellent for understanding circuits alongside programming
 
-### Logic Board Games
+### 5.3.3 Comparing Options
 
-Several board games explicitly teach computational thinking concepts:
+| Feature | BBC micro:bit | Crumble |
+|---------|--------------|---------|
+| Built-in display | Yes (25 LEDs) | No |
+| Built-in sensors | Multiple (motion, light, temp, sound) | No |
+| Motor control | Needs additional hardware | Direct (2 motors) |
+| Connection method | Edge connector / crocodile clips | Crocodile clips |
+| Wireless | Yes (radio, Bluetooth) | No |
+| Programming | MakeCode, Python, Scratch | Crumble software |
+| Best for | Sensing, data, wearables, games | D&T, motors, moving models |
+| Approximate cost | €18-25 | €14-18 |
 
-**CODE (from ThinkFun)**: A series of games including "On the Brink," "Rover Control," and "Robot Repair" that teach programming logic through card-based gameplay.
-
-**Cody's Rules**: A card game where players create and follow algorithms using rule cards.
-
-**Hello Ruby**: Based on Linda Liukas's book series, includes activity sets for unplugged coding adventures.
-
-### Puzzle Books and Card Games
-
-Don't overlook low-tech options:
-
-- **Logic puzzle books**: Grid puzzles, sudoku (simplified for younger children), and deduction games
-- **CS Unplugged cards**: Downloadable activities using standard playing cards or printed materials
-- **Bebras Challenge**: Annual computational thinking challenge with many unplugged-style problems
-
----
-
-## 5.6 Computational Concepts Through Unplugged Activities
-
-### Binary Numbers
-
-Binary—the base-2 number system using only 0s and 1s—underlies all digital computing. Unplugged activities make this abstract concept tangible:
-
-**Binary cards activity** (CS Unplugged):
-
-- Five cards show 1, 2, 4, 8, and 16 dots
-- Children flip cards face-up or face-down to represent numbers
-- Making the number 19? That's 16 + 2 + 1, so cards showing 16, 2, and 1 are face-up
-- Turing Tumble extends this with physical bits that flip to represent binary states
-
-**Why it matters**: Understanding binary helps children grasp how computers store all information—text, images, sounds—as patterns of 1s and 0s.
-
-### Logic Gates
-
-Logic gates are the building blocks of digital circuits. They take inputs and produce outputs based on simple rules:
-
-| Gate | Rule | Example |
-|------|------|---------|
-| AND | Output is 1 only if ALL inputs are 1 | Both switches must be on to light the bulb |
-| OR | Output is 1 if ANY input is 1 | Either switch can light the bulb |
-| NOT | Output is the opposite of input | Switch off turns light on, and vice versa |
-
-**Unplugged activities**:
-
-- "Human logic gates": Children act as gates, responding to raised/lowered hands
-- Turing Tumble gear bits demonstrate AND/OR behaviour physically
-- Simple circuit diagrams with switches children can trace
-
-### Conditionals (Selection)
-
-Conditionals—"if this, then that"—are fundamental to programming. Mechanical toys demonstrate this naturally:
-
-- **Turing Tumble bit**: "If the bit points left, the marble goes left; otherwise, it goes right"
-- **Gravity Maze towers**: "If I place this tower here, then the marble will exit at this level"
-- **Rush Hour**: "If I move this car first, then I can move the truck"
-
-Children using these toys constantly apply conditional reasoning, even without formal instruction.
-
-### Algorithms and Debugging
-
-Every puzzle solution is essentially an algorithm—a sequence of steps to achieve a goal. When the solution doesn't work:
-
-1. Observe the actual behaviour
-2. Compare to expected behaviour
-3. Identify where they diverge
-4. Hypothesise about the cause
-5. Modify and test again
-
-This debugging process is identical whether children are fixing a Turing Tumble configuration or debugging Python code.
+**Recommendation**: The micro:bit is more versatile for general computing education due to its built-in sensors and display. The Crumble excels for D&T projects involving motors and moving mechanisms. Many schools find value in having both.
 
 ---
 
-## 5.7 Age-Appropriate Progression
+## 5.4 Block-Based Programming with MakeCode
 
-### Early Years and Year 1 (Ages 4-6)
+Microsoft MakeCode is the recommended starting point for primary-age children programming the micro:bit. Its interface will be immediately familiar to anyone who has used Scratch.
 
-**Focus**: Sequencing, cause and effect, simple patterns
+### The MakeCode Interface
 
-**Suitable activities**:
+The MakeCode editor consists of:
 
-- Simple marble runs with limited pieces
-- Sequencing games (story cards, daily routines)
-- Robot Turtles board game
-- Pattern block puzzles
-- Following and creating simple instructions
+1. **Block categories**: Colour-coded groups of blocks (Basic, Input, Music, LED, Radio, Loops, Logic, Variables, Math)
+2. **Workspace**: Where you drag and assemble blocks to create programs
+3. **Simulator**: A virtual micro:bit that runs your code instantly
+4. **Download button**: Transfers your program to a physical micro:bit
 
-**Key vocabulary**: First, then, next, before, after, pattern, same, different
+### Key Programming Concepts in MakeCode
 
-### Years 2-3 (Ages 6-8)
+**Events** (when something happens):
 
-**Focus**: Algorithms, simple conditionals, debugging
+- `on start` — runs once when the micro:bit powers on
+- `on button A pressed` — runs when button A is pressed
+- `forever` — runs continuously in a loop
 
-**Suitable activities**:
+**Outputs**:
 
-- Gravity Maze (beginner levels)
-- Rush Hour Junior
-- CS Unplugged binary cards (introduction)
-- Creating written instructions for peers to follow
-- "Spot the mistake" algorithm activities
+- `show leds` — display a pattern on the LED grid
+- `show string` — scroll text across the display
+- `show number` — display a number
+- `play melody` — play sounds (V2)
 
-**Key vocabulary**: Algorithm, instruction, sequence, debug, if-then
+**Inputs**:
 
-### Years 4-6 (Ages 8-11)
+- `button A is pressed` — check if a button is pressed
+- `acceleration` — read movement data
+- `light level` — read ambient brightness
+- `temperature` — read temperature in Celsius
 
-**Focus**: Binary, logic gates, complex problem-solving
+**Logic** (making decisions):
 
-**Suitable activities**:
+- `if...then` — do something only when a condition is true
+- `if...then...else` — choose between two actions
 
-- Turing Tumble (full progression)
-- Gravity Maze (intermediate to expert)
-- Circuit Maze
-- Code Master
-- Binary number challenges
-- Logic gate explorations
+**Variables** (storing information):
 
-**Key vocabulary**: Binary, bit, logic gate, AND, OR, NOT, conditional, state
+- Create a variable to keep track of a score, count, or measurement
+
+### Progression Through MakeCode
+
+| Stage | Focus | Example Projects |
+|-------|-------|------------------|
+| Beginner | Outputs only | Name badge, simple animation, heart display |
+| Developing | Inputs + outputs | Button-activated messages, shake to show random number |
+| Intermediate | Selection (if/then) | Rock-paper-scissors, step counter, reaction game |
+| Advanced | Variables + logic | Score keeper, temperature alarm, data logger |
 
 ---
 
-## 5.8 Cross-Curricular Connections
+## 5.5 The Crumble Programming Environment
 
-### Mathematics
+The Crumble software uses a similar block-based approach but is optimised for controlling external components.
 
-**Number systems**: Binary provides a concrete example of place value in a different base. Compare with decimal: just as 234 means (2 × 100) + (3 × 10) + (4 × 1), the binary number 1011 means (1 × 8) + (0 × 4) + (1 × 2) + (1 × 1) = 11.
+### Key Blocks in Crumble
 
-**Logic and reasoning**: Puzzle-solving develops logical deduction—skills directly applicable to mathematical proof and problem-solving.
+**Motor control**:
 
-**Addition and subtraction**: Turing Tumble's binary counter literally adds and subtracts, making arithmetic operations visible as physical processes.
+- `motor 1 FORWARD at 75%` — run motor forward at specified speed
+- `motor 1 STOP` — stop the motor
+- `wait 1 seconds` — pause before the next instruction
+
+**Sparkle LEDs**:
+
+- `set sparkle 0 to red` — set an individual LED colour
+- `set sparkle 0 to RGB (255, 0, 128)` — precise colour control
+
+**Inputs**:
+
+- `A is HI` — check if input A is high (e.g., button pressed)
+- `read A` — get the analogue value from a sensor (0-255)
+
+**Control structures**:
+
+- `do forever` — repeat continuously
+- `if...do` — conditional execution
+- `repeat 5 times` — fixed repetition
+
+### Example Crumble Project: Traffic Light Sequence
+
+```
+program start
+  do forever
+    set sparkle 0 to green
+    wait 3 seconds
+    set sparkle 0 to yellow
+    wait 1 seconds
+    set sparkle 0 to red
+    wait 3 seconds
+    set sparkle 0 to yellow
+    wait 1 seconds
+```
+
+This simple program introduces sequence and timing—foundational concepts that children can then apply to more complex projects.
+
+---
+
+## 5.6 Age-Appropriate Progression
+
+Physical computing can begin earlier than many teachers expect, but the complexity should match children's developmental stage.
+
+### Years 3-4 (Ages 7-9)
+
+**Focus**: Simple inputs and outputs, sequence, cause and effect
+
+**Suitable projects**:
+
+- Displaying images and animations on micro:bit LEDs
+- Button-activated messages or sounds
+- Simple Crumble LED sequences
+- Following step-by-step instructions to create known outcomes
+
+**Key concepts**:
+
+- Programs are sequences of instructions
+- Inputs trigger outputs
+- The order of instructions matters
+
+**Example activity**: "My Digital Badge"
+
+Children create a micro:bit name badge that displays their name when button A is pressed and a picture when button B is pressed. This introduces events, outputs, and the connection between physical buttons and digital responses.
+
+### Years 5-6 (Ages 9-11)
+
+**Focus**: Selection (if/then), sensors, variables, more complex projects
+
+**Suitable projects**:
+
+- Nightlight that responds to light level
+- Step counter using accelerometer
+- Rock-paper-scissors game
+- Crumble buggy that follows a line or avoids obstacles
+- Temperature data logger
+
+**Key concepts**:
+
+- Selection: programs can make decisions
+- Variables store and update information
+- Sensors provide data about the environment
+- Debugging: finding and fixing errors
+
+**Example activity**: "Smart Nightlight"
+
+Children program a micro:bit to turn its LEDs on when the room is dark and off when it's light. This requires:
+
+1. Reading the light sensor
+2. Using selection (if light level < 50, then...)
+3. Controlling output (show/clear LEDs)
+4. Testing and refining the threshold value
+
+This project naturally connects to science (light, day/night) and design (what makes a good nightlight?).
+
+---
+
+## 5.7 Cross-Curricular Connections
+
+Physical computing provides exceptional opportunities for cross-curricular learning because it involves real-world phenomena that children can observe, measure, and control.
 
 ### Science
 
-**Systems and processes**: Marble runs demonstrate input-process-output systems. Change one component, observe the effect on the whole.
+**Living things and habitats**:
 
-**Forces and motion**: Gravity powers these toys—connect to lessons on forces, motion, and energy transfer.
+- Use micro:bit light/temperature sensors to investigate habitats
+- Create a data logger to record environmental conditions over time
+- Compare conditions in different locations (sunny/shady, inside/outside)
 
-**Cause and effect**: Every puzzle reinforces scientific thinking about causation.
+**Forces and motion**:
+
+- Program a Crumble buggy and investigate how changing motor speed affects movement
+- Use accelerometer data to measure the "bumpiness" of different surfaces
+
+**Electricity**:
+
+- Understand that the Crumble/micro:bit is part of a circuit
+- Explore how adding components changes what the system can do
+- Connect to learning about conductors and insulators (which materials complete a circuit?)
+
+### Mathematics
+
+**Data handling**:
+
+- Collect temperature or light data over time
+- Calculate averages, identify patterns
+- Create graphs from sensor readings
+
+**Number**:
+
+- Program a times-table tester
+- Create a random number generator for games
+- Use variables to keep score
+
+**Geometry**:
+
+- Program a Crumble buggy to draw shapes (like Logo turtle graphics)
+- Explore angles through motor control
 
 ### Design & Technology
 
-**Mechanisms**: Gears, levers, ramps—mechanical logic toys involve the same mechanisms studied in D&T.
+**Control systems**:
 
-**Iterative design**: The puzzle-solving process models engineering design: try, test, evaluate, improve.
+- Design and make products with programmable components
+- Understand how everyday products use similar systems
+- Evaluate and improve designs based on testing
 
-**Problem specification**: Each puzzle presents a clear design brief with constraints and success criteria.
+**Mechanisms**:
 
-### English
+- Combine motors with levers, pulleys, and gears
+- Create moving models (fairground rides, vehicles, animated scenes)
 
-**Instructional writing**: After solving a puzzle, children write instructions for others to follow.
+### Geography
 
-**Explanation texts**: Describe how a mechanism works, using appropriate technical vocabulary.
+**Weather and climate**:
 
-**Reasoning and justification**: Explain why a solution works, defending design choices.
+- Use micro:bit as a simple weather station
+- Compare temperature data from different locations
+- Understand how sensors work in real weather monitoring
 
----
+**Fieldwork**:
 
-## 5.9 Example Activities
-
-### Activity 1: Binary Birthday Numbers (Years 3-4)
-
-**Learning objective**: Represent numbers in binary using physical objects.
-
-**Resources**: Five large cards showing 16, 8, 4, 2, 1 dots (or use CS Unplugged printables); number cards 0-31.
-
-**Activity**:
-
-1. Introduce the five binary cards. Explain that computers only use two digits: 0 and 1.
-2. Demonstrate: "Face-up means 1, face-down means 0. To make a number, add the values of face-up cards."
-3. Challenge: "What's your age? Can you make it with these cards?"
-4. Children work in pairs to represent different numbers.
-5. Extension: "What's the largest number you can make? The smallest? How many different numbers are possible?"
-
-**Assessment**: Can children reliably convert between decimal and 5-bit binary?
-
-### Activity 2: Gravity Maze Challenge Stations (Years 4-6)
-
-**Learning objective**: Develop spatial reasoning and systematic problem-solving strategies.
-
-**Resources**: Multiple Gravity Maze sets (or rotate through one); challenge cards sorted by difficulty.
-
-**Activity**:
-
-1. Set up 4-5 stations around the room, each with a Gravity Maze at different difficulty levels.
-2. Children rotate through stations in pairs, attempting one challenge at each.
-3. Provide "strategy cards" prompting useful questions:
-   - "Where does the marble need to go?"
-   - "What's the most direct path?"
-   - "Which tower piece would help here?"
-4. Pairs record their strategies and any "stuck points" in learning journals.
-5. Conclude with whole-class discussion: "What strategies helped you solve puzzles?"
-
-**Assessment**: Observe problem-solving approaches; review learning journal reflections.
-
-### Activity 3: Turing Tumble Computer Building (Years 5-6)
-
-**Learning objective**: Understand how simple switches can perform computation.
-
-**Resources**: Turing Tumble set; puzzle book; optional: video introduction.
-
-**Activity**:
-
-1. Show a completed Turing Tumble setup. Release marbles and observe.
-2. Ask: "What do you notice? What do you wonder?"
-3. Introduce components one at a time (ramps, crossovers, bits) with mini-challenges.
-4. Pairs work through early puzzles (1-10), recording solutions.
-5. When ready, introduce the binary counter concept (puzzles 21+).
-6. Challenge: "Can you build a counter that counts to 8?"
-
-**Assessment**: Successfully complete progressively difficult puzzles; articulate how bits store information.
-
-### Activity 4: Logic Gate Detectives (Years 5-6)
-
-**Learning objective**: Understand AND, OR, and NOT logic gates.
-
-**Resources**: Printed logic gate symbols and truth tables; simple circuit diagrams; optional: Turing Tumble with gear bits.
-
-**Activity**:
-
-1. Present a mystery: "The security system only unlocks when conditions are right. Can you figure out the rules?"
-2. Show a simple AND gate scenario (two buttons, both must be pressed).
-3. Children test different input combinations and complete truth tables.
-4. Repeat with OR gate (either button works) and NOT gate (press to turn off).
-5. Challenge: Combine gates to create more complex rules.
-6. Connection: Show how gear bits in Turing Tumble create similar logic.
-
-**Assessment**: Complete truth tables accurately; explain gate behaviour in own words.
+- Take micro:bits outside to collect environmental data
+- Map light levels or temperatures around the school grounds
 
 ---
 
-## 5.10 Practical Considerations
+## 5.8 Example Activities
 
-### Building a Collection
+### Activity 1: Emotion Badge (Years 3-4)
 
-Start small and expand based on what works:
+**Learning objective**: Use button inputs to control display outputs.
 
-| Priority | Item | Approximate Cost | Use |
-|----------|------|------------------|-----|
-| Essential | CS Unplugged materials | Free (printable) | Whole-class activities |
-| High | Turing Tumble (1-2 sets) | £50-60 each | Small group rotation |
-| High | Gravity Maze (2-3 sets) | £25-30 each | Logic puzzle stations |
-| Medium | Rush Hour | £20-25 | Independent challenge |
-| Medium | Code Master | £20-25 | Programming logic |
-| Optional | GraviTrax starter set | £40-50 | Open-ended construction |
+**Resources**: micro:bit, computer with MakeCode, USB cable.
 
-### Storage and Organisation
+**Activity**:
 
-- Store Turing Tumble pieces in compartmented boxes—losing pieces significantly impacts usability
-- Keep challenge cards with each puzzle set
-- Create a "puzzle library" where children can self-select activities during choosing time
-- Photograph solved puzzles before tidying away (children love seeing their achievements)
+1. Discuss: How do we show emotions? Can a micro:bit show emotions?
+2. Demonstrate: Press button A → happy face; press button B → sad face
+3. Children create their own emotion badge with two different emotions
+4. Extension: Add a third emotion using A+B pressed together
+5. Children wear their badges and demonstrate to the class
 
-### Managing Multiple Activities
+**Assessment focus**: Correct use of event blocks; understanding that buttons are inputs.
 
-Consider a "puzzle rotation" model:
+### Activity 2: Shake Counter (Years 4-5)
 
-- Multiple puzzle types available simultaneously
-- Children work in pairs or small groups
-- Rotate after fixed time (15-20 minutes)
-- Teacher circulates, asking probing questions rather than giving answers
+**Learning objective**: Use variables to count events.
 
-### Assessment Without Screens
+**Resources**: micro:bit, MakeCode.
 
-- **Observation**: Watch problem-solving processes, not just outcomes
-- **Verbalisation**: Ask children to explain their thinking
-- **Learning journals**: Children sketch solutions and reflect on strategies
-- **Challenge progression**: Track which puzzle levels each child completes
-- **Transfer tasks**: Can children apply strategies to new, unfamiliar puzzles?
+**Activity**:
+
+1. Challenge: Can you create a program that counts how many times the micro:bit is shaken?
+2. Introduce variables: a "box" that stores a number
+3. Guide children to create a variable called "shakes"
+4. On shake: add 1 to shakes, then show the number
+5. Add a reset: on button A pressed, set shakes to 0
+6. Test: Who can shake to exactly 10? 20?
+
+**Assessment focus**: Correct use of variables; understanding that variables change during program execution.
+
+### Activity 3: Smart Greenhouse (Years 5-6)
+
+**Learning objective**: Use sensor input and selection to create an automated system.
+
+**Resources**: micro:bit, MakeCode, optional: cardboard/plastic greenhouse model.
+
+**Activity**:
+
+1. Discuss: What do plants need? How do greenhouses help?
+2. Challenge: Design a system that warns if conditions are wrong for plants
+3. Planning: What sensor will you use? What output? What threshold?
+4. Programming: If temperature > 25, show warning icon; else show tick
+5. Testing: Warm the micro:bit with hands; does it respond correctly?
+6. Extension: Add light level monitoring; create different warnings
+
+**Assessment focus**: Appropriate use of selection; ability to set and test threshold values.
+
+### Activity 4: Crumble Buggy Challenge (Years 5-6)
+
+**Learning objective**: Program motors to navigate a course.
+
+**Resources**: Crumble controller, motors, buggy chassis, Crumble software.
+
+**Activity**:
+
+1. Build: Assemble buggy following instructions
+2. Explore: Test motor forward, backward, stop commands
+3. Challenge 1: Program buggy to travel in a straight line for exactly 1 metre
+4. Challenge 2: Program buggy to travel in a square (forward, turn, forward, turn...)
+5. Challenge 3: Navigate an obstacle course
+6. Evaluate: What worked? What would you change?
+
+**Assessment focus**: Iterative design; relationship between code and physical movement; debugging.
 
 ---
 
-## 5.11 Resources
+## 5.9 Practical Considerations
 
-### Products
+### Equipment and Setup
 
-- **Turing Tumble**: [turingtumble.com](https://www.turingtumble.com/) | [upperstory.com](https://upperstory.com/)
-- **ThinkFun (Gravity Maze, Rush Hour, etc.)**: [thinkfun.com](https://www.thinkfun.com/)
-- **GraviTrax**: [ravensburger.com](https://www.ravensburger.com/gravitrax/)
+**Computers**: MakeCode runs in a web browser (Chrome or Edge recommended). Crumble requires software installation. Both work on Windows, Mac, and Chromebook.
 
-### Free Resources
+**Cables**: USB cables are needed to transfer programs. Micro USB for micro:bit V1; USB-C for V2. Have spares available.
 
-- **CS Unplugged**: [csunplugged.org](https://csunplugged.org/) — extensive free activities and printables
-- **Bebras Challenge**: [bebras.org](https://bebras.org/) — computational thinking problems, many unplugged-suitable
-- **Turing Tumble Educator Resources**: [upperstory.com/turingtumble/edu](https://upperstory.com/turingtumble/edu/)
+**Batteries**: micro:bit uses 2×AAA batteries for untethered use. Crumble uses 3×AA. Rechargeable batteries are cost-effective long-term.
+
+**Storage**: Designate clear storage for microcontrollers, cables, and accessories. Consider labelled boxes or bags for each group's equipment.
+
+### Troubleshooting Common Issues
+
+| Problem | Likely Cause | Solution |
+|---------|--------------|----------|
+| Program won't download | micro:bit not connected | Check USB connection; try different cable/port |
+| micro:bit not appearing as drive | Driver issue | Use WebUSB pairing in MakeCode |
+| Program doesn't do anything | Code error | Test in simulator first; check event blocks |
+| Crumble not detected | Software issue | Reinstall; try different USB port |
+| Motors not working | Connection issue | Check crocodile clips; check battery power |
+| Erratic behaviour | Low battery | Replace/recharge batteries |
+
+### Assessment Approaches
+
+**Observation**: Watch children as they work—do they test and refine? Do they debug systematically?
+
+**Documentation**: Have children save their programs and write explanations of how they work.
+
+**Peer demonstration**: Children explain their projects to classmates.
+
+**Design journals**: Record the design process, including failed attempts and improvements.
+
+**Success criteria checklists**: Child-friendly lists of what the program should do.
+
+---
+
+## 5.10 Resources
+
+### Official Resources
+
+- **BBC micro:bit**: [https://microbit.org/](https://microbit.org/)
+- **Microsoft MakeCode for micro:bit**: [https://makecode.microbit.org/](https://makecode.microbit.org/)
+- **Crumble (Redfern Electronics)**: [https://redfernelectronics.co.uk/crumble/](https://redfernelectronics.co.uk/crumble/)
+- **Scratch micro:bit extension**: [https://scratch.mit.edu/microbit](https://scratch.mit.edu/microbit)
+
+### Lesson Resources
+
+- **micro:bit Classroom**: [https://microbit.org/teach/](https://microbit.org/teach/) — free lesson plans, units of work, and training
+- **Teach Computing Curriculum (UK-based, freely accessible)**: [https://teachcomputing.org/](https://teachcomputing.org/) — includes physical computing units adaptable for Malta
+- **Crumble Projects**: [https://redfernelectronics.co.uk/category/crumble-projects/](https://redfernelectronics.co.uk/category/crumble-projects/)
 
 ### Research
 
-- Bell, T., & Vahrenhold, J. (2018). CS Unplugged—How is it used, and does it work? In *Adventures Between Lower Bounds and Higher Altitudes* (pp. 497–521). Springer. [DOI: 10.1007/978-3-319-98355-4_29](https://doi.org/10.1007/978-3-319-98355-4_29)
+- Hodges, S., Sentance, S., Finney, J., & Ball, T. (2020). Physical computing: A key element of modern computer science education. *Computer*, 53(4), 20–30.
 
-- Brackmann, C. P., Román-González, M., Robles, G., Moreno-León, J., Casali, A., & Barone, D. (2017). Development of computational thinking skills through unplugged activities in primary school. *Proceedings of the 12th Workshop on Primary and Secondary Computing Education*, 65–72. [DOI: 10.1145/3137065.3137069](https://doi.org/10.1145/3137065.3137069)
+- Sentance, S., Waite, J., Yeomans, L., & MacLeod, E. (2017). Teaching with physical computing devices: The BBC micro:bit initiative. *Proceedings of the 12th Workshop on Primary and Secondary Computing Education*, 87–96.
 
-- Huang, W., & Looi, C. K. (2023). Fostering computational thinking through unplugged activities: A systematic literature review and meta-analysis. *International Journal of STEM Education*, 10, Article 47. [DOI: 10.1186/s40594-023-00434-7](https://doi.org/10.1186/s40594-023-00434-7)
+- Przybylla, M., & Romeike, R. (2014). Physical computing and its scope—towards a constructionist computer science curriculum with physical computing. *Informatics in Education*, 13(2), 241–254.
 
 ---
 
-## 5.12 Summary
+## 5.11 Summary
 
-Mechanical logic toys offer a unique and powerful approach to teaching computational thinking. By stripping away screens, software, and syntax, they allow children to engage directly with the fundamental ideas that underpin computing.
+Programmable microcontrollers represent a significant step in children's computing education journey. They transform programming from an abstract, screen-based activity into something tangible, visible, and connected to the real world.
 
 **Key takeaways from this section**:
 
-1. **Unplugged doesn't mean inferior**: Research shows that unplugged activities can be highly effective for developing computational thinking, particularly for primary-age children.
+1. **The IPO model is fundamental**: Input-process-output provides a framework for understanding all interactive systems, from simple classroom projects to complex real-world technology.
 
-2. **The best approach combines both**: Use unplugged activities to introduce concepts, then transfer to screen-based programming. Each reinforces the other.
+2. **Built-in features matter**: The micro:bit's integrated sensors and display mean children can create meaningful projects without additional components. The Crumble's motor drivers make it ideal for D&T projects.
 
-3. **Turing Tumble is genuinely computational**: Unlike general puzzle toys, Turing Tumble demonstrates actual computational principles—binary, logic gates, state—in a tangible form.
+3. **Block-based programming bridges the gap**: MakeCode and Crumble software allow children to focus on computational thinking concepts without struggling with syntax.
 
-4. **Spatial reasoning supports CT**: Puzzles like Gravity Maze develop the visualisation and planning skills that underpin programming ability.
+4. **Progression is key**: Start with outputs only, introduce inputs, then selection, then variables. Each step builds on the last.
 
-5. **Accessibility is a genuine advantage**: These tools work regardless of school technology infrastructure, home digital access, or teacher ICT confidence.
+5. **Cross-curricular connections are natural**: Physical computing inherently involves science, mathematics, and design—embrace these connections rather than treating computing in isolation.
 
-6. **The thinking is the learning**: Without troubleshooting software, children focus entirely on problem-solving—decomposition, pattern recognition, abstraction, and algorithm design.
+6. **The real-world connection motivates learners**: When children see their code controlling something physical, abstract concepts become concrete and engagement increases.
 
-As you introduce mechanical logic toys in your classroom, watch how children engage with them. The focused concentration, the collaborative discussion, the satisfaction when a solution works—these are signs of deep computational thinking in action. And when those same children later encounter variables, conditionals, and loops in Scratch or Python, they'll have concrete mental models to draw upon.
+As you introduce microcontrollers to your class, remember that the goal is not mastery of a particular device, but the development of computational thinking and an understanding of how the digital and physical worlds connect. These little computers are windows into the technology that shapes our world—and through them, children can begin to see themselves not just as users of technology, but as its creators.
 
 ---
 
-**Preparation for Session 6**: Before the next session, try at least one unplugged activity with your class or a small group. Notice: What computational thinking skills were evident? How did children approach problems? What would you do differently next time?
+!!! tip "Fieldwork Task"
+    Choose one microcontroller activity from this section to try with your learners. Use the lesson planning frameworks from Section 2 to design your session, and document your experience in your reflective diary.
+
+---
+
+**Ready to continue?** Head to [Section 6: Mechanical Logic Toys](section-6.md) to explore computational thinking without electricity—Turing Tumble, Gravity Maze, and unplugged approaches.
 
 ---
 

@@ -919,7 +919,7 @@ Write your thoughts in your reflective diary. Return to them at the end of the c
 
 ---
 
-**Ready to continue?** Head to [Section 2: Robots in the Classroom](section-2.md) to explore floor robots and how to use them in your teaching.
+**Ready to continue?** Head to [Section 2: Designing and Assessing Lessons](section-2.md) to establish the pedagogical frameworks you'll use throughout this course.
 
 ---
 

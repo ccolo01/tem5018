@@ -1,442 +1,878 @@
-# Section 3: Tangible Interfaces — When Code Becomes Physical
-
-!!! abstract "Learning Objectives"
-    By the end of this section, you will be able to:
-    
-    - Explain the pedagogical rationale for tangible programming interfaces
-    - Distinguish between different categories of tangible coding tools
-    - Identify appropriate tangible interfaces for different age groups and learning needs
-    - Design cross-curricular activities using tangible programming tools
-    - Apply tangible interfaces to support learners with diverse needs
+# Section 3: Robots in the Classroom — Directional Thinking and Early Algorithms
 
 ---
 
-## 3.1 Introduction: From Screens to Hands
+## 3.1 Introduction: Why Floor Robots?
 
-In the previous section, we explored floor robots—devices that children program through button presses or screen-based apps. This section takes us deeper into the world of **tangible interfaces**: tools that allow children to create programs by physically manipulating objects rather than interacting with screens.
+In Section 1, you explored the foundations of physical computing and its connection to computational thinking. Now we turn to one of the most accessible and powerful tools for bringing CT to life in primary classrooms: floor robots.
 
-Why does this matter? Consider a typical scene in a primary classroom: a child sits at a tablet, tapping icons to create a sequence. Now imagine a different scene: three children gathered around a table, arranging coloured wooden blocks, debating which piece should come next, physically moving and rearranging their "code" before sending it to a robot. Both children are learning to program, but the second scenario offers something qualitatively different—embodied, collaborative, and tactile engagement with computational thinking.
+Floor robots are programmable devices that move through physical space according to children's instructions. They're called "floor robots" because they typically operate on the floor (or a tabletop), navigating mats, mazes, and obstacle courses that children create. Unlike screen-based programming, where code produces virtual effects, floor robots make algorithms visible and tangible. When a child programs a sequence, they watch their robot execute it in real space, with all the drama of success, failure, and unexpected outcomes that entails.
 
-Research by Horn and colleagues at the Boston Museum of Science found that visitors were significantly more likely to engage with a tangible programming interface than an equivalent graphical one, spent longer interacting with it, and—crucially—children were more likely to become actively involved when using tangible blocks rather than on-screen equivalents (Horn et al., 2009). This finding aligns with what developmental psychologists have long understood: young children learn best through direct manipulation of physical objects.
+For primary teachers, floor robots offer a particularly compelling entry point into physical computing. They require minimal technical setup, work with children from Early Years through upper primary, and integrate naturally with subjects across the curriculum. A Bee-Bot navigating a story mat is simultaneously a literacy lesson, a maths lesson, and a computing lesson. A Pro-Bot drawing geometric shapes connects programming to mathematical reasoning in ways that textbooks cannot.
 
-!!! quote "From the Research"
-    "Tangible user interfaces are concerned with providing tangible representations to digital information and controls, allowing users to quite literally grasp data with their hands and effect functionality by physical manipulations of these representations."
-    
-    — Shaer & Hornecker (2010)
-
-For primary teachers, tangible interfaces offer practical advantages beyond pedagogy. They often require no screens, reducing concerns about screen time. They naturally support collaborative work, as multiple children can manipulate the same physical materials simultaneously. And they provide a bridge between the abstract world of programming and the concrete, manipulable world that young children inhabit.
+In this section, we'll explore the landscape of floor robots available for primary education, examine how they develop specific CT skills, consider practical classroom strategies, and work through detailed examples of cross-curricular integration. By the end, you'll have a clear understanding of how to select, deploy, and assess learning with floor robots in your own teaching context.
 
 ---
 
-## 3.2 The Pedagogical Case for Tangible Programming
+## 3.2 The Floor Robot Landscape
 
-Before examining specific tools, let's understand why tangible interfaces are particularly powerful for young learners.
+The market offers a range of floor robots designed for educational use. Understanding the differences between them helps you choose the right tool for your learners and your learning intentions.
 
-### Embodied Cognition in Action
+### The Bee-Bot Family
 
-As we discussed in Section 1, cognitive science increasingly recognises that thinking is not confined to the brain—we think with our bodies, through gesture, movement, and manipulation. When children arrange physical coding blocks, they are not merely inputting commands; they are *thinking through their hands*.
+The [Bee-Bot](https://www.tts-group.co.uk/bee-bot-programmable-floor-robot/1015268.html){:target="_blank"} from TTS Group is perhaps the most widely recognised floor robot in primary education internationally. Designed in the shape of a friendly bee, it has become a classroom staple across Europe, including Malta, since its introduction in the early 2000s.
 
-Research on tangible user interfaces (TUIs) in education has identified several key advantages (Liang et al., 2021):
+**Key features of Bee-Bot:**
 
-1. **Novice-friendly**: Physical objects provide immediate, intuitive feedback. A block that won't fit signals an error before any code runs.
+- Seven buttons on top: Forward, Back, Left Turn (90°), Right Turn (90°), Pause, Clear, and Go
+- Each forward/back movement covers 15cm; each turn is exactly 90°
+- Memory capacity of up to 40 steps (200 in newer models)
+- Audio and visual feedback (beeps and flashing eyes)
+- Rechargeable battery (via docking station) or standard batteries
+- Robust construction suited to young children's handling
 
-2. **Cognitive support**: Arranging physical objects reduces cognitive load. Children can see their entire program laid out spatially, making it easier to reason about sequence and identify errors.
+Bee-Bot's simplicity is its strength. There's no screen, no app required, and no complex setup. Children press buttons on the robot itself, building a sequence that executes when they press "Go". This directness makes Bee-Bot accessible to children as young as three or four years old, while still offering meaningful challenges for older primary learners.
 
-3. **Promotes initiative**: Children can experiment freely, rearranging blocks without fear of "breaking" anything. There is no wrong way to pick up a block.
+**Blue-Bot** is Bee-Bot's more advanced sibling. It retains all of Bee-Bot's functionality but adds:
 
-4. **Encourages collaboration**: When code is physical, multiple children can contribute simultaneously. There's no single keyboard or mouse to fight over.
+- Bluetooth connectivity for tablet/computer control via the free [Blue-Bot app](https://apps.apple.com/us/app/blue-bot/id957753068){:target="_blank"}
+- 45° turns (when using the app)
+- Repeat/loop functionality (when using the app)
+- Transparent shell so children can see the internal components
+- Robot-to-robot communication (Blue-Bots can detect each other)
+- Audio recording capability (children can record sounds for each button)
+- Compatibility with the TacTile Code Reader for tangible programming
 
-5. **Authentic context**: Physical programming feels like building or creating, aligning with children's natural play patterns.
+Blue-Bot bridges the gap between simple button programming and more sophisticated screen-based coding, making it ideal for progression within Years 1-2 and into Years 3-4.
 
-### Beyond "Screen-Free"
+### Pro-Bot: Introducing Logo Programming
 
-It would be easy to reduce the value of tangible interfaces to "less screen time"—and while reduced screen exposure is a genuine benefit for young children, the pedagogical advantages run deeper. Tangible programming changes the *social dynamics* of learning.
+[Pro-Bot](https://www.terrapinlogo.com/probot.html){:target="_blank"} takes floor robot programming to the next level. Shaped like a car rather than a bee, Pro-Bot introduces children to Logo-style programming with precise distance and angle control.
 
-Horn et al. (2009) observed that with tangible interfaces, group programming became more egalitarian: rather than one child controlling a mouse while others watched, multiple children could physically contribute to building a program. This has particular implications for gender equity in computing education, as the same research found that girls were significantly more likely to take an active role when using tangible rather than graphical interfaces.
+**Key features of Pro-Bot:**
 
----
+- LCD screen displaying the program
+- Precise distance control (movements specified in centimetres)
+- Precise angle control (any angle, not just 90°)
+- Pen holder for drawing shapes and patterns
+- Touch sensors and light sensor for interactive programming
+- Procedure capability (children can define and reuse their own commands)
+- USB connectivity for computer programming
 
-## 3.3 Categories of Tangible Programming Tools
+Pro-Bot is particularly powerful for mathematics. When a child programs "FORWARD 50, RIGHT 90, FORWARD 50, RIGHT 90, FORWARD 50, RIGHT 90, FORWARD 50, RIGHT 90" to draw a square, they're directly experiencing the relationship between programming, geometry, and measurement. The pen holder makes the algorithm visible as a drawn shape—a compelling connection between abstract code and concrete result.
 
-Tangible programming tools for primary education come in several forms. Understanding these categories will help you choose appropriate tools for your learning objectives.
+Pro-Bot is typically most suitable for children in Years 3–6, though confident Year 2 children can begin exploring its basic functions.
 
-### 3.3.1 Button-Based Robots
+### Thymio: Sensors and Behaviours
 
-The simplest form of tangible programming, these robots are programmed through physical buttons on the robot itself.
+[Thymio](https://www.thymio.org/){:target="_blank"} is an open-source educational robot developed by EPFL (the Swiss Federal Institute of Technology) and Mobsya. Unlike Bee-Bot's focus on sequential programming, Thymio emphasises sensor-based behaviours and event-driven programming.
 
-**Examples**: Bee-Bot, Blue-Bot (on-device programming), Botley
+**Key features of Thymio:**
 
-**How they work**: Children press directional buttons in sequence, building up a program stored in the robot's memory. When they press "Go," the robot executes the sequence.
+- Multiple infrared sensors (front, back, and ground-facing)
+- Accelerometer for detecting tilt and movement
+- Microphone and speaker
+- Multicolour LED display
+- Six pre-programmed behaviour modes (indicated by colour)
+- Programmable via VPL (Visual Programming Language), Blockly, Scratch, or text-based languages
+- Open-source design with extensive documentation
 
-**Key characteristics**:
+Thymio's pre-programmed modes make it immediately accessible without any programming:
 
-- No external components required
-- Highly intuitive for very young children (ages 4-6)
-- Limited program complexity
-- Sequential only—no visual representation of the full program
+| Colour | Behaviour |
+|--------|-----------|
+| **Green** | Friendly — follows nearby objects |
+| **Yellow** | Explorer — avoids obstacles |
+| **Red** | Fearful — flees from nearby objects |
+| **Purple** | Obedient — responds to button presses |
+| **Cyan** | Investigator — follows lines |
+| **Blue** | Attentive — responds to sound (claps) |
 
-**When to use**: First introduction to programming concepts, whole-class demonstrations, early years settings.
+These modes allow children to explore cause-and-effect relationships before any formal programming. "Why does it follow my hand when it's green but run away when it's red?" This inquiry-based exploration builds intuitions about sensors and conditional logic.
 
-### 3.3.2 Tile/Block-Based Systems
+When children progress to programming Thymio, they encounter event-driven concepts: "When the front sensor detects an obstacle, turn left." This if-then logic is fundamental to computing and connects directly to decision-making in everyday life.
 
-These systems use physical tiles or blocks that children arrange to create programs. The arrangement is then read by a device (robot, reader, or scanner).
+### LEGO Education: Building and Programming
 
-**Examples**: 
+LEGO Education offers robotics solutions that combine the familiar joy of LEGO building with programmable motors and sensors. The two most relevant for primary education are:
 
-- **[Cubetto](https://primotoys.com/)** (Primo Toys): Wooden robot with coloured coding blocks that slot into a control board. Forward, left, right, backward, and function blocks create sequences for the wooden robot to execute. Designed for ages 3+ with no screen required.
+**[LEGO Education SPIKE Essential](https://education.lego.com/en-us/products/lego-education-spike-essential-set/45345/){:target="_blank"}** is designed specifically for primary school (grades 1–5/ages 5–10). It includes:
 
-- **[KUBO](https://kubo-robot.com/)**: Uses TagTile® puzzle-piece blocks that the robot drives over to "read" the program. Tiles snap together like jigsaw pieces. Covers sequences, functions, subroutines, and loops.
+- 449 LEGO elements including minifigure characters
+- Small Hub with two motor/sensor ports
+- One motor and one colour sensor
+- Icon-based and word-block programming via the SPIKE App
+- Curriculum-aligned lesson plans across literacy, maths, science, and social-emotional learning
 
-- **[Scottie Go!](https://scottiego.com/en/)**: Cardboard tiles that children arrange on a surface, then scan with a tablet camera. An app interprets the tile arrangement and animates a character following the program. Combines tangible manipulation with screen-based feedback.
+SPIKE Essential differs from floor robots like Bee-Bot in that children build their own creations before programming them. This adds a design and construction phase that develops spatial reasoning and engineering thinking alongside CT skills.
 
-- **Blue-Bot TacTile Reader** (TTS): Physical tiles placed in a reader that transmits programs to Blue-Bot via Bluetooth. Up to three readers can be connected for longer programs (up to 30 steps).
+**[LEGO Education WeDo 2.0](https://education.lego.com/en-us/products/lego-education-wedo-2-0-core-set/45300/){:target="_blank"}** (now retired but still widely available and supported until 2026) offers:
 
-**Key characteristics**:
+- 280 LEGO elements
+- Smarthub (Bluetooth-enabled)
+- One motor, one motion sensor, one tilt sensor
+- Drag-and-drop programming via tablet or computer
+- Science and engineering curriculum focus
 
-- Visual representation of full program before execution
-- Supports debugging through physical rearrangement
-- Varying levels of complexity (simple sequences to loops and conditionals)
-- Some require companion devices; others are fully screen-free
+WeDo 2.0's strength lies in its project-based approach. Children might build Milo the Science Rover, then program it to move, respond to obstacles, and collect data. This integration of building, programming, and scientific inquiry makes WeDo particularly powerful for cross-curricular work.
 
-**When to use**: Developing debugging skills, introducing loops and functions, collaborative programming activities.
+### Comparison Table: Choosing Your Robot
 
-### 3.3.3 Hybrid Tangible-Digital Systems
+| Feature | Bee-Bot | Blue-Bot | Pro-Bot | Thymio | SPIKE Essential |
+|---------|---------|----------|---------|--------|-----------------|
+| **Age range** | 3–7+ | 4–9+ | 7–11+ | 5–11+ | 5–10+ |
+| **Programming method** | Buttons on robot | Buttons, app, or TacTile | Keypad and LCD | Pre-programmed modes, VPL, Blockly | Icon/word blocks via app |
+| **Movement precision** | 15cm steps, 90° turns | 15cm steps, 45°/90° turns | Any distance, any angle | Variable | Motor-controlled |
+| **Sensors** | None | Robot detection | Touch, light | IR (×9), accelerometer, mic | Colour sensor |
+| **Construction** | Fixed | Fixed | Fixed | Fixed | Child-built |
+| **Screen required** | No | Optional | Built-in LCD | Optional | Yes (tablet/computer) |
+| **Best for** | Early sequencing, pre-readers | Progression from Bee-Bot | Maths, geometry, Logo | Sensors, behaviours, inquiry | Building, cross-curricular projects |
+| **Approximate cost (single unit)** | €80–100 | €100–140 | €115–150 | €150–210 | €290–350 (set) |
 
-These systems combine physical manipulatives with screen-based feedback, using cameras or sensors to bridge the physical and digital worlds.
+### Making Your Choice
 
-**Examples**:
+The "best" robot depends on your context:
 
-- **[Osmo Coding](https://www.playosmo.com/)**: Uses magnetic coding blocks that children arrange in front of an iPad. The device's camera (with a reflector attachment) recognises the block arrangement and controls an on-screen character. Games include Coding Awbie (basic sequencing), Coding Jam (music and loops), and Coding Duo (collaborative puzzles).
+- **For Early Years and Years 1-2 beginners**: Start with Bee-Bot. Its simplicity allows focus on sequencing without technical barriers.
+- **For Years 2-4 progression**: Blue-Bot extends Bee-Bot learning with app-based programming, loops, and 45° turns.
+- **For upper primary mathematics (Years 5-6)**: Pro-Bot's precision and Logo-style commands make it ideal for geometry and measurement.
+- **For inquiry-based science**: Thymio's sensors and behaviours support exploration of cause-and-effect and conditional logic.
+- **For design and construction**: SPIKE Essential combines building with programming for engineering-focused projects.
 
-- **Scottie Go!**: As mentioned above, uses augmented reality to connect physical tiles with digital animation.
+Many schools find value in having multiple robot types available, using simpler robots for younger children and progressing to more complex ones as skills develop.
 
-**Key characteristics**:
-
-- Rich visual and audio feedback
-- Engaging game-like experiences
-- Requires tablet or compatible device
-- Bridges physical manipulation with digital outcomes
-
-**When to use**: Engaging reluctant learners, adding game elements to programming, connecting coding with digital creativity.
-
-### 3.3.4 Creative/Invention Interfaces
-
-These tools allow children to create their own interfaces and controllers, extending computing into physical making.
-
-**Example**: 
-
-- **[Makey Makey](https://makeymakey.com/)**: A circuit board that connects everyday objects to a computer. Any conductive material (fruit, playdough, foil, pencil graphite, even people!) can become a keyboard key or mouse click. Originally developed at MIT Media Lab.
-
-**Key characteristics**:
-
-- Open-ended creativity
-- Connects coding with science (conductivity, circuits)
-- Works with any software that accepts keyboard input
-- Encourages invention and physical making
-
-**When to use**: Cross-curricular projects, invention challenges, connecting computing with science and art.
-
----
-
-## 3.4 Choosing the Right Interface
-
-With so many options available, how do you choose? Consider these factors:
-
-### Age and Developmental Stage
-
-| Age Group | Recommended Interfaces | Rationale |
-|-----------|----------------------|-----------|
-| 3-5 years | Cubetto, Bee-Bot, Botley | Completely screen-free, minimal buttons, large manipulables |
-| 5-7 years | KUBO, Blue-Bot with TacTile, Cubetto | Tile-based systems introduce visual program representation |
-| 7-9 years | Scottie Go!, Osmo Coding, Makey Makey | Hybrid systems add complexity; creative tools support open-ended projects |
-| 9-11 years | Makey Makey + Scratch, advanced tile systems | Ready for combining tangible input with on-screen programming |
-
-### Learning Objectives
-
-**If you want to develop...**
-
-- **Sequencing**: Any tile-based system that shows the full program
-- **Debugging**: TacTile Reader (errors visible in physical arrangement), KUBO
-- **Loops and repetition**: Cubetto (function blocks), KUBO Coding+, Scottie Go!
-- **Collaboration**: Large tile systems where multiple children can contribute
-- **Creativity**: Makey Makey for invention, Osmo for game-like engagement
-- **Cross-curricular connections**: Makey Makey (science), Scottie Go! (geography, storytelling)
-
-### Practical Constraints
-
-| Factor | Questions to Consider |
-|--------|----------------------|
-| Budget | How many units needed? Cost per child? |
-| Screen policy | Does your school have screen-time limits? |
-| Space | Room for floor work? Table space for tiles? |
-| Charging | Battery life? Charging infrastructure? |
-| Durability | How robust are components? Suitable for young children? |
-| Storage | Where will tiles/blocks be kept? Easy to organise? |
+!!! tip "Starting Small"
+    If budget is limited, start with a small set of Bee-Bots (6 is enough for paired work in rotations). You can always expand later based on what works in your classroom.
 
 ---
 
-## 3.5 Supporting Diverse Learners
+## 3.3 Programming Concepts Through Movement
 
-One of the most significant advantages of tangible interfaces is their accessibility for learners with diverse needs.
+Floor robots are powerful teaching tools because they make abstract programming concepts concrete and visible. Let's examine how specific CT and programming concepts emerge through floor robot activities.
 
-### Visual Learners
+### Sequencing: The Foundation
 
-Tile-based systems allow children to see their entire program laid out spatially before execution. This visual representation supports planning and debugging in ways that sequential button-pressing cannot.
+Sequencing—arranging instructions in the correct order—is the most fundamental programming concept, and floor robots teach it beautifully.
 
-### Kinaesthetic Learners
+When a child programs a Bee-Bot to travel from one corner of a mat to another, they must think through each step:
 
-For children who learn best through movement and touch, tangible programming is transformative. Rather than sitting still and tapping a screen, they can walk around a table, pick up blocks, feel different textures, and physically build their programs.
+1. Forward (one square)
+2. Forward (one square)
+3. Turn Right
+4. Forward (one square)
+5. Forward (one square)
 
-### Children with Fine Motor Challenges
+The sequence matters. "Turn Right, Forward, Forward, Forward, Forward" produces a completely different result than "Forward, Forward, Turn Right, Forward, Forward." The robot reveals whether the sequence is correct—there's no hiding from the outcome.
 
-Many tangible interfaces use large, easy-to-grasp components. Cubetto's wooden blocks, KUBO's TagTiles, and TacTile Reader tiles are all designed for small hands. This can be more accessible than precise screen tapping or mouse control.
+**Teaching sequencing effectively:**
 
-### English as an Additional Language (EAL)
+- Begin with short sequences (2–3 steps) and gradually increase complexity
+- Have children predict what will happen before pressing Go
+- Use planning cards or whiteboards to record sequences before programming
+- Celebrate the process of sequencing, not just successful outcomes
 
-Tangible systems often use icons rather than text, reducing language barriers. A forward arrow means forward regardless of the child's first language. Physical demonstration is also easier than verbal explanation.
+### Direction and Spatial Reasoning
 
-### Children with Attention Difficulties
+Floor robots demand spatial thinking. Children must:
 
-The multi-sensory, hands-on nature of tangible programming can help maintain engagement. The lack of on-screen distractions (notifications, other apps) creates a more focused environment.
+- Understand left and right from the robot's perspective (not their own)
+- Visualise the path before programming
+- Mentally rotate their viewpoint to match the robot's orientation
 
-### Collaborative Learning Needs
+This is genuinely challenging, especially for younger children. A child standing behind a Bee-Bot facing away from them must recognise that "Turn Left" means the robot's left, which appears as right from their viewpoint.
 
-For children who benefit from peer support, tangible interfaces naturally enable collaboration. More confident children can model block placement while others contribute ideas. The physical nature makes peer scaffolding visible and immediate.
+**Strategies for developing spatial reasoning:**
 
-!!! tip "Practical Consideration"
-    When working with children who have specific access needs, consult with your school's inclusion coordinator. Some children may need adapted equipment (larger blocks, contrasting colours) or modified activities. The tangible nature of these tools often makes adaptation easier than with screen-based alternatives.
+- "Be the robot": Children physically walk the path before programming, turning their bodies to match the robot's direction
+- Stand behind the robot rather than facing it, so left and right match
+- Use consistent starting orientations until children are confident
+- Provide directional cards or arrows that children can manipulate
+
+Research by Highfield and Mulligan (2008) found that Bee-Bot activities significantly improved young children's spatial reasoning and directional language, with effects persisting beyond the immediate learning context.
+
+### Debugging: Learning from Failure
+
+Perhaps no concept benefits more from floor robots than debugging. When a Bee-Bot misses its target, the error is visible to everyone. This creates a powerful, non-threatening context for error analysis.
+
+**The debugging cycle with floor robots:**
+
+1. **Observe**: What did the robot actually do?
+2. **Compare**: What did I expect it to do?
+3. **Locate**: At which step did it go wrong?
+4. **Analyse**: Why might that step be incorrect?
+5. **Revise**: Change the sequence
+6. **Test**: Run it again
+
+The visibility of the error transforms debugging from a frustrating hunt into a collaborative investigation. "Look—it turned left at the wrong place! Let's figure out why."
+
+**Fostering productive debugging:**
+
+- Normalise errors: "Mistakes help us learn!"
+- Ask diagnostic questions: "Where did it start going wrong?"
+- Resist fixing it for them—guide children to identify and correct errors themselves
+- Celebrate debugging successes as much as first-time successes
+
+### Loops and Repetition (Blue-Bot and Beyond)
+
+When children programme a robot to trace a square, they initially write:
+
+- Forward, Turn Right, Forward, Turn Right, Forward, Turn Right, Forward, Turn Right
+
+With guidance, they recognise the pattern: "Forward, Turn Right" repeats four times. This is the foundation for understanding loops.
+
+With Blue-Bot's app, children can explicitly program "Repeat 4 times: Forward, Turn Right". This abstraction is powerful—it reduces complexity and reveals the underlying structure.
+
+**Introducing loops:**
+
+- Start with physical patterns: clapping sequences, movement routines
+- Identify repetition in existing robot programs: "I notice you did the same thing three times..."
+- Introduce loop notation gradually: "What if we could tell the robot to repeat this part?"
+- Connect to real-world examples: traffic light sequences, song choruses, dance routines
+
+### Procedures and Abstraction (Pro-Bot)
+
+Pro-Bot allows children to define their own procedures—named sequences they can reuse. For example, a child might define:
+
+```
+TO SQUARE
+FORWARD 50
+RIGHT 90
+FORWARD 50
+RIGHT 90
+FORWARD 50
+RIGHT 90
+FORWARD 50
+RIGHT 90
+END
+```
+
+Once defined, they can simply write "SQUARE" to draw a square. They can then build more complex programs:
+
+```
+SQUARE
+RIGHT 45
+SQUARE
+RIGHT 45
+SQUARE
+```
+
+This is abstraction in action: hiding complexity behind a simple name. It's also the beginning of understanding functions—one of programming's most powerful concepts.
+
+### Conditionals and Events (Thymio)
+
+While Bee-Bot and Pro-Bot focus on sequential programming, Thymio introduces conditional logic and events:
+
+- "**When** the front sensor detects an obstacle, **then** turn left"
+- "**If** the ground sensor sees black, **then** follow it"
+- "**When** I clap, **then** start moving"
+
+This event-driven model is how most real-world software works. Apps respond to button presses, sensors trigger actions, and conditions determine behaviour.
+
+**Introducing conditionals with Thymio:**
+
+- Begin with the pre-programmed modes: observe and explain the behaviours
+- Ask "what if" questions: "What will happen if I put my hand here?"
+- Progress to simple VPL programming: one event, one action
+- Build complexity gradually: multiple events, conditional combinations
 
 ---
 
-## 3.6 Cross-Curricular Applications
+## 3.4 Cross-Curricular Integration
 
-Tangible programming tools lend themselves particularly well to cross-curricular integration because the physical nature invites connections with other hands-on subjects.
+Floor robots shouldn't exist as isolated "computing lessons." Their real power emerges when integrated across the curriculum. Here we'll explore detailed examples for major subject areas.
 
 ### Mathematics
 
-**Cubetto and KUBO**:
+The connections between floor robots and mathematics are rich and numerous.
 
-- **Measurement**: How far does the robot travel with one forward command? Children can measure in non-standard units (blocks, hand spans) or standard units.
-- **Geometry**: Program turns and explore angles. How many 90-degree turns make a full circle?
-- **Position and direction**: Use correct mathematical vocabulary—quarter turn, half turn, clockwise, anticlockwise.
+**Measurement and Distance**
 
-**Makey Makey**:
+- Bee-Bot moves 15cm per step. How many steps to travel 45cm? 1 metre?
+- Pro-Bot programs specify exact distances. Children measure, calculate, and verify.
+- Estimate before programming: "How many steps do you think?" Then measure and check.
 
-- **Data handling**: Create physical buttons for survey responses; data is collected as children press their chosen answer.
-- **Calculation games**: Build a physical number line or calculator interface.
+**Angles and Turns**
+
+- Bee-Bot turns 90°. What's a 90° angle? Where else do we see 90° angles?
+- Pro-Bot can turn any angle. Program a 60° turn. What shape has 60° angles?
+- Explore full turns (360°), half turns (180°), quarter turns (90°)
+
+**Shape and Geometry**
+
+- Program Pro-Bot to draw a square, rectangle, triangle, hexagon
+- What's the same about all square programs? What's different for a rectangle?
+- Explore regular polygons: What's the relationship between number of sides and turning angle?
+
+!!! example "Maths Activity: The Perimeter Challenge"
+    **Learning intention**: Understand that different rectangles can have the same perimeter
+    
+    **Resources**: Pro-Bot with pen, large paper, rulers
+    
+    **Activity**:
+    
+    1. Challenge: "Program Pro-Bot to draw three different rectangles, each with perimeter 40cm"
+    2. Children calculate possible side lengths (e.g., 15cm × 5cm, 12cm × 8cm, 10cm × 10cm)
+    3. Program Pro-Bot to draw each rectangle
+    4. Measure and verify: Does each perimeter equal 40cm?
+    5. Extension: Which rectangle has the largest area? What if the perimeter was 60cm?
+    
+    **CT connections**: Decomposition (breaking the problem into steps), algorithmic thinking (precise sequences), debugging (when measurements don't match)
+
+**Coordinates and Position**
+
+- Grid mats use coordinate systems. "Move to (3, 4)"
+- Describe paths using coordinates: "Start at (1, 1), end at (4, 3)"
+- Connect to graph work: plotting points, reading coordinates
 
 ### Literacy
 
-**Scottie Go!**:
+Floor robots offer surprising opportunities for literacy development.
 
-- Create animated stories by programming character movements through narrative sequences.
-- Retell traditional tales: program Red Riding Hood's path through the forest.
+**Instructional Writing**
 
-**Blue-Bot TacTile**:
+Programming is, fundamentally, writing clear instructions. Children who program robots understand viscerally why precision matters. "Go forward a bit" doesn't work—you need "Forward 3 steps."
 
-- Sequence story events physically with tiles, then watch Blue-Bot "act out" the sequence.
-- Build instruction writing: children write their own TacTile guides for classmates.
+**Activity**: After programming a robot journey, children write the instructions in words. Compare written instructions with the actual program. Which is clearer? Why?
+
+**Story Sequencing**
+
+Create story mats showing scenes from familiar narratives. Children program robots to visit scenes in the correct order.
+
+!!! example "Literacy Activity: Journey Through a Story"
+    **Learning intention**: Sequence story events correctly; programme a robot to follow a narrative path
+    
+    **Resources**: Bee-Bot, mat with story scenes (e.g., *The Very Hungry Caterpillar* — egg, caterpillar, apple, pear, plum, strawberries, oranges, cake/pickle/etc., cocoon, butterfly)
+    
+    **Activity**:
+    
+    1. Read or recall the story together
+    2. Identify the sequence of events on the mat
+    3. Children plan a route visiting scenes in story order
+    4. Program Bee-Bot to follow the route
+    5. Retell the story as Bee-Bot visits each scene
+    
+    **Extension**: Create mats for other stories. Write new stories with paths for Bee-Bot to follow.
+    
+    **CT connections**: Sequencing (story order = programming order), abstraction (representing story as path)
+
+**Speaking and Listening**
+
+Robot activities naturally promote talk. Children discuss strategies, explain their thinking, debate solutions, and present their programs to others. This authentic context for speaking and listening is often more engaging than manufactured discussion tasks.
 
 ### Science
 
-**Makey Makey**:
+Physical computing aligns beautifully with scientific inquiry.
 
-- **Electricity and circuits**: Understand that Makey Makey completes a circuit through conductive materials.
-- **Properties of materials**: Test which objects are conductive (Can you use an apple as a button? A carrot? A wooden spoon?).
-- **Living things**: Create interactive nature displays (touch a leaf picture to hear its name).
+**Variables and Fair Testing**
 
-**KUBO and Cubetto**:
+- Change one thing at a time: "What happens if I add one more Forward?"
+- Control other variables: same starting position, same mat
+- Predict, test, observe, explain
 
-- Program animal movements: How does a bee navigate from flower to flower?
-- Model food chains: Program the robot to follow the energy flow.
+**Cause and Effect**
+
+- Thymio's sensor behaviours are cause-and-effect in action
+- If I block the sensor, then the robot turns
+- Explore systematically: which sensors cause which responses?
+
+**Forces and Motion**
+
+- How does the robot move? What makes it turn?
+- Friction: Does Bee-Bot move the same distance on carpet vs. smooth floor?
+- Experiment with surfaces, slopes, obstacles
+
+!!! example "Science Activity: Surface Investigators"
+    **Learning intention**: Investigate how surface type affects Bee-Bot's movement
+    
+    **Resources**: Bee-Bot, various surfaces (carpet, tile, paper, fabric, sandpaper), measuring tape, recording sheets
+    
+    **Activity**:
+    
+    1. Question: "Does Bee-Bot move the same distance on all surfaces?"
+    2. Predict: Which surface will it move furthest on? Why?
+    3. Method: Program Bee-Bot with exactly 5 forward steps. Measure total distance on each surface.
+    4. Record results in a table
+    5. Explain findings: Why might carpet be different from tile?
+    
+    **CT connections**: Systematic testing (algorithmic approach), debugging (ensuring fair tests), abstraction (focusing on relevant variables)
 
 ### Geography
 
-**Floor robots with tangible programming**:
+Floor robots excel at teaching mapping, direction, and spatial concepts.
 
-- Navigate map mats of local areas, countries, or continents.
-- Plan routes and estimate distances.
-- Learn compass directions through programming.
+**Mapping and Navigation**
+
+Create mats based on maps—your school, local area, a fictional town, or even a simplified Malta. Children program routes between locations.
+
+**Cardinal Directions**
+
+Use a compass rose on the mat. "Program Bee-Bot to travel North, then East, then South." Connect robot directions to geographical directions.
+
+**Scale and Distance**
+
+If each Bee-Bot square represents 100 metres, how far is the journey? Calculate real-world distances from robot paths.
+
+!!! example "Geography Activity: Around Our School"
+    **Learning intention**: Navigate a map using directional language; programme a route between locations
+    
+    **Resources**: Floor mat with simplified school map (or create one), Bee-Bot, direction cards
+    
+    **Activity**:
+    
+    1. Identify key locations on the map: classroom, hall, playground, office, library
+    2. Give verbal directions first: "Start at the classroom. Go North to the hall, then East to the playground."
+    3. Translate into Bee-Bot commands: Forward, Forward, Right, Forward, Forward
+    4. Test the route
+    5. Challenge: Find the shortest route between two points
+    
+    **CT connections**: Decomposition (breaking journey into steps), spatial reasoning, debugging
 
 ### Art and Design
 
-**Makey Makey + Scratch**:
+Floor robots can be creative tools, not just problem-solving tools.
 
-- Create interactive artwork: paintings that make sounds when touched.
-- Build musical instruments from recycled materials.
-- Design game controllers using clay, playdough, or found objects.
+**Robot Art with Pro-Bot**
 
----
+Pro-Bot's pen holder enables drawing. Children program geometric designs, patterns, and pictures.
 
-## 3.7 Example Activities
+**Design Challenges**
 
-### Activity 1: Cubetto Story Trails (Early Years)
+- Design a mat for a specific purpose (a story, a maths game, a geography activity)
+- Design an obstacle course that requires specific programming skills
 
-**Learning objective**: Sequence events in a simple narrative.
+**Pattern and Symmetry**
 
-**Resources**: Cubetto robot and control board, world map mat (or custom mat), story cards.
-
-**Activity**:
-
-1. Choose a simple narrative (e.g., Goldilocks and the Three Bears).
-2. Place picture cards on the map mat showing key story locations (cottage, forest, Goldilocks' house).
-3. Children arrange coding blocks to program Cubetto's journey through the story in sequence.
-4. As Cubetto reaches each location, children retell that part of the story.
-5. Extension: Can they program Cubetto to visit locations in a different order? What happens to the story?
-
-**Assessment focus**: Correct sequencing of blocks; accurate retelling of story events.
-
-### Activity 2: TacTile Debugging Challenge (KS1)
-
-**Learning objective**: Identify and correct errors in a program.
-
-**Resources**: Blue-Bot, TacTile Reader with tiles, simple floor mat with clear path.
-
-**Activity**:
-
-1. Teacher pre-arranges tiles on the TacTile Reader to create a program with a deliberate error (e.g., wrong direction, missing step).
-2. Children predict where Blue-Bot will end up.
-3. Run the program and observe the result.
-4. Discuss: Where did it go wrong? Which tile needs to change?
-5. Children physically swap tiles to correct the error.
-6. Run again to verify the fix.
-
-**Assessment focus**: Ability to identify the error tile; successful debugging.
-
-### Activity 3: Makey Makey Conductor Investigation (KS2)
-
-**Learning objective**: Investigate which materials conduct electricity.
-
-**Resources**: Makey Makey kit, laptop with Scratch piano project, collection of objects (fruit, vegetables, metal items, wood, plastic, foil, playdough, water).
-
-**Activity**:
-
-1. Introduce the question: What makes a Makey Makey button work?
-2. Demonstrate with a banana: When you touch it, the piano plays.
-3. Children predict which objects will work as buttons.
-4. Systematic testing: Record results in a table (Object, Prediction, Result).
-5. Analyse results: What do all the working objects have in common?
-6. Introduce vocabulary: conductor, insulator, electrical circuit.
-7. Extension: Design a musical instrument using only conductive materials.
-
-**Assessment focus**: Accurate predictions and observations; use of scientific vocabulary.
-
-### Activity 4: Scottie Go! Geography Quest (KS2)
-
-**Learning objective**: Use coordinates and directional language to navigate a map.
-
-**Resources**: Scottie Go! tiles and board, tablet with Scottie Go! app, large floor map of a region (could be local area or curriculum topic).
-
-**Activity**:
-
-1. Place a large floor map alongside the Scottie Go! setup.
-2. Identify start and end points on the map (e.g., school to library, London to Edinburgh).
-3. Children plan their route, identifying directions needed.
-4. Arrange Scottie Go! tiles to create the program.
-5. Scan tiles and watch the digital Scottie follow the route.
-6. Compare: Did the program match your intended route?
-7. Iterate: Improve the route for efficiency or to visit additional locations.
-
-**Assessment focus**: Accurate use of directional vocabulary; successful route planning.
+- Program patterns that repeat (connecting to loops)
+- Create symmetrical designs: one side programmed, then mirrored
 
 ---
 
-## 3.8 Classroom Management for Tangible Tools
+## 3.5 Differentiation: Meeting Diverse Learners
 
-Tangible programming brings unique classroom management considerations.
+Floor robots are inherently flexible, but thoughtful differentiation ensures all learners can access and be challenged by the activities.
 
-### Organisation and Storage
+### Supporting Younger and Less Confident Learners
 
-**The challenge**: Many small pieces that can easily go missing.
+**Reduce complexity:**
 
-**Solutions**:
+- Shorter sequences (2–3 steps to start)
+- Simpler mats with fewer squares and clearer paths
+- One robot between two children, with adult support nearby
 
-- Designated storage boxes with labelled compartments
-- Photograph the complete set and display near storage
-- Regular inventory checks (can be a child's responsibility)
-- Consider tile organisers or sorting trays for session use
-- Velcro or magnetic storage boards for quick tidying
+**Provide scaffolding:**
 
-### Turn-Taking and Collaboration
+- Physical planning aids: direction cards children arrange before programming
+- "Be the robot" activities before using actual robots
+- Step-by-step demonstrations with think-alouds
 
-**The challenge**: Multiple children wanting to place blocks simultaneously.
+**Build confidence:**
 
-**Solutions**:
+- Guarantee early success with very achievable first tasks
+- Celebrate process and effort, not just outcomes
+- Pair less confident learners with supportive peers
 
-- Assign roles (planner, builder, tester, recorder)
-- Use a physical "talking piece"—only the child holding it places the next tile
-- Colour-code tiles to children (each child places their colour)
-- Pair programming: one describes, one places
+### Challenging More Confident Learners
 
-### Space Requirements
+**Increase complexity:**
 
-**The challenge**: Floor robots need floor space; tile systems need table space.
+- Longer sequences with more turns
+- Multiple destinations in one program
+- Obstacles to navigate around
 
-**Solutions**:
+**Add constraints:**
 
-- Create a dedicated "programming zone" in your classroom
-- Use outdoor spaces for larger floor robot activities
-- Vertical displays for planning (magnetic boards for tile arrangement before transfer)
-- Rotate groups through programming stations
+- "Can you reach the goal in exactly 7 steps?"
+- "Find the shortest possible route"
+- "Use only left turns" (or other restrictions)
 
-### Technical Issues
+**Extend concepts:**
 
-**The challenge**: Connectivity problems, flat batteries, lost components.
+- Introduce loops and procedures earlier
+- Progress to Pro-Bot for precise angles and distances
+- Program Thymio with conditional behaviours
 
-**Solutions**:
+**Encourage creation:**
 
-- Establish charging routines (end of day, specific child responsibility)
-- Keep backup batteries and charging cables accessible
-- Have a "parking bay" for robots with issues—don't stop the whole lesson
-- Laminated troubleshooting cards for common problems
+- Design mats for others to use
+- Create challenges for classmates
+- Document and explain strategies
+
+### Supporting Specific Needs
+
+**Motor difficulties:**
+
+- Larger buttons (consider adapted devices if available)
+- Partner programming: one child plans, another presses buttons
+- Tablet control for Blue-Bot (may be easier than small buttons)
+
+**Visual impairment:**
+
+- High-contrast mats with tactile elements
+- Verbal descriptions of robot movements
+- Thymio's sound output for audio feedback
+
+**Hearing impairment:**
+
+- Visual feedback (LED lights) rather than sound
+- Clear sight lines for demonstrations
+- Written or visual instruction cards
+
+**Cognitive differences:**
+
+- Consistent routines and clear expectations
+- Visual schedules for the activity structure
+- Reduced options to avoid overwhelm
+- Extended time for exploration and processing
+
+### Universal Design Principles
+
+Rather than retrofitting accessibility, design activities that work for everyone from the start:
+
+- Multiple ways to engage (watching, doing, planning, recording)
+- Multiple ways to represent information (visual, verbal, physical)
+- Multiple ways to demonstrate learning (showing, explaining, drawing, writing)
+
+---
+
+## 3.6 Classroom Management with Floor Robots
+
+Practical organisation makes the difference between productive learning and chaotic frustration. Here are strategies that experienced teachers find effective.
+
+### Before the Session
+
+**Check equipment:**
+
+- Are all robots charged? (Nothing derails a lesson like flat batteries)
+- Do all robots work correctly? (Test each one briefly)
+- Are mats clean and flat?
+
+**Prepare resources:**
+
+- Planning sheets or whiteboards for recording sequences
+- Challenge cards or task instructions
+- Direction cards if using them
+
+**Prepare the space:**
+
+- Clear floor space (remove tripping hazards)
+- Consider noise levels (multiple robots can be loud)
+- Ensure good sight lines for demonstrations
+
+### During the Session
+
+**Establish routines:**
+
+- Clear signal for "stop and listen" (essential when children are absorbed)
+- Agreed rules for handling robots (carry carefully, don't throw, return to charger)
+- Turn-taking protocols for paired work
+
+**Structure the activity:**
+
+- Whole-class introduction and demonstration (10 minutes)
+- Paired/group activity time with circulating support (20–30 minutes)
+- Whole-class reflection and sharing (10 minutes)
+
+**Support without taking over:**
+
+- Ask questions rather than giving answers: "What do you think went wrong?"
+- Encourage children to help each other before asking you
+- Model debugging strategies when you do intervene
+
+### Grouping Strategies
+
+**Pairs work well for most activities:**
+
+- One "driver" (operates the robot), one "navigator" (directs and observes)
+- Regular role swaps (every 5 minutes or every attempt)
+- Encourages discussion and collaborative problem-solving
+
+**Rotations work when robots are limited:**
+
+- Robot station as one of several activities
+- Clear instructions at each station
+- Timer or signal for rotation
+
+**Whole-class demonstrations:**
+
+- Visualiser or large screen to show small robots
+- Invite children up to program while others predict
+- Good for introducing new concepts or reflecting on strategies
+
+### After the Session
+
+**Pack-away routine:**
+
+- Return robots to charging station
+- Fold and store mats
+- Count equipment (things go missing!)
+
+**Documentation:**
+
+- Quick notes on what worked and what didn't
+- Observations of individual children's learning
+- Photos of interesting solutions or approaches
+
+---
+
+## 3.7 Example Lesson Sequences
+
+Here are two detailed lesson sequences showing how floor robot learning might progress over multiple sessions.
+
+### Early Years/Year 1: Introducing Bee-Bot (4 sessions)
+
+**Session 1: Meeting Bee-Bot**
+
+*Learning intention: Understand what Bee-Bot is and explore its buttons*
+
+- Introduce Bee-Bot: "This is Bee-Bot. What do you notice about it?"
+- Explore the buttons together. What might each button do?
+- Demonstrate: Press Forward, then Go. What happened?
+- Free exploration in pairs: Try different buttons and observe
+- Gather and share: What did you discover?
+
+**Session 2: Giving Instructions**
+
+*Learning intention: Programme a simple sequence of 2–3 steps*
+
+- Recall: What can Bee-Bot do?
+- "Be the robot": Children give each other verbal instructions, then follow them
+- Demonstrate: Programming Bee-Bot to reach a target in 2 steps
+- Paired activity: Program Bee-Bot to reach targets in 2–3 steps
+- Reflect: What did you have to think about?
+
+**Session 3: Planning Before Programming**
+
+*Learning intention: Plan a sequence before programming*
+
+- Introduce planning cards (arrows for each direction)
+- Model: Lay out cards, then press matching buttons
+- Paired activity: Use cards to plan, then program, then check
+- Challenge: Reach a target on a simple grid mat
+- Reflect: Did planning help? Why?
+
+**Session 4: Bee-Bot Story Mat**
+
+*Learning intention: Program Bee-Bot to follow a story sequence*
+
+- Introduce a story mat (e.g., *We're Going on a Bear Hunt* with locations)
+- Recall the story sequence
+- Model: Program Bee-Bot to visit the first two locations
+- Paired activity: Program the full journey through the story
+- Retell the story as Bee-Bot travels
+- Reflect: What was tricky? What did you learn?
+
+### Years 3–4: Progressing with Pro-Bot (4 sessions)
+
+**Session 1: From Bee-Bot to Pro-Bot**
+
+*Learning intention: Understand how Pro-Bot differs from Bee-Bot; programme basic movements*
+
+- Recall Bee-Bot experience. What could Bee-Bot do?
+- Introduce Pro-Bot: What's similar? What's different?
+- Explore the keypad and LCD screen
+- Key difference: We can choose exact distances and angles
+- Demonstrate: FORWARD 50 (moves 50cm)
+- Paired exploration: Try different distances and angles
+- Reflect: What new possibilities does Pro-Bot offer?
+
+**Session 2: Drawing Shapes**
+
+*Learning intention: Programme Pro-Bot to draw regular polygons*
+
+- Attach pen to Pro-Bot
+- Demonstrate drawing a line: FORWARD 50
+- Challenge: Draw a square with 10cm sides
+- Unpack the maths: What angles? What distances?
+- Paired activity: Draw squares, then rectangles, then triangles
+- Compare results: What made some shapes more accurate?
+- Reflect: What's the relationship between programming and geometry?
+
+**Session 3: Patterns and Repetition**
+
+*Learning intention: Recognise repetition in programs; begin to use repeat commands*
+
+- Review square program: FORWARD 50, RIGHT 90, FORWARD 50, RIGHT 90...
+- What do you notice? (It repeats!)
+- Introduce REPEAT command: REPEAT 4 [FORWARD 50 RIGHT 90]
+- Compare: Same result, fewer instructions. Why is this useful?
+- Challenge: Draw a hexagon using REPEAT
+- Extension: Create repeating patterns (spirals, stars)
+- Reflect: How does repetition make programming more powerful?
+
+**Session 4: Design Challenge**
+
+*Learning intention: Apply programming skills to solve a design problem*
+
+- Challenge: Design a floor plan for a new classroom (or garden, or playground)
+- Constraints: Must include at least 3 different shapes; total perimeter must be under 2 metres
+- Planning phase: Sketch design, calculate measurements
+- Programming phase: Program Pro-Bot to draw the design
+- Presentation: Show and explain your design
+- Reflect: What was challenging? What would you do differently?
+
+---
+
+## 3.8 Assessment Approaches
+
+Assessing learning with floor robots requires approaches that capture process as well as product.
+
+### What to Observe
+
+**Sequencing skills:**
+
+- Can the child plan a sequence before programming?
+- Are instructions in the correct order?
+- Does sequence length and complexity increase over time?
+
+**Debugging ability:**
+
+- How does the child respond when the robot doesn't do what they expected?
+- Do they systematically identify where the error occurred?
+- Can they revise and improve their program?
+
+**Spatial reasoning:**
+
+- Does the child understand left/right from the robot's perspective?
+- Can they visualise the path before programming?
+- Do they anticipate where the robot will end up?
+
+**Mathematical understanding (where relevant):**
+
+- Can they estimate distances and angles?
+- Do they connect programming to mathematical concepts?
+- Can they calculate and verify measurements?
+
+**Collaboration and communication:**
+
+- Do they explain their thinking to partners?
+- Can they describe their strategy to others?
+- Do they work effectively in pairs/groups?
+
+### Assessment Strategies
+
+**Observation notes:**
+
+Brief notes during sessions, focusing on significant moments:
+
+- "Mia independently debugged her sequence by counting steps"
+- "Jayden struggled with left/right but improved when he stood behind the robot"
+
+**Photography and video:**
+
+Capture evidence of:
+
+- Planning sheets showing children's thinking
+- Successful (and unsuccessful) robot journeys
+- Children explaining their programs
+
+**Child voice:**
+
+Simple reflection prompts:
+
+- "What did you find tricky today?"
+- "What would you do differently next time?"
+- "What did you learn about programming?"
+
+**Challenge progressions:**
+
+Track which challenges children can complete independently:
+
+| Challenge | Date Attempted | Outcome |
+|-----------|----------------|---------|
+| Program 3-step sequence | 15/1 | ✓ Independent |
+| Navigate around obstacle | 15/1 | With support |
+| Plan before programming | 22/1 | ✓ Independent |
+| Use repeat command | 22/1 | Not yet attempted |
+
+### Rubric for Floor Robot Skills
+
+| Skill | Beginning | Developing | Secure | Extending |
+|-------|-----------|------------|--------|-----------|
+| **Sequencing** | Presses buttons randomly; doesn't understand order matters | Understands sequence but makes frequent errors | Reliably programs correct sequences of 5+ steps | Plans complex sequences; recognises patterns and repetition |
+| **Debugging** | Gives up or starts over when robot fails | Makes random changes hoping for improvement | Identifies where error occurred; makes logical corrections | Systematically tests and refines; explains debugging strategy |
+| **Spatial reasoning** | Confused by left/right; limited path visualisation | Sometimes confuses direction; improving visualisation | Reliable direction from robot's perspective; can visualise simple paths | Navigates complex paths; anticipates movement accurately |
+| **Explanation** | Cannot explain program | Describes what robot did, not why | Explains sequence and reasoning | Justifies choices; evaluates alternative approaches |
 
 ---
 
 ## 3.9 Resources and Further Reading
 
-### Product Links
+### Official Robot Resources
 
-- **Cubetto**: [https://primotoys.com/](https://primotoys.com/)
-- **KUBO Robotics**: [https://kubo-robot.com/](https://kubo-robot.com/)
-- **Scottie Go!**: [https://scottiego.com/en/](https://scottiego.com/en/)
-- **Osmo Coding**: [https://www.playosmo.com/](https://www.playosmo.com/)
-- **Makey Makey**: [https://makeymakey.com/](https://makeymakey.com/)
-- **Blue-Bot TacTile Reader**: [https://www.tts-international.com/tts-blue-bot-tactile-reader/1010494.html](https://www.tts-international.com/tts-blue-bot-tactile-reader/1010494.html)
-- **Botley 2.0**: [https://www.learningresources.com/botley-the-coding-robot](https://www.learningresources.com/botley-the-coding-robot)
+**Bee-Bot and Blue-Bot (TTS Group):**
 
-### Research
+- Product page and resources: [https://www.tts-group.co.uk/primary/computing-ict/bee-bots-blue-bots/](https://www.tts-group.co.uk/primary/computing-ict/bee-bots-blue-bots/){:target="_blank"}
+- Downloadable lesson plans and activity cards
+- Blue-Bot app available free on iOS and Android
 
-- Horn, M. S., Solovey, E. T., Crouser, R. J., & Jacob, R. J. K. (2009). Comparing the use of tangible and graphical programming languages for informal science education. *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems*, 975–984.
+**Pro-Bot (Terrapin/TTS):**
 
-- Liang, M., Li, Y., Weber, T., & Hussmann, H. (2021). Tangible interaction for children's creative learning: A review. *Proceedings of the 13th Conference on Creativity & Cognition*, 1–14.
+- Resources and tutorials: [https://www.terrapinlogo.com/probot.html](https://www.terrapinlogo.com/probot.html){:target="_blank"}
+- Logo programming guides
 
-- Sapounidis, T., & Demetriadis, S. (2013). Tangible versus graphical user interfaces for robot programming: Exploring cross-age children's preferences. *Personal and Ubiquitous Computing*, 17(8), 1775–1786.
+**Thymio (Mobsya):**
 
-- Shaer, O., & Hornecker, E. (2010). Tangible user interfaces: Past, present, and future directions. *Foundations and Trends in Human–Computer Interaction*, 3(1–2), 1–137.
+- Official site with programming environments: [https://www.thymio.org/](https://www.thymio.org/){:target="_blank"}
+- Extensive lesson plans and activities
+- Open-source community resources
+
+**LEGO Education:**
+
+- SPIKE Essential: [https://education.lego.com/en-us/products/lego-education-spike-essential-set/45345/](https://education.lego.com/en-us/products/lego-education-spike-essential-set/45345/){:target="_blank"}
+- WeDo 2.0 (legacy): [https://education.lego.com/en-us/product-resources/wedo-2/](https://education.lego.com/en-us/product-resources/wedo-2/){:target="_blank"}
+- Curriculum-aligned lesson plans for each product
+
+### Research and Professional Reading
+
+**Key research on floor robots in education:**
+
+- Highfield, K., & Mulligan, J. (2008). Young children's embodied action in problem-solving tasks using robotic toys. In *Navigating Currents and Charting Directions*, Proceedings of the 31st Annual MERGA Conference (pp. 259–266). This foundational study demonstrates how Bee-Bot activities develop spatial reasoning and mathematical thinking.
+
+- Papadakis, S., & Kalogiannakis, M. (2022). Learning Computational Thinking Development in Young Children With Bee-Bot Educational Robotics. In *Research Anthology on Computational Thinking, Programming, and Robotics in the Classroom* (pp. 926–947). IGI Global. Reports significant learning gains in CT skills among preschool children using Bee-Bot.
+
+- Seckel, M. J., Salinas, C., Font, V., & Sala-Sebastià, G. (2023). Guidelines to develop computational thinking using the Bee-bot robot from the literature. *Education and Information Technologies*. A systematic review of 25 studies providing evidence-based guidance for CT development with Bee-Bot.
+
+- Schina, D., Esteve-González, V., & Usart, M. (2021). Teachers' Perceptions of Bee-Bot Robotic Toy and Their Ability to Integrate It in Their Teaching. In *Advances in Intelligent Systems and Computing*. Explores teacher perspectives on implementing floor robots in primary classrooms.
+
+**Books for deeper exploration:**
+
+- Bers, M. U. (2018). *Coding as a Playground: Programming and Computational Thinking in the Early Childhood Classroom*. Routledge. Essential reading on developmentally appropriate approaches to coding with young children.
+
+- Resnick, M. (2017). *Lifelong Kindergarten: Cultivating Creativity through Projects, Passion, Peers, and Play*. MIT Press. The philosophy behind Scratch and LEGO robotics, with implications for all creative computing.
 
 ---
 
-## 3.10 Summary
+## 3.10 Summary: Key Takeaways from Section 2
 
-Tangible programming interfaces represent a powerful approach to computational thinking education in primary schools. By translating abstract programming concepts into physical manipulation, they align with how young children naturally learn—through hands, not just heads.
+1. **Floor robots make programming tangible.** When algorithms control physical movement, abstract concepts become visible and experiential.
 
-**Key takeaways from this section**:
+2. **Different robots serve different purposes.** Bee-Bot excels at early sequencing; Blue-Bot adds progression with apps and loops; Pro-Bot connects to mathematical precision; Thymio introduces sensors and conditionals.
 
-1. **Tangible interfaces offer genuine pedagogical advantages**—not just "less screen time" but fundamentally different learning dynamics that support collaboration, reduce cognitive load, and encourage active participation from all learners.
+3. **Core CT concepts emerge naturally.** Sequencing, debugging, pattern recognition, and algorithmic thinking are built into floor robot activities by design.
 
-2. **Different tools suit different purposes**: Button-based robots for first introductions; tile systems for developing debugging and visual programming skills; hybrid systems for engagement and game-like learning; creative tools like Makey Makey for invention and cross-curricular connections.
+4. **Integration is essential.** Floor robots aren't just for "computing lessons"—they enrich mathematics, literacy, science, geography, and more.
 
-3. **Accessibility is a key strength**: The physical nature of tangible programming often makes it more accessible for diverse learners than screen-based alternatives.
+5. **Differentiation is achievable.** From simple 2-step sequences to complex multi-stage challenges, floor robots scale to meet diverse learners.
 
-4. **Cross-curricular integration is natural**: The hands-on, physical nature of these tools invites connections with mathematics, science, literacy, geography, and art.
+6. **Practical organisation matters.** Charged robots, clear routines, effective groupings, and structured sessions create conditions for learning.
 
-5. **Practical considerations matter**: Storage, organisation, space, and technical management all require planning—but the learning benefits justify the investment.
+7. **Assessment focuses on process.** Observation, documentation, and formative strategies capture learning that final products might miss.
 
-As you explore tangible interfaces with your class, remember that the goal is not mastery of any particular tool, but the development of computational thinking habits: breaking problems into steps, representing solutions symbolically, debugging through systematic analysis, and recognising patterns that can be abstracted and reused. Tangible tools simply make these abstract skills visible, touchable, and—for young learners—truly graspable.
+8. **Start simple, then extend.** Begin with achievable challenges and build complexity as confidence grows—for you and your students.
 
 ---
 
-**Preparation for Session 4**: Before the next session, try at least one tangible programming activity with your class. Observe how children interact with the physical materials. Note any differences you observe compared to screen-based programming. Bring your observations to share with colleagues.
+!!! question "Reflection Prompt"
+    Consider your own classroom context: What floor robot(s) do you have access to? What curriculum connections would be most valuable for your learners? What's one activity from this section you'd like to try in the coming weeks?
+
+---
+
+!!! tip "Fieldwork Task"
+    Choose one floor robot activity from this section to try with your learners. Use the lesson planning frameworks from Section 2 to design your session, and document your experience in your reflective diary.
+
+---
+
+**Ready to continue?** Head to [Section 4: Tangible Interfaces](section-4.md) to explore tools where code becomes physical—Cubetto, Scottie Go!, Makey Makey, and more.
 
 ---
 

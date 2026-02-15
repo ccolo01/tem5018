@@ -17,11 +17,11 @@
 Over the course of this reader, we have explored a rich landscape of tools and approaches for bringing computational thinking to life in primary classrooms:
 
 - **Section 1** established the theoretical foundations: what computational thinking is, why it matters, and how constructionism provides a powerful pedagogical framework
-- **Section 2** introduced programmable robots—from Bee-Bots to LEGO SPIKE—as embodied introductions to sequencing, debugging, and algorithmic thinking
-- **Section 3** explored tangible programming interfaces that bridge physical manipulation and digital logic
-- **Section 4** examined programmable microcontrollers like the BBC micro:bit and Crumble, opening doors to physical computing and sensing the real world
-- **Section 5** made the case for unplugged approaches—mechanical logic toys that teach computational concepts without electricity
-- **Section 6** turned from tools to teaching, exploring lesson design, formative assessment, and practical classroom management
+- **Section 2** equipped you with frameworks for lesson design, formative assessment, and practical classroom management—tools you have applied throughout the subsequent sections
+- **Section 3** introduced programmable robots—from Bee-Bots to LEGO SPIKE—as embodied introductions to sequencing, debugging, and algorithmic thinking
+- **Section 4** explored tangible programming interfaces that bridge physical manipulation and digital logic
+- **Section 5** examined programmable microcontrollers like the BBC micro:bit and Crumble, opening doors to physical computing and sensing the real world
+- **Section 6** made the case for unplugged approaches—mechanical logic toys that teach computational concepts without electricity
 
 Now, in this final section, we bring these threads together. How do all these tools and approaches fit into a coherent whole? How do you build a sustainable practice within the realities of your school context? And what comes next in your journey as a teacher of computational thinking?
 
@@ -99,7 +99,7 @@ When selecting a tool for a particular lesson or unit, consider:
 
 | Situation | Consider Using |
 |-----------|----------------|
-| First computing experiences (EYFS/KS1) | Bee-Bot, Cubetto, simple marble runs |
+| First computing experiences (Early Years/Years 1-2) | Bee-Bot, Cubetto, simple marble runs |
 | Limited technology access | Unplugged activities, CS Unplugged cards |
 | Cross-curricular science unit | micro:bit sensors for data collection |
 | D&T mechanisms project | Crumble with motors |
@@ -156,18 +156,18 @@ If starting from scratch with limited funds, consider this phased approach:
 
 - CS Unplugged printable activities (free)
 - Scratch on existing computers (free)
-- Simple logic puzzles (£20-30 per game)
+- Simple logic puzzles (€25-35 per game)
 
 **Phase 2 (Modest investment)**:
 
-- Class set of floor robots (6-8 Bee-Bots, ~£400-500)
-- micro:bit starter kit (10 devices, ~£150-200)
+- Class set of floor robots (6-8 Bee-Bots, ~€480-600)
+- micro:bit starter kit (10 devices, ~€180-250)
 
 **Phase 3 (Expanded provision)**:
 
 - Crumble controllers for D&T integration
 - Tangible programming tools (Cubetto, KUBO)
-- Turing Tumble for upper KS2
+- Turing Tumble for upper primary (Years 5-6)
 
 **Phase 4 (Comprehensive provision)**:
 
@@ -231,13 +231,19 @@ After participating in professional development, the vast majority of teachers r
 
 ### Formal CPD Opportunities
 
-**National Centre for Computing Education (NCCE)**:
+**Teach Computing (UK-based, internationally accessible)**:
 
-- Free courses for teachers in England
+- Free courses accessible worldwide
 - Primary-focused pathways
-- Certification programmes
+- Useful resources adaptable for Malta
 - Face-to-face and online options
 - [teachcomputing.org](https://teachcomputing.org/)
+
+**Malta-Specific Resources**:
+
+- **Bebras Malta**: [bebras.computationalthinking.mt](https://bebras.computationalthinking.mt/) — Annual computational thinking challenge for Maltese schools
+- **Faculty of ICT, University of Malta**: [um.edu.mt/ict](https://www.um.edu.mt/ict/) — Further study and professional development
+- **DigComp Malta**: Digital competence framework resources
 
 **Raspberry Pi Foundation**:
 
@@ -381,7 +387,7 @@ The field of computing education continues to evolve. Trends to watch include:
 
 The landscape will keep changing. To stay current:
 
-- Follow key organisations (Raspberry Pi Foundation, CAS, NCCE)
+- Follow key organisations (Raspberry Pi Foundation, CAS, Bebras)
 - Attend conferences or watch recorded sessions
 - Subscribe to newsletters and blogs
 - Engage with practitioner communities
@@ -488,12 +494,12 @@ You have engaged seriously with ideas and approaches that will serve your learne
 
 - Resnick, M. (2017). *Lifelong Kindergarten: Cultivating Creativity through Projects, Passion, Peers, and Play*. MIT Press.
 - Bers, M. U. (2018). *Coding as a Playground: Programming and Computational Thinking in the Early Childhood Classroom*. Routledge.
-- Berry, M. (2013). *Computing in the National Curriculum: A Guide for Primary Teachers*. Computing at School.
+- Papert, S. (1980). *Mindstorms: Children, Computers, and Powerful Ideas*. Basic Books.
 
 ### Online Courses
 
 - FutureLearn: Teaching Physical Computing (Raspberry Pi Foundation)
-- Teach Computing: Primary Certificate pathway (NCCE)
+- Teach Computing: Primary Certificate pathway (UK-based, internationally accessible)
 - Code.org: CS Fundamentals for teachers
 
 ### Communities and Networks
