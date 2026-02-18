@@ -19,11 +19,11 @@ This open educational resource supports the study-unit TEM5018 at the University
 | Section | Topic |
 |---------|-------|
 | 1 | From Unplugged to Plugged: Why Physical Computing Matters |
-| 2 | Robots in the Classroom |
-| 3 | Tangible Interfaces |
-| 4 | Programmable Microcontrollers |
-| 5 | Mechanical Logic Toys |
-| 6 | Designing and Assessing Lessons |
+| 2 | Designing and Assessing Lessons |
+| 3 | Robots in the Classroom |
+| 4 | Tangible Interfaces |
+| 5 | Programmable Microcontrollers |
+| 6 | Mechanical Logic Toys |
 | 7 | Bringing It All Together |
 
 ---
