@@ -137,7 +137,7 @@ Studies on physical computing in primary education consistently report positive 
 
 - **Improved CT skills**: Children using programmable robots show gains in sequencing, debugging, and algorithmic thinking (Bers, 2018)
 - **Transfer to other domains**: CT skills developed through robotics can transfer to mathematical problem-solving (Kazakoff & Bers, 2014)
-- **Increased confidence**: Children, particularly girls, show increased confidence in technology after hands-on physical computing experiences (Sullivan & Bers, 2016)
+- **Increased confidence**: Children, particularly girls, show increased confidence in technology after hands-on physical computing experiences (Sullivan & Bers, 2019)
 - **Collaborative learning**: Physical computing naturally promotes peer collaboration and discussion (Resnick, 2017)
 
 This isn't about replacing good teaching with gadgets. It's about adding a powerful set of tools to your repertoire—tools that align with how children learn best.
