@@ -26,7 +26,7 @@ Grover, S., & Pea, R. (2013). Computational thinking in K-12: A review of the st
 
 Kong, S. C., & Abelson, H. (Eds.). (2022). *Computational Thinking Education in K-12: Artificial Intelligence Literacy and Physical Computing*. MIT Press. [Publisher](https://mitpress.mit.edu/9780262543477/computational-thinking-education-in-k-12/)
 
-Yadav, A., & Berthelsen, U. (Eds.). (2021). *Computational Thinking in Education: A Pedagogical Perspective*. Routledge. [Publisher](https://www.routledge.com/Computational-Thinking-in-Education-A-Pedagogical-Perspective/Yadav-Berthelsen/p/book/9780367427634)
+Yadav, A., & Berthelsen, U. (Eds.). (2021). *Computational Thinking in Education: A Pedagogical Perspective*. Routledge. [Publisher](https://www.routledge.com/Computational-Thinking-in-Education-A-Pedagogical-Perspective/Yadav-Berthelsen/p/book/9780367610357)
 
 ---
 
