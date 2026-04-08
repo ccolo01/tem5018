@@ -188,8 +188,6 @@ This is genuinely challenging, especially for younger children. A child standing
 - Use consistent starting orientations until children are confident
 - Provide directional cards or arrows that children can manipulate
 
-Research by Highfield and Mulligan (2008) found that Bee-Bot activities significantly improved young children's spatial reasoning and directional language, with effects persisting beyond the immediate learning context.
-
 ### Debugging: Learning from Failure
 
 Perhaps no concept benefits more from floor robots than debugging. When a Bee-Bot misses its target, the error is visible to everyone. This creates a powerful, non-threatening context for error analysis.
@@ -825,10 +823,6 @@ Track which challenges children can complete independently:
 ### Research and Professional Reading
 
 **Key research on floor robots in education:**
-
-- Highfield, K., & Mulligan, J. (2008). Young children's embodied action in problem-solving tasks using robotic toys. In *Navigating Currents and Charting Directions*, Proceedings of the 31st Annual MERGA Conference (pp. 259–266). This foundational study demonstrates how Bee-Bot activities develop spatial reasoning and mathematical thinking.
-
-- Papadakis, S., & Kalogiannakis, M. (2022). Learning Computational Thinking Development in Young Children With Bee-Bot Educational Robotics. In *Research Anthology on Computational Thinking, Programming, and Robotics in the Classroom* (pp. 926–947). IGI Global. Reports significant learning gains in CT skills among preschool children using Bee-Bot.
 
 - Seckel, M. J., Salinas, C., Font, V., & Sala-Sebastià, G. (2023). Guidelines to develop computational thinking using the Bee-bot robot from the literature. *Education and Information Technologies*. A systematic review of 25 studies providing evidence-based guidance for CT development with Bee-Bot.
 
