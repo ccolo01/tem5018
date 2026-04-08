@@ -56,8 +56,6 @@ del Olmo-Muñoz, J., Cózar-Gutiérrez, R., & González-Calero, J. A. (2020). Co
 
 Brackmann, C. P., Román-González, M., Robles, G., Moreno-León, J., Casali, A., & Barone, D. (2017). Development of computational thinking skills through unplugged activities in primary school. *Proceedings of the 12th Workshop on Primary and Secondary Computing Education*, 65–72. [DOI: 10.1145/3137065.3137069](https://doi.org/10.1145/3137065.3137069)
 
-Highfield, K., & Mulligan, J. (2008). Young children's embodied action in problem-solving tasks using robotic toys. *Proceedings of the 31st Annual MERGA Conference*, 259–266. [Free PDF](https://files.eric.ed.gov/fulltext/ED503746.pdf)
-
 Kazakoff, E. R., & Bers, M. U. (2014). Put your robot in, put your robot out: Sequencing through programming robots in early childhood. *Journal of Educational Computing Research*, 50(4), 553–573. [DOI: 10.2190/EC.50.4.f](https://doi.org/10.2190/EC.50.4.f)
 
 Papadakis, S., & Kalogiannakis, M. (2022). Learning Computational Thinking Development in Young Children With Bee-Bot Educational Robotics. In *Research Anthology on Computational Thinking, Programming, and Robotics in the Classroom* (pp. 926–947). IGI Global. [DOI: 10.4018/978-1-6684-2411-7.ch044](https://doi.org/10.4018/978-1-6684-2411-7.ch044)
