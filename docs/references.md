@@ -68,7 +68,7 @@ Sullivan, A., & Bers, M. U. (2016). Robotics in the early childhood classroom: L
 
 Horn, M. S., Solovey, E. T., Crouser, R. J., & Jacob, R. J. K. (2009). Comparing the use of tangible and graphical programming languages for informal science education. *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems*, 975–984. [DOI: 10.1145/1518701.1518851](https://doi.org/10.1145/1518701.1518851)
 
-Liang, M., Li, Y., Weber, T., & Hussmann, H. (2021). Tangible interaction for children's creative learning: A review. *Proceedings of the 13th Conference on Creativity & Cognition*, 1–14. [DOI: 10.1145/3450741.3465265](https://doi.org/10.1145/3450741.3465265)
+Liang, M., Li, Y., Weber, T., & Hussmann, H. (2021). Tangible interaction for children's creative learning: A review. *Proceedings of the 13th Conference on Creativity & Cognition*, 1–14. [DOI: [10.1145/3450741.3465262)](https://doi.org/10.1145/3450741.3465262)
 
 Sapounidis, T., & Demetriadis, S. (2013). Tangible versus graphical user interfaces for robot programming: Exploring cross-age children's preferences. *Personal and Ubiquitous Computing*, 17(8), 1775–1786. [DOI: 10.1007/s00779-013-0641-7](https://doi.org/10.1007/s00779-013-0641-7)
 
