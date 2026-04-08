@@ -17,13 +17,6 @@ In the previous section, we explored floor robots—devices that children progra
 
 Why does this matter? Consider a typical scene in a primary classroom: a child sits at a tablet, tapping icons to create a sequence. Now imagine a different scene: three children gathered around a table, arranging coloured wooden blocks, debating which piece should come next, physically moving and rearranging their "code" before sending it to a robot. Both children are learning to program, but the second scenario offers something qualitatively different—embodied, collaborative, and tactile engagement with computational thinking.
 
-Research by Horn and colleagues at the Boston Museum of Science found that visitors were significantly more likely to engage with a tangible programming interface than an equivalent graphical one, spent longer interacting with it, and—crucially—children were more likely to become actively involved when using tangible blocks rather than on-screen equivalents (Horn et al., 2009). This finding aligns with what developmental psychologists have long understood: young children learn best through direct manipulation of physical objects.
-
-!!! quote "From the Research"
-    "Tangible user interfaces are concerned with providing tangible representations to digital information and controls, allowing users to quite literally grasp data with their hands and effect functionality by physical manipulations of these representations."
-    
-    — Shaer & Hornecker (2010)
-
 For primary teachers, tangible interfaces offer practical advantages beyond pedagogy. They often require no screens, reducing concerns about screen time. They naturally support collaborative work, as multiple children can manipulate the same physical materials simultaneously. And they provide a bridge between the abstract world of programming and the concrete, manipulable world that young children inhabit.
 
 ---
