@@ -62,7 +62,7 @@ Seckel, M. J., Salinas, C., Font, V., & Sala-Sebastià, G. (2023). Guidelines to
 
 Sullivan, A., & Bers, M. U. (2016). Robotics in the early childhood classroom: Learning outcomes from an 8-week robotics curriculum in pre-kindergarten through second grade. *International Journal of Technology and Design Education*, 26(1), 3–20. [DOI: 10.1007/s10798-015-9304-5](https://doi.org/10.1007/s10798-015-9304-5)
 
-Sullivan, A., & Bers, M. U. (2019). Investigating the use of robotics to increase girls' interest in engineering during early elementary school. International Journal of Technology and Design Education, 29(5), 1033–1051. [DOIL 10.1007/s10798-018-9483-y](https://doi.org/10.1007/s10798-018-9483-y)
+Sullivan, A., & Bers, M. U. (2019). Investigating the use of robotics to increase girls' interest in engineering during early elementary school. International Journal of Technology and Design Education, 29(5), 1033–1051. [DOI: 10.1007/s10798-018-9483-y](https://doi.org/10.1007/s10798-018-9483-y)
 
 ---
 
