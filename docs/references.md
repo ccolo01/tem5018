@@ -32,7 +32,7 @@ Yadav, A., & Berthelsen, U. (Eds.). (2021). *Computational Thinking in Education
 
 ## Research on Physical Computing with Microcontrollers
 
-Hodges, S., Sentance, S., Finney, J., & Ball, T. (2020). Physical computing: A key element of modern computer science education. *Computer*, 53(4), 20–30. [DOI: 10.1109/MC.2020.2971674](https://doi.org/10.1109/MC.2020.2971674) | [Free PDF](https://tech.microbit.org/projects/physical-computing-a-key-element-of-modern-computer-science-education/)
+Hodges, S., Sentance, S., Finney, J., & Ball, T. (2020). Physical computing: A key element of modern computer science education. *Computer*, 53(4), 20–30. [Free PDF](https://tech.microbit.org/projects/physical-computing-a-key-element-of-modern-computer-science-education/)
 
 Kalelioglu, F., & Sentance, S. (2020). Teaching with physical computing in school: The case of the micro:bit. *Education and Information Technologies*, 25, 2577–2603. [DOI: 10.1007/s10639-019-10080-8](https://doi.org/10.1007/s10639-019-10080-8)
 
