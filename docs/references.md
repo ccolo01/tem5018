@@ -2,7 +2,7 @@
 
 ## Core Texts
 
-Bers, M. U. (2018). *Coding as a Playground: Programming and Computational Thinking in the Early Childhood Classroom*. Routledge. [Publisher](https://www.routledge.com/Coding-as-a-Playground-Programming-and-Computational-Thinking-in-the-Early/Bers/p/book/9781138225626)
+Bers, M. U. (2018). *Coding as a Playground: Programming and Computational Thinking in the Early Childhood Classroom*. Routledge. [Publisher](https://www.routledge.com/Coding-as-a-Playground-Programming-and-Computational-Thinking-in-the-Early-Childhood-Classroom/Bers/p/book/9780367900502)
 
 Bruner, J. S. (1966). *Toward a Theory of Instruction*. Harvard University Press. [Publisher](https://www.hup.harvard.edu/books/9780674897014)
 
