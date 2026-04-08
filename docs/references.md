@@ -58,7 +58,7 @@ Brackmann, C. P., Román-González, M., Robles, G., Moreno-León, J., Casali, A.
 
 Kazakoff, E. R., & Bers, M. U. (2014). Put your robot in, put your robot out: Sequencing through programming robots in early childhood. *Journal of Educational Computing Research*, 50(4), 553–573. [DOI: 10.2190/EC.50.4.f](https://doi.org/10.2190/EC.50.4.f)
 
-Schina, D., Esteve-González, V., & Usart, M. (2021). Teachers' Perceptions of Bee-Bot Robotic Toy and Their Ability to Integrate It in Their Teaching. *Advances in Intelligent Systems and Computing*. Springer. [DOI: 10.1007/978-3-030-67209-6_48](https://doi.org/10.1007/978-3-030-67209-6_48)
+Schina, D., Esteve-González, V., & Usart, M. (2021). Teachers' Perceptions of Bee-Bot Robotic Toy and Their Ability to Integrate It in Their Teaching. *Advances in Intelligent Systems and Computing*. Springer. [DOI: 10.1007/978-3-030-67411-3_12](https://doi.org/10.1007/978-3-030-67411-3_12)
 
 Seckel, M. J., Salinas, C., Font, V., & Sala-Sebastià, G. (2023). Guidelines to develop computational thinking using the Bee-bot robot from the literature. *Education and Information Technologies*, 28, 16127–16150. [DOI: 10.1007/s10639-023-11843-0](https://doi.org/10.1007/s10639-023-11843-0)
 
