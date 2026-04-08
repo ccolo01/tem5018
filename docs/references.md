@@ -72,8 +72,6 @@ Liang, M., Li, Y., Weber, T., & Hussmann, H. (2021). Tangible interaction for ch
 
 Sapounidis, T., & Demetriadis, S. (2013). Tangible versus graphical user interfaces for robot programming: Exploring cross-age children's preferences. *Personal and Ubiquitous Computing*, 17(8), 1775–1786. [DOI: 10.1007/s00779-013-0641-7](https://doi.org/10.1007/s00779-013-0641-7)
 
-Shaer, O., & Hornecker, E. (2010). Tangible user interfaces: Past, present, and future directions. *Foundations and Trends in Human–Computer Interaction*, 3(1–2), 1–137. [DOI: 10.1561/1100000026](https://doi.org/10.1561/1100000026)
-
 ---
 
 ## Research on Assessment and Pedagogy
