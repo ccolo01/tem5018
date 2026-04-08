@@ -36,7 +36,7 @@ Hodges, S., Sentance, S., Finney, J., & Ball, T. (2020). Physical computing: A k
 
 Kalelioglu, F., & Sentance, S. (2020). Teaching with physical computing in school: The case of the micro:bit. *Education and Information Technologies*, 25, 2577–2603. [DOI: 10.1007/s10639-019-10080-8](https://doi.org/10.1007/s10639-019-10080-8)
 
-Przybylla, M., & Romeike, R. (2014). Physical computing and its scope—towards a constructionist computer science curriculum with physical computing. *Informatics in Education*, 13(2), 241–254. [DOI: 10.15388/infedu.2014.05](https://doi.org/10.15388/infedu.2014.05)
+Przybylla, M., & Romeike, R. (2014). Physical computing and its scope—towards a constructionist computer science curriculum with physical computing. *Informatics in Education*, 13(2), 241–254. [DOI: 10.15388/infedu.2014.14](https://doi.org/10.15388/infedu.2014.14)
 
 Sentance, S., Waite, J., Yeomans, L., & MacLeod, E. (2017). Teaching with physical computing devices: The BBC micro:bit initiative. *Proceedings of the 12th Workshop on Primary and Secondary Computing Education*, 87–96. [DOI: 10.1145/3137065.3137083](https://doi.org/10.1145/3137065.3137083)
 
