@@ -826,8 +826,6 @@ Track which challenges children can complete independently:
 
 - Seckel, M. J., Salinas, C., Font, V., & Sala-Sebastià, G. (2023). Guidelines to develop computational thinking using the Bee-bot robot from the literature. *Education and Information Technologies*. A systematic review of 25 studies providing evidence-based guidance for CT development with Bee-Bot.
 
-- Schina, D., Esteve-González, V., & Usart, M. (2021). Teachers' Perceptions of Bee-Bot Robotic Toy and Their Ability to Integrate It in Their Teaching. In *Advances in Intelligent Systems and Computing*. Explores teacher perspectives on implementing floor robots in primary classrooms.
-
 **Books for deeper exploration:**
 
 - Bers, M. U. (2018). *Coding as a Playground: Programming and Computational Thinking in the Early Childhood Classroom*. Routledge. Essential reading on developmentally appropriate approaches to coding with young children.
