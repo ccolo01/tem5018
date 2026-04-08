@@ -120,7 +120,6 @@ Rich, P. J., Mason, S. L., & O'Leary, J. (2021). Measuring the effect of continu
 - **CSTA (Computer Science Teachers Association)**: [csteachers.org](https://csteachers.org)
 - **Teach Computing (UK-based, internationally accessible)**: [teachcomputing.org](https://teachcomputing.org)
 - **Raspberry Pi Foundation**: [raspberrypi.org](https://www.raspberrypi.org)
-- **Faculty of ICT, University of Malta**: [um.edu.mt/ict](https://www.um.edu.mt/ict/)
 
 ---
 
@@ -131,29 +130,12 @@ Busuttil, L., & Formosa, M. (2020). Teaching Computing without Computers: Unplug
 ### Malta Digital Education Resources
 
 - **Bebras Malta**: [bebras.computationalthinking.mt](https://bebras.computationalthinking.mt/) — Annual computational thinking challenge aligned with international Bebras movement
-- **Digital Literacy Curriculum Framework (Malta)**: Part of the Learning Outcomes Framework
-- **Faculty of ICT, University of Malta**: [um.edu.mt/ict](https://www.um.edu.mt/ict/)
-- **Directorate for Digital Literacy and Transversal Skills**: Resources for Maltese educators
 
 ### Relevant Malta Policy Documents
 
 - Learning Outcomes Framework (LOF) — Digital Literacy
 - Malta Digital Education Strategy
 - National Literacy Strategy (includes digital literacy components)
-
----
-
-## Further Reading Suggestions
-
-Throughout this reader, we reference additional sources relevant to specific topics. These are listed at the end of each section where applicable.
-
-For the most current research on computational thinking and physical computing in education, we recommend:
-
-- *ACM Transactions on Computing Education (TOCE)*: [dl.acm.org/journal/toce](https://dl.acm.org/journal/toce)
-- *Journal of Educational Computing Research*: [journals.sagepub.com/home/jec](https://journals.sagepub.com/home/jec)
-- *Computers & Education*: [sciencedirect.com/journal/computers-and-education](https://www.sciencedirect.com/journal/computers-and-education)
-- Proceedings of SIGCSE (Special Interest Group on Computer Science Education): [sigcse.org](https://sigcse.org)
-- Proceedings of WiPSCE (Workshop in Primary and Secondary Computing Education): [wipsce.org](https://wipsce.org)
 
 ---
 
