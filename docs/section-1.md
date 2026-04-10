@@ -412,30 +412,30 @@ Throughout this course, you'll encounter a range of physical computing tools. It
 
 We'll explore each of these categories in depth in later sections, but here's an overview:
 
-**Floor Robots** (Section 2)
+**Floor Robots** (Section 3)
 
-- Examples: Bee-Bot, Blue-Bot, Pro-Bot, Thymio, LEGO WeDo
+- Examples: Bee-Bot, Blue-Bot, Pro-Bot, Thymio, LEGO SPIKE
 - Characteristics: Move through physical space; programmed via buttons or screen
 - Best for: Sequencing, direction, spatial reasoning, early algorithms
 - Age range: Works well from Early Years through primary
 
-**Tangible Programming Interfaces** (Section 3)
+**Tangible Programming Interfaces** (Section 4)
 
-- Examples: Cubetto, Scottie Go!, Kubo, Osmo Coding, Blue-Bot TacTile, mTiny
+- Examples: Cubetto, TacTile Reader, Osmo Coding, KIBO, Makey Makey
 - Characteristics: Physical blocks, tiles, or objects control the robot or screen
 - Best for: Pre-readers, tactile learners, collaborative programming
 - Age range: Especially strong for Early Years and lower primary
 
-**Programmable Microcontrollers** (Section 4)
+**Programmable Microcontrollers** (Section 5)
 
-- Examples: BBC micro:bit, CodeBug, Arduino
+- Examples: BBC micro:bit, Crumble
 - Characteristics: Small computers with sensors, LEDs, and expansion options
 - Best for: Input-process-output concepts, data, sensors, upper primary
 - Age range: Most suitable from around Year 3/4 upward
 
-**Mechanical Logic Toys** (Section 5)
+**Mechanical Logic Toys** (Section 6)
 
-- Examples: Turing Tumble, Gravity Maze, Code Master
+- Examples: Turing Tumble, Gravity Maze, GraviTrax
 - Characteristics: No electricity; logic through mechanical systems
 - Best for: Pure logical thinking, unplugged-plugged bridge, puzzle-solving
 - Age range: Varies by complexity; some suitable from Year 1, others from Year 4+
@@ -643,25 +643,25 @@ Now it's time to get hands-on.
 
 ### What's Coming Next
 
-**Section 2: Robots in the Classroom**
+**Section 2: Designing and Assessing Lessons**
 
-We'll explore floor robots like Bee-Bot, Pro-Bot, and Thymio. You'll learn how these simple devices teach sequencing, debugging, and spatial reasoning—and how to integrate them into maths, literacy, and geography.
+We'll establish the pedagogical frameworks you'll use throughout: low floor/high ceiling/wide walls, lesson structures, cross-curricular integration, formative assessment strategies, and planning for your fieldwork.
 
-**Section 3: Tangible Interfaces**
+**Section 3: Robots in the Classroom**
 
-We'll examine tools where programming happens through physical manipulation: Cubetto, Scottie Go!, Makey Makey, Osmo, and more. These are particularly powerful for young children and tactile learners.
+We'll explore floor robots like Bee-Bot, Blue-Bot, Pro-Bot, and Thymio. You'll learn how these devices teach sequencing, debugging, and spatial reasoning—and how to integrate them into maths, literacy, and geography.
 
-**Section 4: Programmable Microcontrollers**
+**Section 4: Tangible Interfaces**
 
-We'll dive into the BBC micro:bit and related devices. You'll explore sensors, data, and more complex programming—opening up science, design, and creative projects.
+We'll examine tools where programming happens through physical manipulation: Cubetto, TacTile Reader, Makey Makey, Osmo, and KIBO. These are particularly powerful for young children and tactile learners.
 
-**Section 5: Mechanical Logic Toys**
+**Section 5: Programmable Microcontrollers**
 
-We'll investigate tools like Turing Tumble and Gravity Maze that teach computational concepts through mechanical systems—no electricity required.
+We'll dive into the BBC micro:bit and Crumble. You'll explore sensors, data, and more complex programming—opening up science, design, and creative projects.
 
-**Section 6: Designing and Assessing Lessons**
+**Section 6: Mechanical Logic Toys**
 
-We'll consolidate everything into practical guidance for planning, teaching, and assessing physical computing lessons in your classroom.
+We'll investigate tools like Turing Tumble, Gravity Maze, and GraviTrax that teach computational concepts through mechanical systems—no electricity required.
 
 **Section 7: Bringing It All Together**
 
