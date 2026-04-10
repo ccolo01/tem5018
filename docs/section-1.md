@@ -326,16 +326,7 @@ Physical computing is deeply mathematical. The connections include:
 - **Coordinates and position**: Grid mats use coordinate systems; robots move through positions
 - **Number and counting**: Counting steps, keeping score, calculating distances
 - **Data handling**: Collecting sensor data, creating graphs, interpreting readings
-- **Time and duration**: How long does each movement take? Timing sequences
 - **Shape and space**: Programming robots to draw shapes; exploring properties of shapes
-
-!!! example "Maths Activity: Exploring Perimeter with Pro-Bot"
-    Challenge children to program Pro-Bot to draw different rectangles with the same perimeter.
-    
-    - "Draw a rectangle with perimeter 40cm. Now draw a different rectangle, also with perimeter 40cm."
-    - Children must calculate side lengths and translate them into movement commands
-    - Connects programming to mathematical reasoning about perimeter
-    - Extension: Which rectangle has the largest area? (Introduces optimisation)
 
 ### Science
 
@@ -347,16 +338,6 @@ Physical computing aligns beautifully with scientific inquiry:
 - **Prediction and testing**: Hypothesising what will happen, then testing
 - **Data collection**: Using sensors to measure light, temperature, sound, motion
 - **Forces and motion**: How robots move, friction, speed, direction
-- **Living things**: Modelling animal behaviour, habitats, life cycles
-
-!!! example "Science Activity: Plant Moisture Monitor with micro:bit"
-    Connect a moisture sensor to a micro:bit to monitor soil moisture for classroom plants.
-    
-    - **Scientific inquiry**: What moisture level do our plants need? How does it change over time?
-    - **Data collection**: Recording moisture readings at different times of day
-    - **Variables**: What affects moisture? (Watering, evaporation, sunlight)
-    - **CT connection**: Programming the micro:bit to display warnings when moisture is low
-    - **Extension**: Automate watering with a pump (more advanced)
 
 ### Literacy
 
@@ -367,15 +348,6 @@ Physical computing can enhance reading, writing, speaking, and listening:
 - **Vocabulary development**: Technical vocabulary in meaningful contexts
 - **Speaking and listening**: Explaining programs, collaborative discussion, presenting projects
 - **Storytelling**: Creating interactive stories, robot characters, narrative journeys
-- **Reading comprehension**: Following written instructions, understanding documentation
-
-!!! example "Literacy Activity: Story Sequencing with Bee-Bot"
-    Create a mat showing scenes from a familiar story (e.g., *The Very Hungry Caterpillar*).
-    
-    - Children program Bee-Bot to visit each scene in the correct story order
-    - Reinforces sequencing, a key reading comprehension skill
-    - Children write programs, developing instructional writing skills
-    - Extension: Children create their own story mats and challenge classmates
 
 ### Art and Design
 
@@ -386,15 +358,6 @@ Physical computing opens creative possibilities:
 - **Sound art**: Musical instruments, soundscapes, programmed compositions
 - **Design process**: Ideation, prototyping, iteration, refinement
 - **Digital art**: LED displays, programmed light patterns
-- **Craft and making**: Combining physical computing with traditional crafts
-
-!!! example "Art Activity: Musical Instruments with Makey Makey"
-    Create musical instruments from everyday objects using Makey Makey.
-    
-    - Children design and build instruments from fruit, foil, play dough, or drawn graphics
-    - Connect to Scratch to create custom sounds and interactions
-    - Explores circuits (conductivity), design, music, and programming
-    - Children perform compositions for the class
 
 ### Geography and History
 
@@ -403,16 +366,7 @@ Physical computing can bring geography and history to life:
 - **Mapping and navigation**: Programming robots to follow routes on maps
 - **Direction and compass points**: North, south, east, west through robot movement
 - **Scale and distance**: Understanding scale when planning robot journeys
-- **Historical simulations**: Recreating historical journeys or events
 - **Local geography**: Creating mats based on local maps, navigating familiar places
-
-!!! example "Geography Activity: Journey Around Malta with a Floor Robot"
-    Create a mat showing a simplified map of Malta.
-    
-    - Children program robots to travel between locations: "Start in Valletta, visit Mdina, then travel to Marsaxlokk"
-    - Reinforces geographical knowledge while developing CT skills
-    - Discuss cardinal directions, relative position, distance
-    - Extension: Add challenges ("Avoid the road works at Mosta")
 
 ### Music
 
@@ -434,19 +388,7 @@ Even PE can incorporate physical computing:
 
 ### Choosing Your Integration Points
 
-You don't need to integrate physical computing into every subject, every week. Start with natural connections:
-
-- Where do you already teach sequencing, algorithms, or logical thinking?
-- Which subjects involve measurement, data, or cause and effect?
-- Where could hands-on, creative projects enhance engagement?
-- What topics might benefit from making abstract concepts concrete?
-
-!!! tip "Integration Strategies"
-    - **Start small**: One cross-curricular project per term is a great beginning
-    - **Look for natural fits**: Maths measurement, science fair testing, literacy sequencing
-    - **Collaborate**: Work with colleagues to plan cross-curricular projects
-    - **Let children lead**: Their interests can suggest integration points
-    - **Document and share**: Keep notes on what works for future reference
+You don't need to integrate physical computing into every subject, every week. Start with natural connections—subjects involving sequencing, measurement, data, or cause and effect. Section 2.4 provides further guidance on integration models and subject-specific ideas.
 
 | Curriculum Area | Physical Computing Tools | Key Connections |
 |-----------------|--------------------------|-----------------|
@@ -458,7 +400,7 @@ You don't need to integrate physical computing into every subject, every week. S
 | Music | Makey Makey, micro:bit, speakers | Rhythm, composition, sound |
 
 !!! question "Reflection Prompt"
-    Choose one topic you'll be teaching in the coming weeks. How might physical computing enhance that topic? What tool might you use? What would children create or explore?
+    Choose one topic you'll be teaching in the coming weeks. How might physical computing enhance that topic? What tool might you use?
 
 ---
 
@@ -498,21 +440,7 @@ We'll explore each of these categories in depth in later sections, but here's an
 - Best for: Pure logical thinking, unplugged-plugged bridge, puzzle-solving
 - Age range: Varies by complexity; some suitable from Year 1, others from Year 4+
 
-### The "Low Floor, High Ceiling, Wide Walls" Principle
-
-Mitchel Resnick's research group at MIT popularised this useful framework for evaluating educational tools:
-
-- **Low floor**: Easy to get started; accessible to beginners
-- **High ceiling**: Room to grow; supports complex, sophisticated work
-- **Wide walls**: Supports many different types of projects; not just one path
-
-The best tools score well on all three dimensions. Bee-Bot has a low floor (even 4-year-olds can press the buttons) but a relatively low ceiling (limited commands, no sensors). The micro:bit has a low floor (MakeCode is beginner-friendly) but also a high ceiling (it can support quite complex projects) and wide walls (music, games, wearables, science, and more).
-
-Consider what matters for your context:
-
-- For Early Years, floor is everything—it must be immediately accessible
-- For upper primary, ceiling matters more—you want room for challenge and extension
-- For cross-curricular work, walls matter—you need flexibility
+When evaluating tools, consider the "low floor, high ceiling, wide walls" principle—a framework explored in detail in Section 2.2. Briefly: the best tools are easy to start with (low floor), support sophisticated work (high ceiling), and allow diverse projects (wide walls). Bee-Bot has a low floor but limited ceiling; the micro:bit scores well on all three dimensions.
 
 ### Factors to Consider When Choosing Tools
 
@@ -696,121 +624,14 @@ Limited resources don't mean no resources. Creative organisation extends what yo
 
 ## 1.9 Assessment in Physical Computing Contexts
 
-How do you know if children are learning through physical computing? Traditional tests don't capture the kind of learning that happens when children are programming robots and building interactive projects. You need assessment approaches that match the hands-on, process-oriented nature of the work.
+Traditional tests don't capture the kind of learning that happens when children program robots and build interactive projects. Physical computing develops process skills—how children approach problems, respond to failure, collaborate, and persist—that pencil-and-paper assessments miss entirely.
 
-### Why Traditional Tests Fall Short
+In physical computing, process often matters more than product. A child whose robot doesn't reach the goal but who shows systematic debugging and clear reasoning may have learned more than one whose robot succeeds by lucky guessing. This requires shifting focus from "Did it work?" to "How did they think?"
 
-Physical computing develops skills that are difficult to assess with pencil-and-paper tests:
-
-- **Process skills**: How children approach problems, not just final answers
-- **Debugging**: Responding to failure, revising strategies
-- **Collaboration**: Working with others, explaining ideas
-- **Creativity**: Novel solutions, personal expression
-- **Persistence**: Sticking with challenges, trying multiple approaches
-
-A child might struggle on a written CT test but demonstrate brilliant debugging skills with a real robot. Another might answer test questions correctly but fall apart when facing an open-ended physical challenge. Assessment must capture the richness of the learning.
-
-### Process Over Product
-
-In physical computing, the process often matters more than the product. A child whose robot doesn't reach the goal but who shows systematic debugging, clear reasoning, and persistent effort may have learned more than a child whose robot succeeds by lucky guessing.
-
-This requires shifting your focus:
-
-- Not just "Did the robot complete the task?" but "How did the child approach the problem?"
-- Not just "Is the code correct?" but "Can the child explain their thinking?"
-- Not just "Did they succeed?" but "What did they learn from failures?"
-
-### Observation and Documentation
-
-Your most powerful assessment tool is observation. Watch children as they work:
-
-- How do they plan before programming?
-- How do they respond when things go wrong?
-- Do they test systematically or randomly?
-- How do they collaborate with partners?
-- Can they explain what they're doing and why?
-- Do they spot patterns and apply them to new situations?
-
-Document what you observe:
-
-- **Notes**: Brief observations during or after sessions
-- **Photographs**: Children's work, their setups, screen captures
-- **Videos**: Short clips of children programming, explaining, debugging
-- **Audio**: Children explaining their thinking
-- **Work samples**: Programs, planning sheets, written reflections
-
-### Formative Assessment Strategies
-
-**Questioning**
-
-Ask open questions that reveal thinking:
-
-- "What are you trying to make the robot do?"
-- "What did you expect to happen? What actually happened?"
-- "How will you fix it?"
-- "What's the tricky part?"
-- "What would you do differently next time?"
-
-**Think-alouds**
-
-Ask children to verbalise their thinking as they work. This reveals their reasoning and helps them become aware of their own strategies.
-
-**Peer feedback**
-
-Children observe and comment on each other's work:
-
-- "I noticed you tried lots of different things before it worked."
-- "I didn't understand why you used a loop there—can you explain?"
-
-**Self-assessment**
-
-Simple prompts for children to reflect:
-
-- "What did I find tricky today?"
-- "What would I do differently next time?"
-- "What am I proud of?"
-- "What do I want to learn more about?"
-
-### Rubrics for CT in Action
-
-A simple rubric can help focus observation. Here's an example framework:
-
-| Skill | Beginning | Developing | Secure |
-|-------|-----------|------------|--------|
-| **Planning** | Starts without a plan | Has a vague plan | Plans systematically before starting |
-| **Sequencing** | Steps often out of order | Mostly correct sequences | Accurate sequences with awareness of order |
-| **Debugging** | Gives up or random changes | Makes some logical changes | Systematically identifies and fixes errors |
-| **Explaining** | Cannot explain choices | Basic explanations | Clear explanations with reasoning |
-| **Collaboration** | Works alone; little sharing | Some collaboration | Effective teamwork and communication |
-
-This isn't for grading every child every session—it's a lens for noticing and noting significant observations.
-
-### Capturing Evidence
-
-For your TEM5018 fieldwork (and for ongoing classroom practice), you'll need to document children's learning. Consider:
-
-- **Learning journals**: Children write or draw about their experiences
-- **Exit tickets**: Quick end-of-session reflections ("One thing I learned, one thing I'm wondering")
-- **Photo evidence**: Annotated photographs showing process and products
-- **Video clips**: Brief recordings of children explaining their work
-- **Portfolio samples**: Key pieces of work over time showing progression
-
-!!! tip "Quick Evidence Capture"
-    Keep your phone or tablet handy for quick snaps and clips:
-    
-    - Photograph a child's planning sheet next to their completed program
-    - Take a 30-second video of a child explaining their debugging process
-    - Capture a screenshot of a completed program
-    - Record audio of pair discussions during problem-solving
-
-### Avoiding Over-Assessment
-
-A word of caution: don't let assessment squeeze out the joy. Physical computing should be playful, creative, and exploratory. If children feel constantly observed and evaluated, they may become risk-averse and stop experimenting.
-
-Balance formative assessment with genuine open-ended play. Not every session needs formal observation. Sometimes the most valuable learning happens when children are simply given time, tools, and permission to explore.
+Your most powerful assessment tool is observation: watching how children plan, test, debug, and explain. Section 2.5 provides detailed formative assessment strategies, and Section 2.6 offers rubrics specifically designed for physical computing contexts. For now, the key principle is this: assess the thinking, not just the outcome.
 
 !!! question "Reflection Prompt"
-    How do you currently assess hands-on, practical learning in your classroom? What strategies might transfer to physical computing? What new approaches might you need?
+    How do you currently assess hands-on, practical learning in your classroom? What strategies might transfer to physical computing?
 
 ---
 
@@ -846,49 +667,15 @@ We'll consolidate everything into practical guidance for planning, teaching, and
 
 We'll step back and consider the bigger picture: building sustainable practice, supporting colleagues, and continuing your development.
 
-### Your Fieldwork
+### Your Fieldwork and Reflective Diary
 
-Throughout this course, you'll choose three different tools from three different sessions to try in your own classroom. Document these experiences with photographs and reflections. Consider:
-
-- What worked well?
-- What was challenging?
-- What did children learn?
-- What would you do differently?
-
-Your fieldwork is an opportunity to translate theory into practice and to learn from real classroom experience.
-
-### Your Reflective Diary
-
-Keep a reflective diary throughout the course. Record not just what you did, but what you thought and felt:
-
-- What surprised you?
-- What challenged your assumptions?
-- How is your confidence developing?
-- What questions are emerging?
-
-This diary will support your presentation and will become a valuable professional resource.
+Throughout this course, you'll choose three different tools to try in your classroom, documenting your experiences in a reflective diary. Section 2.8 provides detailed guidance on planning your fieldwork, and Section 2.9 offers frameworks for reflective practice. For now, simply know that your fieldwork will be where theory meets reality—and where much of your professional learning will happen.
 
 ### Embrace the Experiment
 
 Here's a secret: things will go wrong. Devices won't charge. Programs won't work. Children will do unexpected things. This is not failure—it's learning.
 
 The teachers who get the most from physical computing are those who embrace experimentation, model resilience, and learn alongside their students. You don't need to be an expert. You need to be curious, persistent, and willing to say, "I don't know—let's figure it out together."
-
-!!! quote "From the Research"
-    "The best learning experiences happen when teachers position themselves as learners alongside their students, exploring and discovering together."
-    
-    — Mitchel Resnick, *Lifelong Kindergarten* (2017)
-
-### What Do You Hope to Learn?
-
-Before you move on, take a moment to reflect:
-
-- What are you most curious about?
-- What are you most nervous about?
-- What do you hope to learn from this course?
-- What do you hope your students will experience?
-
-Write your thoughts in your reflective diary. Return to them at the end of the course and see how your thinking has evolved.
 
 ---
 
