@@ -80,8 +80,6 @@ These systems use physical tiles or blocks that children arrange to create progr
 
 - **[KUBO](https://kubo-robot.com/)**: Uses TagTile® puzzle-piece blocks that the robot drives over to "read" the program. Tiles snap together like jigsaw pieces. Covers sequences, functions, subroutines, and loops.
 
-- **[Scottie Go!](https://scottiego.com/en/)**: Cardboard tiles that children arrange on a surface, then scan with a tablet camera. An app interprets the tile arrangement and animates a character following the program. Combines tangible manipulation with screen-based feedback.
-
 - **Blue-Bot TacTile Reader** (TTS): Physical tiles placed in a reader that transmits programs to Blue-Bot via Bluetooth. Up to three readers can be connected for longer programs (up to 30 steps).
 
 **Key characteristics**:
@@ -101,7 +99,7 @@ These systems combine physical manipulatives with screen-based feedback, using c
 
 - **[Osmo Coding](https://www.playosmo.com/)**: Uses magnetic coding blocks that children arrange in front of an iPad. The device's camera (with a reflector attachment) recognises the block arrangement and controls an on-screen character. Games include Coding Awbie (basic sequencing), Coding Jam (music and loops), and Coding Duo (collaborative puzzles).
 
-- **Scottie Go!**: As mentioned above, uses augmented reality to connect physical tiles with digital animation.
+- **[Scottie Go!](https://scottiego.com/en/)**: Cardboard tiles that children arrange on a surface, then scan with a tablet camera. An app interprets the tile arrangement and animates a character following the program. Combines tangible manipulation with screen-based feedback.
 
 **Key characteristics**:
 
