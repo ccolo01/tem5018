@@ -22,7 +22,7 @@ When children program a microcontroller, they gain insight into how these ubiqui
 !!! quote "From the Research"
     "Physical computing—combining software and hardware to build interactive physical systems that sense and respond to the real world—has been shown to result in broad engagement across a spectrum of users."
     
-    — Hodges et al. (2020)
+    — Hodges et al. (2020) [Project Abstract](https://tech.microbit.org/projects/physical-computing-a-key-element-of-modern-computer-science-education/)
 
 For primary teachers, microcontrollers offer remarkable pedagogical opportunities. Research has consistently found that physical computing increases student engagement, creativity, and motivation compared to purely screen-based programming (Sentance et al., 2017). When children can see their code controlling a physical LED, hear a buzzer respond to their touch, or watch a motor spin based on sensor input, abstract programming concepts become concrete and meaningful.
 
