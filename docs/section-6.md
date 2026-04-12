@@ -17,7 +17,7 @@ Throughout this reader, we have explored programmable robots, tangible interface
 
 Why step away from screens and circuits? Consider these scenarios:
 
-- A rural school with limited internet connectivity and outdated computers
+- A school with limited internet connectivity and outdated computers
 - A classroom where device-sharing means some children wait while others work
 - A home environment where parents prefer screen-free learning activities
 - A lesson where you want children to focus purely on thinking, without the distraction of debugging software issues
