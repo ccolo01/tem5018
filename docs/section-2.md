@@ -18,11 +18,6 @@ Before we dive into specific physical computing tools in the sections ahead—pr
 
 This section provides you with frameworks and strategies that you will apply throughout the rest of this course. As you explore each category of tool in subsequent sections, you will be asked to try them in your own classroom. The principles here will guide your lesson planning, help you observe and assess learning, and ensure your practical sessions run smoothly.
 
-!!! quote "A Teacher's Perspective"
-    "Computing is one of the most exciting subjects to lead. It promotes collaborative learning, independence, exploration, and logic. But more importantly—there is no future that I can think of that will not require good digital literacy and IT skills for humans to thrive and survive."
-    
-    — Allen, Computing Subject Specialist, Willow Brook Primary School Academy
-
 ---
 
 ## 2.2 The Low Floor, High Ceiling, Wide Walls Principle
