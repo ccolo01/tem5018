@@ -133,72 +133,7 @@ The micro:bit is not the learning outcome—computational thinking is. Keep the 
 
 ---
 
-## 2.4 Cross-Curricular Integration
-
-### Why Integration Matters
-
-Physical computing is most powerful when it serves learning across the curriculum, not as an isolated "computing lesson." Integration:
-
-- Makes computational thinking meaningful and contextual
-- Addresses curriculum time pressures by combining objectives
-- Helps children see connections between subjects
-- Provides authentic purposes for programming tasks
-
-### Integration Models
-
-**Model 1: Computing-led with subject links**  
-Primary focus is on CT skills; subject content provides context.  
-*Example*: Learning about selection (if/then) using a temperature-sensing program, with science content about thermal insulators providing the scenario.
-
-**Model 2: Subject-led with CT embedded**  
-Primary focus is on subject learning; CT skills are developed along the way.  
-*Example*: A geography lesson on microclimates where children use micro:bits to collect temperature data at different locations around the school grounds.
-
-**Model 3: Fully integrated project**  
-Both CT and subject outcomes are equally emphasised.  
-*Example*: A D&T project where children design, build, and program a moving model that demonstrates understanding of mechanisms (D&T) and control systems (computing).
-
-### Subject-Specific Ideas
-
-**English**
-
-- Program a Bee-Bot to retell a story, moving between key scenes
-- Create an interactive story using Scratch or micro:bit
-- Write instructions for peers to follow when programming robots
-
-**Mathematics**
-
-- Use robots to explore angles, distance, and coordinates
-- Collect and analyse sensor data (temperature over time, light levels)
-- Program multiplication or division quiz games
-
-**Science**
-
-- Model animal behaviours using programmable robots
-- Investigate light, sound, or temperature with sensors
-- Explore cause and effect through input-process-output systems
-
-**Geography**
-
-- Create weather stations using micro:bit sensors
-- Program robots to navigate maps or follow routes
-- Collect environmental data during fieldwork
-
-**Design & Technology**
-
-- Add programmable elements to models and mechanisms
-- Design products that respond to user input
-- Explore control systems in everyday objects
-
-**Music**
-
-- Create digital instruments using Makey Makey
-- Program micro:bits to play melodies
-- Explore rhythm and pattern through sequencing
-
----
-
-## 2.5 Formative Assessment Strategies
+## 2.4 Formative Assessment Strategies
 
 ### The Challenge of Assessing CT
 
@@ -284,7 +219,7 @@ Portfolios capture growth over time and provide evidence for reporting.
 
 ---
 
-## 2.6 Rubrics for Physical Computing
+## 2.5 Rubrics for Physical Computing
 
 ### Designing Effective Rubrics
 
@@ -331,7 +266,7 @@ Children can use simplified rubrics for self and peer assessment:
 
 ---
 
-## 2.7 Managing Practical Sessions
+## 2.6 Managing Practical Sessions
 
 ### Before the Lesson
 
@@ -417,7 +352,7 @@ Physical computing sessions often see wide variation in progress:
 
 ---
 
-## 2.8 Planning Your Fieldwork
+## 2.7 Planning Your Fieldwork
 
 As part of TEM5018, you will conduct fieldwork using physical computing tools with primary-age learners. This section provides guidance for planning effective fieldwork activities.
 
@@ -477,7 +412,7 @@ Useful documentation methods:
 
 ---
 
-## 2.9 Reflective Practice
+## 2.8 Reflective Practice
 
 ### What Makes a Successful Physical Computing Lesson?
 
@@ -538,7 +473,7 @@ This cycle applies to individual lessons, to your use of particular tools, and t
 
 ---
 
-## 2.10 Resources
+## 2.9 Resources
 
 ### Lesson Planning
 
@@ -562,7 +497,7 @@ This cycle applies to individual lessons, to your use of particular tools, and t
 
 ---
 
-## 2.11 Summary
+## 2.10 Summary
 
 Designing and assessing physical computing lessons requires attention to principles, planning, and practice. The key ideas from this section:
 

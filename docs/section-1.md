@@ -388,7 +388,7 @@ Even PE can incorporate physical computing:
 
 ### Choosing Your Integration Points
 
-You don't need to integrate physical computing into every subject, every week. Start with natural connections—subjects involving sequencing, measurement, data, or cause and effect. Section 2.4 provides further guidance on integration models and subject-specific ideas.
+You don't need to integrate physical computing into every subject, every week. Start with natural connections—subjects involving sequencing, measurement, data, or cause and effect.
 
 | Curriculum Area | Physical Computing Tools | Key Connections |
 |-----------------|--------------------------|-----------------|
@@ -628,7 +628,7 @@ Traditional tests don't capture the kind of learning that happens when children 
 
 In physical computing, process often matters more than product. A child whose robot doesn't reach the goal but who shows systematic debugging and clear reasoning may have learned more than one whose robot succeeds by lucky guessing. This requires shifting focus from "Did it work?" to "How did they think?"
 
-Your most powerful assessment tool is observation: watching how children plan, test, debug, and explain. Section 2.5 provides detailed formative assessment strategies, and Section 2.6 offers rubrics specifically designed for physical computing contexts. For now, the key principle is this: assess the thinking, not just the outcome.
+Your most powerful assessment tool is observation: watching how children plan, test, debug, and explain. Section 2.4 provides detailed formative assessment strategies, and Section 2.5 offers rubrics specifically designed for physical computing contexts. For now, the key principle is this: assess the thinking, not just the outcome.
 
 !!! question "Reflection Prompt"
     How do you currently assess hands-on, practical learning in your classroom? What strategies might transfer to physical computing?
@@ -669,7 +669,7 @@ We'll step back and consider the bigger picture: building sustainable practice, 
 
 ### Your Fieldwork and Reflective Diary
 
-Throughout this course, you'll choose three different tools to try in your classroom, documenting your experiences in a reflective diary. Section 2.8 provides detailed guidance on planning your fieldwork, and Section 2.9 offers frameworks for reflective practice. For now, simply know that your fieldwork will be where theory meets reality—and where much of your professional learning will happen.
+Throughout this course, you'll choose three different tools to try in your classroom, documenting your experiences in a reflective diary. Section 2.7 provides detailed guidance on planning your fieldwork, and Section 2.8 offers frameworks for reflective practice. For now, simply know that your fieldwork will be where theory meets reality—and where much of your professional learning will happen.
 
 ### Embrace the Experiment
 
