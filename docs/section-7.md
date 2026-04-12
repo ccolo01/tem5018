@@ -213,18 +213,6 @@ Confidence grows through successful experience, not through waiting until you fe
 !!! tip "A Mindset Shift"
     You don't need to be an expert programmer to teach computational thinking effectively. You need to understand the key concepts, create opportunities for children to explore them, and ask good questions that prompt thinking.
 
-### What Research Says
-
-Studies of teacher professional development in CT reveal important patterns:
-
-- Teachers value understanding concepts before learning tools
-- Hands-on experience with activities is essential—not just being told about them
-- Ongoing support matters more than one-off training events
-- Connecting CT to existing teaching priorities increases engagement
-- Teachers benefit from seeing how CT appears in their curriculum areas
-
-After participating in professional development, the vast majority of teachers report that CT "ties things together... in ways not possible or not achieved with other methods they've tried previously" (Raspberry Pi Foundation, 2024).
-
 ---
 
 ## 7.6 Pathways for Professional Learning
