@@ -33,7 +33,7 @@ Mitchel Resnick, Papert's colleague at MIT and creator of Scratch, extended this
 
 - **Wide walls**: Supports diverse interests, learning styles, and creative directions
 
-As Resnick (2017) explains: "It's not enough to provide a single path from low floor to high ceiling; we need to provide wide walls so that kids can explore multiple pathways from floor to ceiling."
+As Resnick (2017) explains: "It’s not enough to provide a single path from a low floor to a high ceiling; it’s important to provide multiple pathways. Why? We want all children to work on projects based on their own personal interests and passions—and because different children have different passions, we need technologies that support many different types of projects, so that all children can work on projects that are personally meaningful to them."
 
 ### Why Wide Walls Matter
 
