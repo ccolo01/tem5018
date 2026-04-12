@@ -799,7 +799,7 @@ Track which challenges children can complete independently:
 
 **Bee-Bot and Blue-Bot (TTS Group):**
 
-- Product page and resources: [https://www.tts-group.co.uk/primary/computing-ict/bee-bots-blue-bots/](https://www.tts-group.co.uk/primary/computing-ict/bee-bots-blue-bots/){:target="_blank"}
+- Product page and resources: [https://www.tts-group.co.uk/tts-bee-bot-and-blue-bot-programmable-robot-classroom-pack/1013162.html](https://www.tts-group.co.uk/tts-bee-bot-and-blue-bot-programmable-robot-classroom-pack/1013162.html){:target="_blank"}
 - Downloadable lesson plans and activity cards
 - Blue-Bot app available free on iOS and Android
 
