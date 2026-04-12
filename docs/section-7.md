@@ -230,8 +230,6 @@ Confidence grows through successful experience, not through waiting until you fe
 **Malta-Specific Resources**:
 
 - **Bebras Malta**: [bebras.computationalthinking.mt](https://bebras.computationalthinking.mt/) — Annual computational thinking challenge for Maltese schools
-- **Faculty of ICT, University of Malta**: [um.edu.mt/ict](https://www.um.edu.mt/ict/) — Further study and professional development
-- **DigComp Malta**: Digital competence framework resources
 
 **Raspberry Pi Foundation**:
 
