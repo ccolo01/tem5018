@@ -283,7 +283,7 @@ A child might program a robot to perform a dance, create a musical instrument fr
 Mitchel Resnick argues that the best learning happens when children work on projects they're passionate about:
 
 !!! quote "From the Research"
-    "When students work on projects they're passionate about, they're willing to work longer and harder, and they learn more in the process."
+    "When people work on projects they’re passionate about, they’re eager to dive in and immerse themselves. They’re willing to work for hours, or longer, and hardly notice that time is passing. They enter a state that psychologist Mihaly Csikszentmihalyi calls flow—completely absorbed in the activity"
     
     — Mitchel Resnick, *Lifelong Kindergarten* (2017)
 
