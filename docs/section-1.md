@@ -98,9 +98,9 @@ Seymour Papert, a mathematician and educator who worked with Piaget, developed t
 Papert created Logo, an early programming language with a "turtle" that drew shapes on screen, and he pioneered the idea of using technology not to deliver instruction but to empower children as creators. His intellectual descendants include Mitchel Resnick at MIT, whose Scratch programming language and LEGO robotics work have shaped modern educational technology.
 
 !!! quote "From the Research"
-    'Teaching without curriculum' does not mean spontaneous, free-form classrooms or simply 'leaving the child alone.' It means supporting children as they build their own intellectual structures with materials drawn from the surrounding culture.
+    The role of the teacher is to create the conditions for invention rather than provide ready-made knowledge.
     
-    — Seymour Papert, *Mindstorms* (1980)
+    — adapted from Seymour Papert, *Mindstorms* (1980)
 
 Physical computing is constructionism in action. Children don't passively receive information about algorithms; they build robots that embody their algorithmic thinking. The artefact—the programmed robot, the interactive invention—becomes a vehicle for learning and a source of pride.
 
